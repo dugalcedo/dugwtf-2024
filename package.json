@@ -7,7 +7,8 @@
     "backend": "nodemon index",
     "frontend": "cd svelte && pnpm run dev",
     "dbadmin": "node db/admin/admin.js",
-    "build": "cd svelte && pnpm run build"
+    "build": "cd svelte && pnpm run build",
+    "formatdugs": "node db/dugsFormatter.js"
   },
   "keywords": [],
   "author": "",

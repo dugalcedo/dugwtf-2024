@@ -1,44 +1,68 @@
 [
     {
-        "id": "DUG043",
-        "type": "album",
-        "title": "Goos Beyond",
-        "featured": true,
         "artist": "Dug Alcedo",
-        "released": "2022.01.14",
-        "location": "GOL, SHM",
-        "recorded": "2021",
-        "bcid": "3909499862",
+        "bc": {
+            "id": "3909499862",
+            "link": "https://dugalcedo.bandcamp.com/album/goos-beyond"
+        },
+        "cover": {
+            "desc": "album cover of 'Goos Beyond' by 'Dug Alcedo'",
+            "xs": "/img/acxs/DUG043.jpg",
+            "s": "/img/acs/DUG043.jpg",
+            "l": "/img/acl/DUG043.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "colorado",
         "desc": "",
-        "len": "75 minutes",
-        "not": "24 tracks",
-        "local": true,
-        "recordedYears": [
-            2021
-        ],
-        "releasedYears": [
-            2022
-        ]
+        "hasBirthday": true,
+        "id": "DUG043",
+        "idno": 43,
+        "len": {
+            "duration": {
+                "display": "75 minutes",
+                "val": 75
+            },
+            "tracks": {
+                "display": "24 tracks",
+                "val": 24
+            }
+        },
+        "location": {
+            "short": "GOL, SHM",
+            "arr": [
+                "golden, colorado",
+                "täby, sweden"
+            ],
+            "display": "golden, colorado and täby, sweden"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2021",
+            "date": "2021-01-01T00:00:00.000Z"
+        },
+        "released": {
+            "display": "2022.01.14",
+            "date": "2022-01-13T23:00:00.000Z"
+        },
+        "title": "Goos Beyond",
+        "type": "album"
     },
     {
-        "id": "DUG042c",
-        "type": "album",
-        "title": "I-15 Dream",
-        "featured": true,
         "artist": "Dew for Slug",
-        "bcArtist": "pelagoramrecordings",
-        "released": "2021.10.31",
-        "location": "TAC, LAK, GOL",
-        "recorded": "2020",
-        "bcid": "2686980342",
+        "bc": {
+            "id": "2686980342",
+            "link": "https://dugalcedo.bandcamp.com/album/i-15-dream"
+        },
+        "cover": {
+            "desc": "album cover of 'I-15 Dream' by 'Dew for Slug'",
+            "xs": "/img/acxs/DUG042c.jpg",
+            "s": "/img/acs/DUG042c.jpg",
+            "l": "/img/acl/DUG042c.jpg"
+        },
         "credits": [
             [
                 "songwriting, vocals, guitar",
@@ -53,57 +77,104 @@
                 "ai generated"
             ]
         ],
-        "lyrics": [],
-        "era": "colorado",
         "desc": "a queer, mormon, folktronica album by dug alcedo and experimental folk artist trees & flowers",
-        "len": "33 minutes",
-        "not": "10 tracks",
-        "recordedYears": [
-            2020
-        ],
-        "releasedYears": [
-            2021
-        ]
+        "hasBirthday": true,
+        "id": "DUG042c",
+        "idno": 42.02,
+        "len": {
+            "duration": {
+                "display": "33 minutes",
+                "val": 33
+            },
+            "tracks": {
+                "display": "10 tracks",
+                "val": 10
+            }
+        },
+        "location": {
+            "short": "TAC, LAK, GOL",
+            "arr": [
+                null,
+                "lakewood, colorado",
+                "golden, colorado"
+            ],
+            "display": "undefined; lakewood, colorado and golden, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2020",
+            "date": "2020-01-01T00:00:00.000Z"
+        },
+        "released": {
+            "display": "2021.10.31",
+            "date": "2021-10-30T22:00:00.000Z"
+        },
+        "title": "I-15 Dream",
+        "type": "album"
     },
     {
-        "id": "DUG042b",
-        "type": "single",
-        "title": "Starship Comino (Cave version)",
-        "bcTitle": "2021-06-18-thos-album-release-show",
-        "featured": false,
         "artist": "Dug Alcedo",
-        "released": "2021.06.18",
-        "location": "GOL",
-        "recorded": "2021.06",
-        "bcid": "397204052",
+        "bc": {
+            "id": "397204052",
+            "link": "https://dugalcedo.bandcamp.com/album/2021-06-18-thos-album-release-show"
+        },
+        "cover": {
+            "desc": "album cover of 'Starship Comino (Cave version)' by 'Dug Alcedo'",
+            "xs": "/img/acxs/DUG042b.jpg",
+            "s": "/img/acs/DUG042b.jpg",
+            "l": "/img/acl/DUG042b.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "colorado",
         "desc": "",
-        "len": "14 minutes",
-        "not": "1 tracks",
-        "recordedYears": [
-            2021
-        ],
-        "releasedYears": [
-            2021
-        ]
+        "hasBirthday": true,
+        "id": "DUG042b",
+        "idno": 42.01,
+        "len": {
+            "duration": {
+                "display": "14 minutes",
+                "val": 14
+            },
+            "tracks": {
+                "display": "1 tracks",
+                "val": 1
+            }
+        },
+        "location": {
+            "short": "GOL",
+            "arr": [
+                "golden, colorado"
+            ],
+            "display": "golden, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2021.06",
+            "date": "2021-05-31T22:00:00.000Z"
+        },
+        "released": {
+            "display": "2021.06.18",
+            "date": "2021-06-17T22:00:00.000Z"
+        },
+        "title": "Starship Comino (Cave version)",
+        "type": "single"
     },
     {
-        "id": "DUG042",
-        "type": "album",
-        "title": "Big Fish eat Little Fish",
-        "featured": true,
         "artist": "Dug Alcedo",
-        "released": "2021.04.02",
-        "location": "GOL",
-        "recorded": "winter 2021 to spring 2021",
-        "bcid": "1528786253",
+        "bc": {
+            "id": "1528786253",
+            "link": "https://dugalcedo.bandcamp.com/album/big-fish-eat-little-fish"
+        },
+        "cover": {
+            "desc": "album cover of 'Big Fish eat Little Fish' by 'Dug Alcedo'",
+            "xs": "/img/acxs/DUG042.jpg",
+            "s": "/img/acs/DUG042.jpg",
+            "l": "/img/acl/DUG042.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -114,30 +185,51 @@
                 "hieronymous bosch & dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "colorado",
         "desc": "",
-        "len": "65 minutes",
-        "not": "12 tracks",
-        "local": true,
-        "recordedYears": [
-            2021
-        ],
-        "releasedYears": [
-            2021
-        ]
+        "hasBirthday": true,
+        "id": "DUG042",
+        "idno": 42,
+        "len": {
+            "duration": {
+                "display": "65 minutes",
+                "val": 65
+            },
+            "tracks": {
+                "display": "12 tracks",
+                "val": 12
+            }
+        },
+        "location": {
+            "short": "GOL",
+            "arr": [
+                "golden, colorado"
+            ],
+            "display": "golden, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "winter 2021 to spring 2021",
+            "date": null
+        },
+        "released": {
+            "display": "2021.04.02",
+            "date": "2021-04-01T22:00:00.000Z"
+        },
+        "title": "Big Fish eat Little Fish",
+        "type": "album"
     },
     {
-        "id": "DUG041b",
-        "type": "single",
-        "title": "Bonito",
-        "bcTitle": "bonito-single",
-        "featured": false,
         "artist": "Dug Alcedo",
-        "released": "2021.02.15",
-        "location": "GOL",
-        "recorded": "fall 2020",
-        "bcid": "1724980487",
+        "bc": {
+            "id": "1724980487",
+            "link": "https://dugalcedo.bandcamp.com/album/bonito-single"
+        },
+        "cover": {
+            "desc": "album cover of 'Bonito' by 'Dug Alcedo'",
+            "xs": "/img/acxs/DUG041b.jpg",
+            "s": "/img/acs/DUG041b.jpg",
+            "l": "/img/acl/DUG041b.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -148,181 +240,315 @@
                 "hieronymous bosch"
             ]
         ],
-        "lyrics": [],
-        "era": "colorado",
         "desc": "",
-        "len": "16 minutes",
-        "not": "4 tracks",
-        "recordedYears": [
-            2020
-        ],
-        "releasedYears": [
-            2021
-        ]
+        "hasBirthday": true,
+        "id": "DUG041b",
+        "idno": 41.01,
+        "len": {
+            "duration": {
+                "display": "16 minutes",
+                "val": 16
+            },
+            "tracks": {
+                "display": "4 tracks",
+                "val": 4
+            }
+        },
+        "location": {
+            "short": "GOL",
+            "arr": [
+                "golden, colorado"
+            ],
+            "display": "golden, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "fall 2020",
+            "date": "2019-12-31T23:00:00.000Z"
+        },
+        "released": {
+            "display": "2021.02.15",
+            "date": "2021-02-14T23:00:00.000Z"
+        },
+        "title": "Bonito",
+        "type": "single"
     },
     {
+        "artist": "Dug Alcedo",
+        "bc": {
+            "id": "3522925184",
+            "link": "https://dugalcedo.bandcamp.com/album/comber"
+        },
+        "cover": {
+            "desc": "album cover of 'Comber' by 'Dug Alcedo'",
+            "xs": "/img/acxs/DUG041.jpg",
+            "s": "/img/acs/DUG041.jpg",
+            "l": "/img/acl/DUG041.jpg"
+        },
+        "credits": [
+            [
+                "music & cover",
+                "dug alcedo"
+            ]
+        ],
+        "desc": "",
+        "hasBirthday": true,
         "id": "DUG041",
-        "type": "album",
+        "idno": 41,
+        "len": {
+            "duration": {
+                "display": "39 minutes",
+                "val": 39
+            },
+            "tracks": {
+                "display": "8 tracks",
+                "val": 8
+            }
+        },
+        "location": {
+            "short": "GOL",
+            "arr": [
+                "golden, colorado"
+            ],
+            "display": "golden, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2020.09 to 2020.10",
+            "date": null
+        },
+        "released": {
+            "display": "2020.10.19",
+            "date": "2020-10-18T22:00:00.000Z"
+        },
         "title": "Comber",
-        "featured": true,
+        "type": "album"
+    },
+    {
         "artist": "Dug Alcedo",
-        "released": "2020.10.19",
-        "location": "GOL",
-        "recorded": "2020.09 to 2020.10",
-        "bcid": "3522925184",
+        "bc": {
+            "id": "685242952",
+            "link": "https://dugalcedo.bandcamp.com/album/pinya-borealis-go-fast"
+        },
+        "cover": {
+            "desc": "album cover of 'Pinya' by 'Dug Alcedo'",
+            "xs": "/img/acxs/DUG040b.jpg",
+            "s": "/img/acs/DUG040b.jpg",
+            "l": "/img/acl/DUG040b.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "colorado",
         "desc": "",
-        "len": "39 minutes",
-        "not": "8 tracks",
-        "local": true,
-        "recordedYears": [
-            2020
-        ],
-        "releasedYears": [
-            2020
-        ]
-    },
-    {
+        "hasBirthday": true,
         "id": "DUG040b",
-        "type": "single",
+        "idno": 40.01,
+        "len": {
+            "duration": {
+                "display": "8 minutes",
+                "val": 8
+            },
+            "tracks": {
+                "display": "3 tracks",
+                "val": 3
+            }
+        },
+        "location": {
+            "short": "GOL",
+            "arr": [
+                "golden, colorado"
+            ],
+            "display": "golden, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2020.08 to 2020.09",
+            "date": null
+        },
+        "released": {
+            "display": "2020.09.08",
+            "date": "2020-09-07T22:00:00.000Z"
+        },
         "title": "Pinya",
-        "bcTitle": "pinya-borealis-go-fast",
-        "featured": false,
+        "type": "single"
+    },
+    {
         "artist": "Dug Alcedo",
-        "released": "2020.09.08",
-        "location": "GOL",
-        "recorded": "2020.08 to 2020.09",
-        "bcid": "685242952",
+        "bc": {
+            "id": "3245678441",
+            "link": "https://dugalcedo.bandcamp.com/album/xl"
+        },
+        "cover": {
+            "desc": "album cover of 'XL' by 'Dug Alcedo'",
+            "xs": "/img/acxs/DUG040.jpg",
+            "s": "/img/acs/DUG040.jpg",
+            "l": "/img/acl/DUG040.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "colorado",
         "desc": "",
-        "len": "8 minutes",
-        "not": "3 tracks",
-        "recordedYears": [
-            2020
-        ],
-        "releasedYears": [
-            2020
-        ]
-    },
-    {
+        "hasBirthday": true,
         "id": "DUG040",
-        "type": "album",
+        "idno": 40,
+        "len": {
+            "duration": {
+                "display": "35 minutes",
+                "val": 35
+            },
+            "tracks": {
+                "display": "11 tracks",
+                "val": 11
+            }
+        },
+        "location": {
+            "short": "GOL",
+            "arr": [
+                "golden, colorado"
+            ],
+            "display": "golden, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2020.07 to 2020.08",
+            "date": null
+        },
+        "released": {
+            "display": "2020.08.16",
+            "date": "2020-08-15T22:00:00.000Z"
+        },
         "title": "XL",
-        "featured": true,
+        "type": "album"
+    },
+    {
         "artist": "Dug Alcedo",
-        "released": "2020.08.16",
-        "location": "GOL",
-        "recorded": "2020.07 to 2020.08",
-        "bcid": "3245678441",
+        "bc": {
+            "id": "3813412774",
+            "link": "https://dugalcedo.bandcamp.com/album/hell-scenery"
+        },
+        "cover": {
+            "desc": "album cover of 'Hell Scenery' by 'Dug Alcedo'",
+            "xs": "/img/acxs/DUG039.jpg",
+            "s": "/img/acs/DUG039.jpg",
+            "l": "/img/acl/DUG039.jpg"
+        },
         "credits": [
             [
-                "music & cover",
+                "music",
+                "dug alcedo"
+            ],
+            [
+                "photo",
+                "unknown"
+            ],
+            [
+                "cover design",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "colorado",
         "desc": "",
-        "len": "35 minutes",
-        "not": "11 tracks",
-        "local": true,
-        "recordedYears": [
-            2020
-        ],
-        "releasedYears": [
-            2020
-        ]
-    },
-    {
+        "hasBirthday": true,
         "id": "DUG039",
-        "type": "album",
-        "title": "Hell Scenery",
-        "featured": true,
-        "artist": "Dug Alcedo",
-        "released": "2020.07.05",
-        "location": "LAK, GOL",
-        "recorded": "winter 2020 to summer 2020",
-        "bcid": "3813412774",
-        "credits": [
-            [
-                "music",
-                "dug alcedo"
+        "idno": 39,
+        "len": {
+            "duration": {
+                "display": "73 minutes",
+                "val": 73
+            },
+            "tracks": {
+                "display": "19 tracks",
+                "val": 19
+            }
+        },
+        "location": {
+            "short": "LAK, GOL",
+            "arr": [
+                "lakewood, colorado",
+                "golden, colorado"
             ],
-            [
-                "photo",
-                "unknown"
-            ],
-            [
-                "cover design",
-                "dug alcedo"
-            ]
-        ],
+            "display": "lakewood, colorado and golden, colorado"
+        },
         "lyrics": [],
-        "era": "colorado",
-        "desc": "",
-        "len": "73 minutes",
-        "not": "19 tracks",
-        "local": true,
-        "recordedYears": [
-            2020
-        ],
-        "releasedYears": [
-            2020
-        ]
+        "recorded": {
+            "display": "winter 2020 to summer 2020",
+            "date": null
+        },
+        "released": {
+            "display": "2020.07.05",
+            "date": "2020-07-04T22:00:00.000Z"
+        },
+        "title": "Hell Scenery",
+        "type": "album"
     },
     {
-        "id": "DUG038",
-        "type": "album",
-        "title": "Casked Acid in Black Sheep Canyon",
-        "featured": true,
         "artist": "Dug Alcedo",
-        "released": "2019.12.28",
-        "location": "LAK",
-        "recorded": "2019.11 to 2019.12",
-        "bcid": "117522757",
+        "bc": {
+            "id": "117522757",
+            "link": "https://dugalcedo.bandcamp.com/album/casked-acid-in-black-sheep-canyon"
+        },
+        "cover": {
+            "desc": "album cover of 'Casked Acid in Black Sheep Canyon' by 'Dug Alcedo'",
+            "xs": "/img/acxs/DUG038.jpg",
+            "s": "/img/acs/DUG038.jpg",
+            "l": "/img/acl/DUG038.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "colorado",
         "desc": "",
-        "len": "44 minutes",
-        "not": "11 tracks",
-        "local": true,
-        "recordedYears": [
-            2019
-        ],
-        "releasedYears": [
-            2019
-        ]
+        "hasBirthday": true,
+        "id": "DUG038",
+        "idno": 38,
+        "len": {
+            "duration": {
+                "display": "44 minutes",
+                "val": 44
+            },
+            "tracks": {
+                "display": "11 tracks",
+                "val": 11
+            }
+        },
+        "location": {
+            "short": "LAK",
+            "arr": [
+                "lakewood, colorado"
+            ],
+            "display": "lakewood, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2019.11 to 2019.12",
+            "date": null
+        },
+        "released": {
+            "display": "2019.12.28",
+            "date": "2019-12-27T23:00:00.000Z"
+        },
+        "title": "Casked Acid in Black Sheep Canyon",
+        "type": "album"
     },
     {
-        "id": "DUG037",
-        "type": "album",
-        "title": "Possum with Apple",
-        "featured": true,
         "artist": "Dug Alcedo",
-        "released": "2019.10.27",
-        "location": "LAK",
-        "recorded": "2019.07 to 2019.10",
-        "bcid": "3517251765",
+        "bc": {
+            "id": "3517251765",
+            "link": "https://dugalcedo.bandcamp.com/album/possum-with-apple"
+        },
+        "cover": {
+            "desc": "album cover of 'Possum with Apple' by 'Dug Alcedo'",
+            "xs": "/img/acxs/DUG037.jpg",
+            "s": "/img/acs/DUG037.jpg",
+            "l": "/img/acl/DUG037.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -337,29 +563,51 @@
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "colorado",
         "desc": "",
-        "len": "50 minutes",
-        "not": "10 tracks",
-        "local": true,
-        "recordedYears": [
-            2019
-        ],
-        "releasedYears": [
-            2019
-        ]
+        "hasBirthday": true,
+        "id": "DUG037",
+        "idno": 37,
+        "len": {
+            "duration": {
+                "display": "50 minutes",
+                "val": 50
+            },
+            "tracks": {
+                "display": "10 tracks",
+                "val": 10
+            }
+        },
+        "location": {
+            "short": "LAK",
+            "arr": [
+                "lakewood, colorado"
+            ],
+            "display": "lakewood, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2019.07 to 2019.10",
+            "date": null
+        },
+        "released": {
+            "display": "2019.10.27",
+            "date": "2019-10-26T22:00:00.000Z"
+        },
+        "title": "Possum with Apple",
+        "type": "album"
     },
     {
-        "id": "DUG036b",
-        "type": "ep",
-        "title": "Soundcloud 2018",
-        "featured": false,
         "artist": "First Dog",
-        "released": "2019.09.30",
-        "location": "LAK",
-        "recorded": "summer 2018 to fall 2019",
-        "bcid": "1323647648",
+        "bc": {
+            "id": "1323647648",
+            "link": "https://firstdog.bandcamp.com/album/soundcloud-2018"
+        },
+        "cover": {
+            "desc": "album cover of 'Soundcloud 2018' by 'First Dog'",
+            "xs": "/img/acxs/DUG036b.jpg",
+            "s": "/img/acs/DUG036b.jpg",
+            "l": "/img/acl/DUG036b.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -370,29 +618,51 @@
                 "ai generated"
             ]
         ],
-        "lyrics": [],
-        "era": "colorado",
         "desc": "",
-        "len": "35 minutes",
-        "not": "6 tracks",
-        "recordedYears": [
-            2018,
-            2019
-        ],
-        "releasedYears": [
-            2019
-        ]
+        "hasBirthday": true,
+        "id": "DUG036b",
+        "idno": 36.01,
+        "len": {
+            "duration": {
+                "display": "35 minutes",
+                "val": 35
+            },
+            "tracks": {
+                "display": "6 tracks",
+                "val": 6
+            }
+        },
+        "location": {
+            "short": "LAK",
+            "arr": [
+                "lakewood, colorado"
+            ],
+            "display": "lakewood, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "summer 2018 to fall 2019",
+            "date": null
+        },
+        "released": {
+            "display": "2019.09.30",
+            "date": "2019-09-29T22:00:00.000Z"
+        },
+        "title": "Soundcloud 2018",
+        "type": "ep"
     },
     {
-        "id": "DUG036",
-        "type": "mini-album",
-        "title": "Guard Goose",
-        "featured": false,
         "artist": "Dug Alcedo",
-        "released": "2019.07.21",
-        "location": "LAK",
-        "recorded": "2019.04 to 2019.07",
-        "bcid": "4110385408",
+        "bc": {
+            "id": "4110385408",
+            "link": "https://dugalcedo.bandcamp.com/album/guard-goose"
+        },
+        "cover": {
+            "desc": "album cover of 'Guard Goose' by 'Dug Alcedo'",
+            "xs": "/img/acxs/DUG036.jpg",
+            "s": "/img/acs/DUG036.jpg",
+            "l": "/img/acl/DUG036.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -403,29 +673,51 @@
                 "soudraz"
             ]
         ],
-        "lyrics": [],
-        "era": "colorado",
         "desc": "",
-        "len": "29 minutes",
-        "not": "11 tracks",
-        "local": true,
-        "recordedYears": [
-            2019
-        ],
-        "releasedYears": [
-            2019
-        ]
+        "hasBirthday": true,
+        "id": "DUG036",
+        "idno": 36,
+        "len": {
+            "duration": {
+                "display": "29 minutes",
+                "val": 29
+            },
+            "tracks": {
+                "display": "11 tracks",
+                "val": 11
+            }
+        },
+        "location": {
+            "short": "LAK",
+            "arr": [
+                "lakewood, colorado"
+            ],
+            "display": "lakewood, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2019.04 to 2019.07",
+            "date": null
+        },
+        "released": {
+            "display": "2019.07.21",
+            "date": "2019-07-20T22:00:00.000Z"
+        },
+        "title": "Guard Goose",
+        "type": "mini-album"
     },
     {
-        "id": "DUG035",
-        "type": "album",
-        "title": "Fish Antlers",
-        "featured": true,
         "artist": "Dug Alcedo",
-        "released": "2019.04.03",
-        "location": "LAK",
-        "recorded": "2019.03",
-        "bcid": "2585332977",
+        "bc": {
+            "id": "2585332977",
+            "link": "https://dugalcedo.bandcamp.com/album/fish-antlers"
+        },
+        "cover": {
+            "desc": "album cover of 'Fish Antlers' by 'Dug Alcedo'",
+            "xs": "/img/acxs/DUG035.jpg",
+            "s": "/img/acs/DUG035.jpg",
+            "l": "/img/acl/DUG035.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -440,59 +732,102 @@
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "colorado",
         "desc": "",
-        "len": "38 minutes",
-        "not": "7 tracks",
-        "local": true,
-        "recordedYears": [
-            2019
-        ],
-        "releasedYears": [
-            2019
-        ]
+        "hasBirthday": true,
+        "id": "DUG035",
+        "idno": 35,
+        "len": {
+            "duration": {
+                "display": "38 minutes",
+                "val": 38
+            },
+            "tracks": {
+                "display": "7 tracks",
+                "val": 7
+            }
+        },
+        "location": {
+            "short": "LAK",
+            "arr": [
+                "lakewood, colorado"
+            ],
+            "display": "lakewood, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2019.03",
+            "date": "2019-02-28T23:00:00.000Z"
+        },
+        "released": {
+            "display": "2019.04.03",
+            "date": "2019-04-02T22:00:00.000Z"
+        },
+        "title": "Fish Antlers",
+        "type": "album"
     },
     {
-        "id": "DUG034",
-        "type": "album",
-        "title": "Money Snakes",
-        "featured": true,
         "artist": "Dug Alcedo",
-        "released": "2019.03.03",
-        "location": "LAK",
-        "recorded": "2018.10 to 2019.02",
-        "bcid": "3239889775",
+        "bc": {
+            "id": "3239889775",
+            "link": "https://dugalcedo.bandcamp.com/album/money-snakes"
+        },
+        "cover": {
+            "desc": "album cover of 'Money Snakes' by 'Dug Alcedo'",
+            "xs": "/img/acxs/DUG034.jpg",
+            "s": "/img/acs/DUG034.jpg",
+            "l": "/img/acl/DUG034.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "colorado",
         "desc": "",
-        "len": "99 minutes",
-        "not": "10 tracks",
-        "local": true,
-        "recordedYears": [
-            2018,
-            2019
-        ],
-        "releasedYears": [
-            2019
-        ]
+        "hasBirthday": true,
+        "id": "DUG034",
+        "idno": 34,
+        "len": {
+            "duration": {
+                "display": "99 minutes",
+                "val": 99
+            },
+            "tracks": {
+                "display": "10 tracks",
+                "val": 10
+            }
+        },
+        "location": {
+            "short": "LAK",
+            "arr": [
+                "lakewood, colorado"
+            ],
+            "display": "lakewood, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2018.10 to 2019.02",
+            "date": null
+        },
+        "released": {
+            "display": "2019.03.03",
+            "date": "2019-03-02T23:00:00.000Z"
+        },
+        "title": "Money Snakes",
+        "type": "album"
     },
     {
-        "id": "DUG033",
-        "type": "album",
-        "title": "Isyiau",
-        "featured": true,
         "artist": "First Dog",
-        "released": "2018.10.16",
-        "location": "LAK",
-        "recorded": "2018.07 to 2018.10",
-        "bcid": "2439411014",
+        "bc": {
+            "id": "2439411014",
+            "link": "https://firstdog.bandcamp.com/album/isyiau"
+        },
+        "cover": {
+            "desc": "album cover of 'Isyiau' by 'First Dog'",
+            "xs": "/img/acxs/DUG033.jpg",
+            "s": "/img/acs/DUG033.jpg",
+            "l": "/img/acl/DUG033.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -503,29 +838,51 @@
                 "nintendolover2010"
             ]
         ],
-        "lyrics": [],
-        "era": "colorado",
         "desc": "",
-        "len": "81 minutes",
-        "not": "15 tracks",
-        "local": true,
-        "recordedYears": [
-            2018
-        ],
-        "releasedYears": [
-            2018
-        ]
+        "hasBirthday": true,
+        "id": "DUG033",
+        "idno": 33,
+        "len": {
+            "duration": {
+                "display": "81 minutes",
+                "val": 81
+            },
+            "tracks": {
+                "display": "15 tracks",
+                "val": 15
+            }
+        },
+        "location": {
+            "short": "LAK",
+            "arr": [
+                "lakewood, colorado"
+            ],
+            "display": "lakewood, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2018.07 to 2018.10",
+            "date": null
+        },
+        "released": {
+            "display": "2018.10.16",
+            "date": "2018-10-15T22:00:00.000Z"
+        },
+        "title": "Isyiau",
+        "type": "album"
     },
     {
-        "id": "DUG032b",
-        "type": "ep",
-        "title": "Separation Newdrum",
-        "featured": false,
         "artist": "First Dog",
-        "released": "2018.08.24",
-        "location": "CAT, LAK",
-        "recorded": "2017",
-        "bcid": "3996183796",
+        "bc": {
+            "id": "3996183796",
+            "link": "https://firstdog.bandcamp.com/album/separation-newdrum"
+        },
+        "cover": {
+            "desc": "album cover of 'Separation Newdrum' by 'First Dog'",
+            "xs": "/img/acxs/DUG032b.jpg",
+            "s": "/img/acs/DUG032b.jpg",
+            "l": "/img/acl/DUG032b.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -540,28 +897,52 @@
                 "lemon demon remix"
             ]
         ],
-        "lyrics": [],
-        "era": "cat city",
         "desc": "",
-        "len": "29 minutes",
-        "not": "9 tracks",
-        "recordedYears": [
-            2017
-        ],
-        "releasedYears": [
-            2018
-        ]
+        "hasBirthday": true,
+        "id": "DUG032b",
+        "idno": 32.01,
+        "len": {
+            "duration": {
+                "display": "29 minutes",
+                "val": 29
+            },
+            "tracks": {
+                "display": "9 tracks",
+                "val": 9
+            }
+        },
+        "location": {
+            "short": "CAT, LAK",
+            "arr": [
+                "cathedral city, california",
+                "lakewood, colorado"
+            ],
+            "display": "cathedral city, california and lakewood, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2017",
+            "date": "2017-01-01T00:00:00.000Z"
+        },
+        "released": {
+            "display": "2018.08.24",
+            "date": "2018-08-23T22:00:00.000Z"
+        },
+        "title": "Separation Newdrum",
+        "type": "ep"
     },
     {
-        "id": "DUG032",
-        "type": "album",
-        "title": "Moosic",
-        "featured": true,
         "artist": "First Dog",
-        "released": "2018.07.15",
-        "location": "LAK",
-        "recorded": "2017.12 to 2018.07",
-        "bcid": "3233370815",
+        "bc": {
+            "id": "3233370815",
+            "link": "https://firstdog.bandcamp.com/album/moosic"
+        },
+        "cover": {
+            "desc": "album cover of 'Moosic' by 'First Dog'",
+            "xs": "/img/acxs/DUG032.jpg",
+            "s": "/img/acs/DUG032.jpg",
+            "l": "/img/acl/DUG032.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -576,59 +957,103 @@
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "cat city",
         "desc": "",
-        "len": "44 minutes",
-        "not": "7 tracks",
-        "local": true,
-        "recordedYears": [
-            2017,
-            2018
-        ],
-        "releasedYears": [
-            2018
-        ]
+        "hasBirthday": true,
+        "id": "DUG032",
+        "idno": 32,
+        "len": {
+            "duration": {
+                "display": "44 minutes",
+                "val": 44
+            },
+            "tracks": {
+                "display": "7 tracks",
+                "val": 7
+            }
+        },
+        "location": {
+            "short": "LAK",
+            "arr": [
+                "lakewood, colorado"
+            ],
+            "display": "lakewood, colorado"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2017.12 to 2018.07",
+            "date": null
+        },
+        "released": {
+            "display": "2018.07.15",
+            "date": "2018-07-14T22:00:00.000Z"
+        },
+        "title": "Moosic",
+        "type": "album"
     },
     {
-        "id": "DUG031",
-        "type": "album",
-        "title": "Bird in a Cave (echo)",
-        "featured": true,
         "artist": "First Dog",
-        "released": "2017.05.25",
-        "location": "BGO, CAT",
-        "recorded": "2016",
-        "bcid": "4071937567",
+        "bc": {
+            "id": "4071937567",
+            "link": "https://firstdog.bandcamp.com/album/bird-in-a-cave-(echo)"
+        },
+        "cover": {
+            "desc": "album cover of 'Bird in a Cave (echo)' by 'First Dog'",
+            "xs": "/img/acxs/DUG031.jpg",
+            "s": "/img/acs/DUG031.jpg",
+            "l": "/img/acl/DUG031.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "cat city",
         "desc": "",
-        "len": "44 minutes",
-        "not": "12 tracks",
-        "local": true,
-        "recordedYears": [
-            2016
-        ],
-        "releasedYears": [
-            2017
-        ]
+        "hasBirthday": true,
+        "id": "DUG031",
+        "idno": 31,
+        "len": {
+            "duration": {
+                "display": "44 minutes",
+                "val": 44
+            },
+            "tracks": {
+                "display": "12 tracks",
+                "val": 12
+            }
+        },
+        "location": {
+            "short": "BGO, CAT",
+            "arr": [
+                "borrego spings, california",
+                "cathedral city, california"
+            ],
+            "display": "borrego spings, california and cathedral city, california"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2016",
+            "date": "2016-01-01T00:00:00.000Z"
+        },
+        "released": {
+            "display": "2017.05.25",
+            "date": "2017-05-24T22:00:00.000Z"
+        },
+        "title": "Bird in a Cave (echo)",
+        "type": "album"
     },
     {
-        "id": "DUG030",
-        "type": "album",
-        "title": "Friends Fever",
-        "featured": true,
         "artist": "First Dog",
-        "released": "2017.05.12",
-        "location": "CAT",
-        "recorded": "2016.12 to 2017.05",
-        "bcid": "3613936290",
+        "bc": {
+            "id": "3613936290",
+            "link": "https://firstdog.bandcamp.com/album/friends-fever"
+        },
+        "cover": {
+            "desc": "album cover of 'Friends Fever' by 'First Dog'",
+            "xs": "/img/acxs/DUG030.jpg",
+            "s": "/img/acs/DUG030.jpg",
+            "l": "/img/acl/DUG030.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -639,30 +1064,51 @@
                 "unknown"
             ]
         ],
-        "lyrics": [],
-        "era": "cat city",
         "desc": "",
-        "len": "46 minutes",
-        "not": "11 tracks",
-        "local": true,
-        "recordedYears": [
-            2016,
-            2017
-        ],
-        "releasedYears": [
-            2017
-        ]
+        "hasBirthday": true,
+        "id": "DUG030",
+        "idno": 30,
+        "len": {
+            "duration": {
+                "display": "46 minutes",
+                "val": 46
+            },
+            "tracks": {
+                "display": "11 tracks",
+                "val": 11
+            }
+        },
+        "location": {
+            "short": "CAT",
+            "arr": [
+                "cathedral city, california"
+            ],
+            "display": "cathedral city, california"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2016.12 to 2017.05",
+            "date": null
+        },
+        "released": {
+            "display": "2017.05.12",
+            "date": "2017-05-11T22:00:00.000Z"
+        },
+        "title": "Friends Fever",
+        "type": "album"
     },
     {
-        "id": "DUG029",
-        "type": "mini-album",
-        "title": "Loukas 1",
-        "featured": true,
         "artist": "Loukas",
-        "released": "2016.11.14",
-        "location": "CAT",
-        "recorded": "fall 2016",
-        "bcid": "2499258239",
+        "bc": {
+            "id": "2499258239",
+            "link": "https://firstdog.bandcamp.com/album/loukas-1"
+        },
+        "cover": {
+            "desc": "album cover of 'Loukas 1' by 'Loukas'",
+            "xs": "/img/acxs/DUG029.jpg",
+            "s": "/img/acs/DUG029.jpg",
+            "l": "/img/acl/DUG029.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -673,87 +1119,155 @@
                 "samples henry cow"
             ]
         ],
-        "lyrics": [],
-        "era": "cat city",
         "desc": "",
-        "len": "33 minutes",
-        "not": "7 tracks",
-        "local": true,
-        "recordedYears": [
-            2016
-        ],
-        "releasedYears": [
-            2016
-        ]
+        "hasBirthday": true,
+        "id": "DUG029",
+        "idno": 29,
+        "len": {
+            "duration": {
+                "display": "33 minutes",
+                "val": 33
+            },
+            "tracks": {
+                "display": "7 tracks",
+                "val": 7
+            }
+        },
+        "location": {
+            "short": "CAT",
+            "arr": [
+                "cathedral city, california"
+            ],
+            "display": "cathedral city, california"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "fall 2016",
+            "date": "2015-12-31T23:00:00.000Z"
+        },
+        "released": {
+            "display": "2016.11.14",
+            "date": "2016-11-13T23:00:00.000Z"
+        },
+        "title": "Loukas 1",
+        "type": "mini-album"
     },
     {
+        "artist": "First Dog",
+        "bc": {
+            "id": "3660544442",
+            "link": "https://firstdog.bandcamp.com/album/bird-in-a-cave"
+        },
+        "cover": {
+            "desc": "album cover of 'Bird in a Cave' by 'First Dog'",
+            "xs": "/img/acxs/DUG028.jpg",
+            "s": "/img/acs/DUG028.jpg",
+            "l": "/img/acl/DUG028.jpg"
+        },
+        "credits": [
+            [
+                "music & cover",
+                "dug alcedo"
+            ]
+        ],
+        "desc": "",
+        "hasBirthday": true,
         "id": "DUG028",
-        "type": "album",
+        "idno": 28,
+        "len": {
+            "duration": {
+                "display": "51 minutes",
+                "val": 51
+            },
+            "tracks": {
+                "display": "12 tracks",
+                "val": 12
+            }
+        },
+        "location": {
+            "short": "BGO, CAT",
+            "arr": [
+                "borrego spings, california",
+                "cathedral city, california"
+            ],
+            "display": "borrego spings, california and cathedral city, california"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2016.01 to 2016.06",
+            "date": null
+        },
+        "released": {
+            "display": "2016.07.17",
+            "date": "2016-07-16T22:00:00.000Z"
+        },
         "title": "Bird in a Cave",
-        "featured": true,
+        "type": "album"
+    },
+    {
         "artist": "First Dog",
-        "released": "2016.07.17",
-        "location": "BGO, CAT",
-        "recorded": "2016.01 to 2016.06",
-        "bcid": "3660544442",
+        "bc": {
+            "id": "3093688189",
+            "link": "https://firstdog.bandcamp.com/album/ow-cute"
+        },
+        "cover": {
+            "desc": "album cover of 'Ow Cute' by 'First Dog'",
+            "xs": "/img/acxs/DUG027b.jpg",
+            "s": "/img/acs/DUG027b.jpg",
+            "l": "/img/acl/DUG027b.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "cat city",
         "desc": "",
-        "len": "51 minutes",
-        "not": "12 tracks",
-        "local": true,
-        "recordedYears": [
-            2016
-        ],
-        "releasedYears": [
-            2016
-        ]
-    },
-    {
+        "hasBirthday": true,
         "id": "DUG027b",
-        "type": "ep",
-        "title": "Ow Cute",
-        "featured": true,
-        "artist": "First Dog",
-        "released": "2016.01.01",
-        "location": "ASH, BGO",
-        "recorded": "2014",
-        "bcid": "3093688189",
-        "credits": [
-            [
-                "music & cover",
-                "dug alcedo"
-            ]
-        ],
+        "idno": 27.01,
+        "len": {
+            "duration": {
+                "display": "34 minutes",
+                "val": 34
+            },
+            "tracks": {
+                "display": "6 tracks",
+                "val": 6
+            }
+        },
+        "location": {
+            "short": "ASH, BGO",
+            "arr": [
+                "asheville, north carolina",
+                "borrego spings, california"
+            ],
+            "display": "asheville, north carolina and borrego spings, california"
+        },
         "lyrics": [],
-        "era": "cat city",
-        "desc": "",
-        "len": "34 minutes",
-        "not": "6 tracks",
-        "local": true,
-        "recordedYears": [
-            2014
-        ],
-        "releasedYears": [
-            2016
-        ]
+        "recorded": {
+            "display": "2014",
+            "date": "2014-01-01T00:00:00.000Z"
+        },
+        "released": {
+            "display": "2016.01.01",
+            "date": "2015-12-31T23:00:00.000Z"
+        },
+        "title": "Ow Cute",
+        "type": "ep"
     },
     {
-        "id": "DUG027",
-        "type": "album",
-        "title": "Aw Cute",
-        "featured": true,
         "artist": "First Dog",
-        "released": "2015.12.01",
-        "location": "BGO",
-        "recorded": "2015",
-        "bcid": "2561784264",
+        "bc": {
+            "id": "2561784264",
+            "link": "https://firstdog.bandcamp.com/album/aw-cute"
+        },
+        "cover": {
+            "desc": "album cover of 'Aw Cute' by 'First Dog'",
+            "xs": "/img/acxs/DUG027.jpg",
+            "s": "/img/acs/DUG027.jpg",
+            "l": "/img/acl/DUG027.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -768,57 +1282,102 @@
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "cat city",
         "desc": "",
-        "len": "58 minutes",
-        "not": "14 tracks",
-        "local": true,
-        "recordedYears": [
-            2015
-        ],
-        "releasedYears": [
-            2015
-        ]
+        "hasBirthday": true,
+        "id": "DUG027",
+        "idno": 27,
+        "len": {
+            "duration": {
+                "display": "58 minutes",
+                "val": 58
+            },
+            "tracks": {
+                "display": "14 tracks",
+                "val": 14
+            }
+        },
+        "location": {
+            "short": "BGO",
+            "arr": [
+                "borrego spings, california"
+            ],
+            "display": "borrego spings, california"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2015",
+            "date": "2015-01-01T00:00:00.000Z"
+        },
+        "released": {
+            "display": "2015.12.01",
+            "date": "2015-11-30T23:00:00.000Z"
+        },
+        "title": "Aw Cute",
+        "type": "album"
     },
     {
-        "id": "DUG026",
-        "type": "album",
-        "title": "Lucoizo",
-        "featured": false,
         "artist": "First Dog",
-        "released": "2014.07.21",
-        "location": "ASH",
-        "recorded": "2014.04 to 2014.07",
-        "bcid": "1203318470",
+        "bc": {
+            "id": "1203318470",
+            "link": "https://firstdog.bandcamp.com/album/lucoizo"
+        },
+        "cover": {
+            "desc": "album cover of 'Lucoizo' by 'First Dog'",
+            "xs": "/img/acxs/DUG026.jpg",
+            "s": "/img/acs/DUG026.jpg",
+            "l": "/img/acl/DUG026.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "asheville",
         "desc": "",
-        "len": "74 minutes",
-        "not": "12 tracks",
-        "recordedYears": [
-            2014
-        ],
-        "releasedYears": [
-            2014
-        ]
+        "hasBirthday": true,
+        "id": "DUG026",
+        "idno": 26,
+        "len": {
+            "duration": {
+                "display": "74 minutes",
+                "val": 74
+            },
+            "tracks": {
+                "display": "12 tracks",
+                "val": 12
+            }
+        },
+        "location": {
+            "short": "ASH",
+            "arr": [
+                "asheville, north carolina"
+            ],
+            "display": "asheville, north carolina"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2014.04 to 2014.07",
+            "date": null
+        },
+        "released": {
+            "display": "2014.07.21",
+            "date": "2014-07-20T22:00:00.000Z"
+        },
+        "title": "Lucoizo",
+        "type": "album"
     },
     {
-        "id": "DUG025",
-        "type": "album",
-        "title": "Gabaraptor",
-        "featured": true,
         "artist": "First Dog",
-        "released": "2014.03.07",
-        "location": "SDG, WFN, ASH",
-        "recorded": "2012",
-        "bcid": "2972472047",
+        "bc": {
+            "id": "2972472047",
+            "link": "https://firstdog.bandcamp.com/album/gabaraptor"
+        },
+        "cover": {
+            "desc": "album cover of 'Gabaraptor' by 'First Dog'",
+            "xs": "/img/acxs/DUG025.jpg",
+            "s": "/img/acs/DUG025.jpg",
+            "l": "/img/acl/DUG025.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -833,57 +1392,106 @@
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "asheville",
         "desc": "",
-        "len": "43 minutes",
-        "not": "12 tracks",
-        "local": true,
-        "recordedYears": [
-            2012
-        ],
-        "releasedYears": [
-            2014
-        ]
+        "hasBirthday": true,
+        "id": "DUG025",
+        "idno": 25,
+        "len": {
+            "duration": {
+                "display": "43 minutes",
+                "val": 43
+            },
+            "tracks": {
+                "display": "12 tracks",
+                "val": 12
+            }
+        },
+        "location": {
+            "short": "SDG, WFN, ASH",
+            "arr": [
+                "san diego, california",
+                "woodfin, north carolina",
+                "asheville, north carolina"
+            ],
+            "display": "san diego, california; woodfin, north carolina and asheville, north carolina"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2012",
+            "date": "2012-01-01T00:00:00.000Z"
+        },
+        "released": {
+            "display": "2014.03.07",
+            "date": "2014-03-06T23:00:00.000Z"
+        },
+        "title": "Gabaraptor",
+        "type": "album"
     },
     {
-        "id": "DUG024",
-        "type": "album",
-        "title": "Paranoid Cartoons",
-        "featured": false,
         "artist": "First Dog",
-        "released": "2014.03.07",
-        "location": "MUR, SDG, ASH",
-        "recorded": "2011",
-        "bcid": "1920506124",
+        "bc": {
+            "id": "1920506124",
+            "link": "https://firstdog.bandcamp.com/album/paranoid-cartoons"
+        },
+        "cover": {
+            "desc": "album cover of 'Paranoid Cartoons' by 'First Dog'",
+            "xs": "/img/acxs/DUG024.jpg",
+            "s": "/img/acs/DUG024.jpg",
+            "l": "/img/acl/DUG024.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "asheville",
         "desc": "",
-        "len": "38 minutes",
-        "not": "9 tracks",
-        "recordedYears": [
-            2011
-        ],
-        "releasedYears": [
-            2014
-        ]
+        "hasBirthday": true,
+        "id": "DUG024",
+        "idno": 24,
+        "len": {
+            "duration": {
+                "display": "38 minutes",
+                "val": 38
+            },
+            "tracks": {
+                "display": "9 tracks",
+                "val": 9
+            }
+        },
+        "location": {
+            "short": "MUR, SDG, ASH",
+            "arr": [
+                "murrieta, california",
+                "san diego, california",
+                "asheville, north carolina"
+            ],
+            "display": "murrieta, california; san diego, california and asheville, north carolina"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2011",
+            "date": "2011-01-01T00:00:00.000Z"
+        },
+        "released": {
+            "display": "2014.03.07",
+            "date": "2014-03-06T23:00:00.000Z"
+        },
+        "title": "Paranoid Cartoons",
+        "type": "album"
     },
     {
-        "id": "DUG023",
-        "type": "album",
-        "title": "Feeder",
-        "featured": false,
         "artist": "First Dog",
-        "released": "2013.11.07",
-        "location": "MUR, SDG, WFN",
-        "recorded": "2012.09 to 2012.11",
-        "bcid": "1015688186",
+        "bc": {
+            "id": "1015688186",
+            "link": "https://firstdog.bandcamp.com/album/feeder"
+        },
+        "cover": {
+            "desc": "album cover of 'Feeder' by 'First Dog'",
+            "xs": "/img/acxs/DUG023.jpg",
+            "s": "/img/acs/DUG023.jpg",
+            "l": "/img/acl/DUG023.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -898,28 +1506,53 @@
                 "ai generated"
             ]
         ],
-        "lyrics": [],
-        "era": "asheville",
         "desc": "",
-        "len": "73 minutes",
-        "not": "20 tracks",
-        "recordedYears": [
-            2012
-        ],
-        "releasedYears": [
-            2013
-        ]
+        "hasBirthday": true,
+        "id": "DUG023",
+        "idno": 23,
+        "len": {
+            "duration": {
+                "display": "73 minutes",
+                "val": 73
+            },
+            "tracks": {
+                "display": "20 tracks",
+                "val": 20
+            }
+        },
+        "location": {
+            "short": "MUR, SDG, WFN",
+            "arr": [
+                "murrieta, california",
+                "san diego, california",
+                "woodfin, north carolina"
+            ],
+            "display": "murrieta, california; san diego, california and woodfin, north carolina"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2012.09 to 2012.11",
+            "date": null
+        },
+        "released": {
+            "display": "2013.11.07",
+            "date": "2013-11-06T23:00:00.000Z"
+        },
+        "title": "Feeder",
+        "type": "album"
     },
     {
-        "id": "DUG022",
-        "type": "album",
-        "title": "Volt Welve",
-        "featured": true,
         "artist": "First Dog",
-        "released": "2013.07.27",
-        "location": "SDG, ASH, WFN",
-        "recorded": "2013.04 to 2013.07",
-        "bcid": "706814123",
+        "bc": {
+            "id": "706814123",
+            "link": "https://firstdog.bandcamp.com/album/volt-welve"
+        },
+        "cover": {
+            "desc": "album cover of 'Volt Welve' by 'First Dog'",
+            "xs": "/img/acxs/DUG022.jpg",
+            "s": "/img/acs/DUG022.jpg",
+            "l": "/img/acl/DUG022.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -930,29 +1563,53 @@
                 "sample glover (n64)"
             ]
         ],
-        "lyrics": [],
-        "era": "asheville",
         "desc": "",
-        "len": "73 minutes",
-        "not": "20 tracks",
-        "local": true,
-        "recordedYears": [
-            2013
-        ],
-        "releasedYears": [
-            2013
-        ]
+        "hasBirthday": true,
+        "id": "DUG022",
+        "idno": 22,
+        "len": {
+            "duration": {
+                "display": "73 minutes",
+                "val": 73
+            },
+            "tracks": {
+                "display": "20 tracks",
+                "val": 20
+            }
+        },
+        "location": {
+            "short": "SDG, ASH, WFN",
+            "arr": [
+                "san diego, california",
+                "asheville, north carolina",
+                "woodfin, north carolina"
+            ],
+            "display": "san diego, california; asheville, north carolina and woodfin, north carolina"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2013.04 to 2013.07",
+            "date": null
+        },
+        "released": {
+            "display": "2013.07.27",
+            "date": "2013-07-26T22:00:00.000Z"
+        },
+        "title": "Volt Welve",
+        "type": "album"
     },
     {
-        "id": "DUG021",
-        "type": "album",
-        "title": "Feeble",
-        "featured": true,
         "artist": "First Dog",
-        "released": "2012.11.07",
-        "location": "MUR, SDG",
-        "recorded": "2012.09 to 2012.11",
-        "bcid": "3858484618",
+        "bc": {
+            "id": "3858484618",
+            "link": "https://firstdog.bandcamp.com/album/feeble"
+        },
+        "cover": {
+            "desc": "album cover of 'Feeble' by 'First Dog'",
+            "xs": "/img/acxs/DUG021.jpg",
+            "s": "/img/acs/DUG021.jpg",
+            "l": "/img/acl/DUG021.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -963,57 +1620,103 @@
                 "ai generated"
             ]
         ],
-        "lyrics": [],
-        "era": "early",
         "desc": "",
-        "len": "70 minutes",
-        "not": "24 tracks",
-        "local": true,
-        "recordedYears": [
-            2012
-        ],
-        "releasedYears": [
-            2012
-        ]
+        "hasBirthday": true,
+        "id": "DUG021",
+        "idno": 21,
+        "len": {
+            "duration": {
+                "display": "70 minutes",
+                "val": 70
+            },
+            "tracks": {
+                "display": "24 tracks",
+                "val": 24
+            }
+        },
+        "location": {
+            "short": "MUR, SDG",
+            "arr": [
+                "murrieta, california",
+                "san diego, california"
+            ],
+            "display": "murrieta, california and san diego, california"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2012.09 to 2012.11",
+            "date": null
+        },
+        "released": {
+            "display": "2012.11.07",
+            "date": "2012-11-06T23:00:00.000Z"
+        },
+        "title": "Feeble",
+        "type": "album"
     },
     {
-        "id": "DUG020",
-        "type": "album",
-        "title": "Language from the Grip",
-        "featured": false,
         "artist": "First Dog",
-        "released": "2012.09.05",
-        "location": "MUR",
-        "recorded": "2012.07 to 2012.08",
-        "bcid": "3385909548",
+        "bc": {
+            "id": "3385909548",
+            "link": "https://firstdog.bandcamp.com/album/language-from-the-grip"
+        },
+        "cover": {
+            "desc": "album cover of 'Language from the Grip' by 'First Dog'",
+            "xs": "/img/acxs/DUG020.jpg",
+            "s": "/img/acs/DUG020.jpg",
+            "l": "/img/acl/DUG020.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "early",
         "desc": "",
-        "len": "35 minutes",
-        "not": "9 tracks",
-        "recordedYears": [
-            2012
-        ],
-        "releasedYears": [
-            2012
-        ]
+        "hasBirthday": true,
+        "id": "DUG020",
+        "idno": 20,
+        "len": {
+            "duration": {
+                "display": "35 minutes",
+                "val": 35
+            },
+            "tracks": {
+                "display": "9 tracks",
+                "val": 9
+            }
+        },
+        "location": {
+            "short": "MUR",
+            "arr": [
+                "murrieta, california"
+            ],
+            "display": "murrieta, california"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2012.07 to 2012.08",
+            "date": null
+        },
+        "released": {
+            "display": "2012.09.05",
+            "date": "2012-09-04T22:00:00.000Z"
+        },
+        "title": "Language from the Grip",
+        "type": "album"
     },
     {
-        "id": "DUG019",
-        "type": "mini-album",
-        "title": "Camel 2",
-        "featured": false,
         "artist": "First Dog",
-        "released": "2012.07.01",
-        "location": "MUR",
-        "recorded": "summer 2012",
-        "bcid": "3116491278",
+        "bc": {
+            "id": "3116491278",
+            "link": "https://firstdog.bandcamp.com/album/camel-2"
+        },
+        "cover": {
+            "desc": "album cover of 'Camel 2' by 'First Dog'",
+            "xs": "/img/acxs/DUG019.jpg",
+            "s": "/img/acs/DUG019.jpg",
+            "l": "/img/acl/DUG019.jpg"
+        },
         "credits": [
             [
                 "music",
@@ -1028,300 +1731,545 @@
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "early",
         "desc": "",
-        "len": "32 minutes",
-        "not": "1 tracks",
-        "recordedYears": [
-            2012
-        ],
-        "releasedYears": [
-            2012
-        ]
+        "hasBirthday": true,
+        "id": "DUG019",
+        "idno": 19,
+        "len": {
+            "duration": {
+                "display": "32 minutes",
+                "val": 32
+            },
+            "tracks": {
+                "display": "1 tracks",
+                "val": 1
+            }
+        },
+        "location": {
+            "short": "MUR",
+            "arr": [
+                "murrieta, california"
+            ],
+            "display": "murrieta, california"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "summer 2012",
+            "date": "2011-12-31T23:00:00.000Z"
+        },
+        "released": {
+            "display": "2012.07.01",
+            "date": "2012-06-30T22:00:00.000Z"
+        },
+        "title": "Camel 2",
+        "type": "mini-album"
     },
     {
+        "artist": "First Dog",
+        "bc": {
+            "id": "2695211125",
+            "link": "https://firstdog.bandcamp.com/album/videogame-soundtrack"
+        },
+        "cover": {
+            "desc": "album cover of 'Videogame Soundtrack' by 'First Dog'",
+            "xs": "/img/acxs/DUG018.jpg",
+            "s": "/img/acs/DUG018.jpg",
+            "l": "/img/acl/DUG018.jpg"
+        },
+        "credits": [
+            [
+                "music & cover",
+                "dug alcedo"
+            ]
+        ],
+        "desc": "",
+        "hasBirthday": true,
         "id": "DUG018",
-        "type": "album",
+        "idno": 18,
+        "len": {
+            "duration": {
+                "display": "83 minutes",
+                "val": 83
+            },
+            "tracks": {
+                "display": "26 tracks",
+                "val": 26
+            }
+        },
+        "location": {
+            "short": "MUR",
+            "arr": [
+                "murrieta, california"
+            ],
+            "display": "murrieta, california"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2012.01",
+            "date": "2011-12-31T23:00:00.000Z"
+        },
+        "released": {
+            "display": "2012.02.01",
+            "date": "2012-01-31T23:00:00.000Z"
+        },
         "title": "Videogame Soundtrack",
-        "featured": false,
+        "type": "album"
+    },
+    {
         "artist": "First Dog",
-        "released": "2012.02.01",
-        "location": "MUR",
-        "recorded": "2012.01",
-        "bcid": "2695211125",
+        "bc": {
+            "id": "2361478125",
+            "link": "https://firstdog.bandcamp.com/album/parrot"
+        },
+        "cover": {
+            "desc": "album cover of 'Untrue/Parrot' by 'First Dog'",
+            "xs": "/img/acxs/DUG017.jpg",
+            "s": "/img/acs/DUG017.jpg",
+            "l": "/img/acl/DUG017.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "early",
         "desc": "",
-        "len": "83 minutes",
-        "not": "26 tracks",
-        "recordedYears": [
-            2012
-        ],
-        "releasedYears": [
-            2012
-        ]
-    },
-    {
+        "hasBirthday": true,
         "id": "DUG017",
-        "type": "album",
+        "idno": 17,
+        "len": {
+            "duration": {
+                "display": "57 minutes",
+                "val": 57
+            },
+            "tracks": {
+                "display": "11 tracks",
+                "val": 11
+            }
+        },
+        "location": {
+            "short": "MUR",
+            "arr": [
+                "murrieta, california"
+            ],
+            "display": "murrieta, california"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "fall 2011 to winter 2012",
+            "date": null
+        },
+        "released": {
+            "display": "2012.01.18",
+            "date": "2012-01-17T23:00:00.000Z"
+        },
         "title": "Untrue/Parrot",
-        "bcTitle": "parrot",
-        "featured": false,
+        "type": "album"
+    },
+    {
         "artist": "First Dog",
-        "released": "2012.01.18",
-        "location": "MUR",
-        "recorded": "fall 2011 to winter 2012",
-        "bcid": "2361478125",
+        "bc": {
+            "id": "2607287906",
+            "link": "https://firstdog.bandcamp.com/album/landing"
+        },
+        "cover": {
+            "desc": "album cover of 'Landing' by 'First Dog'",
+            "xs": "/img/acxs/DUG016.jpg",
+            "s": "/img/acs/DUG016.jpg",
+            "l": "/img/acl/DUG016.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "early",
         "desc": "",
-        "len": "57 minutes",
-        "not": "11 tracks",
-        "recordedYears": [
-            2011,
-            2012
-        ],
-        "releasedYears": [
-            2012
-        ]
-    },
-    {
+        "hasBirthday": true,
         "id": "DUG016",
-        "type": "mini-album",
+        "idno": 16,
+        "len": {
+            "duration": {
+                "display": "24 minutes",
+                "val": 24
+            },
+            "tracks": {
+                "display": "5 tracks",
+                "val": 5
+            }
+        },
+        "location": {
+            "short": "MUR",
+            "arr": [
+                "murrieta, california"
+            ],
+            "display": "murrieta, california"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "fall 2011",
+            "date": "2010-12-31T23:00:00.000Z"
+        },
+        "released": {
+            "display": "2011.12.12",
+            "date": "2011-12-11T23:00:00.000Z"
+        },
         "title": "Landing",
-        "featured": false,
+        "type": "mini-album"
+    },
+    {
         "artist": "First Dog",
-        "released": "2011.12.12",
-        "location": "MUR",
-        "recorded": "fall 2011",
-        "bcid": "2607287906",
+        "bc": {
+            "id": "3776743387",
+            "link": "https://firstdog.bandcamp.com/album/corecore"
+        },
+        "cover": {
+            "desc": "album cover of 'Corecore' by 'First Dog'",
+            "xs": "/img/acxs/DUG015.jpg",
+            "s": "/img/acs/DUG015.jpg",
+            "l": "/img/acl/DUG015.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "early",
         "desc": "",
-        "len": "24 minutes",
-        "not": "5 tracks",
-        "recordedYears": [
-            2011
-        ],
-        "releasedYears": [
-            2011
-        ]
-    },
-    {
+        "hasBirthday": true,
         "id": "DUG015",
-        "type": "album",
+        "idno": 15,
+        "len": {
+            "duration": {
+                "display": "57 minutes",
+                "val": 57
+            },
+            "tracks": {
+                "display": "11 tracks",
+                "val": 11
+            }
+        },
+        "location": {
+            "short": "TEM",
+            "arr": [
+                "temecula, california"
+            ],
+            "display": "temecula, california"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "spring 2011 to summer 2011",
+            "date": null
+        },
+        "released": {
+            "display": "2011.07.11",
+            "date": "2011-07-10T22:00:00.000Z"
+        },
         "title": "Corecore",
-        "featured": false,
-        "artist": "First Dog",
-        "released": "2011.07.11",
-        "location": "TEM",
-        "recorded": "spring 2011 to summer 2011",
-        "bcid": "3776743387",
-        "credits": [
-            [
-                "music & cover",
-                "dug alcedo"
-            ]
-        ],
-        "lyrics": [],
-        "era": "early",
-        "desc": "",
-        "len": "57 minutes",
-        "not": "11 tracks",
-        "recordedYears": [
-            2011
-        ],
-        "releasedYears": [
-            2011
-        ]
+        "type": "album"
     },
     {
-        "id": "DUG013b",
-        "type": "split",
-        "title": "Kondo Split",
-        "bcTitle": "kond-split",
-        "featured": false,
         "artist": "FDVCE & Dylan Jones",
-        "released": "2010.05.15",
-        "location": "CDY",
-        "recorded": "spring 2010",
-        "bcid": "1365005315",
+        "bc": {
+            "id": "1365005315",
+            "link": "https://firstdog.bandcamp.com/album/kond-split"
+        },
+        "cover": {
+            "desc": "album cover of 'Kondo Split' by 'FDVCE & Dylan Jones'",
+            "xs": "/img/acxs/DUG013b.jpg",
+            "s": "/img/acs/DUG013b.jpg",
+            "l": "/img/acl/DUG013b.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "child",
         "desc": "",
-        "len": "45 minutes",
-        "not": "9 tracks",
-        "recordedYears": [
-            2010
-        ],
-        "releasedYears": [
-            2010
-        ]
+        "hasBirthday": true,
+        "id": "DUG013b",
+        "idno": 13.01,
+        "len": {
+            "duration": {
+                "display": "45 minutes",
+                "val": 45
+            },
+            "tracks": {
+                "display": "9 tracks",
+                "val": 9
+            }
+        },
+        "location": {
+            "short": "CDY",
+            "arr": [
+                "cody, wyoming"
+            ],
+            "display": "cody, wyoming"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "spring 2010",
+            "date": "2009-12-31T23:00:00.000Z"
+        },
+        "released": {
+            "display": "2010.05.15",
+            "date": "2010-05-14T22:00:00.000Z"
+        },
+        "title": "Kondo Split",
+        "type": "split"
     },
     {
+        "artist": "FDVCE",
+        "bc": {
+            "id": "3787772774",
+            "link": "https://firstdog.bandcamp.com/album/every-machine-on"
+        },
+        "cover": {
+            "desc": "album cover of 'Every Machine On' by 'FDVCE'",
+            "xs": "/img/acxs/DUG013.jpg",
+            "s": "/img/acs/DUG013.jpg",
+            "l": "/img/acl/DUG013.jpg"
+        },
+        "credits": [
+            [
+                "music & cover",
+                "dug alcedo"
+            ]
+        ],
+        "desc": "",
+        "hasBirthday": true,
         "id": "DUG013",
-        "type": "album",
+        "idno": 13,
+        "len": {
+            "duration": {
+                "display": "45 minutes",
+                "val": 45
+            },
+            "tracks": {
+                "display": "15 tracks",
+                "val": 15
+            }
+        },
+        "location": {
+            "short": "CDY",
+            "arr": [
+                "cody, wyoming"
+            ],
+            "display": "cody, wyoming"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "winter 2010 to spring 2010",
+            "date": null
+        },
+        "released": {
+            "display": "2010.04.02",
+            "date": "2010-04-01T22:00:00.000Z"
+        },
         "title": "Every Machine On",
-        "featured": false,
+        "type": "album"
+    },
+    {
         "artist": "FDVCE",
-        "released": "2010.04.02",
-        "location": "CDY",
-        "recorded": "winter 2010 to spring 2010",
-        "bcid": "3787772774",
+        "bc": {
+            "id": "709445185",
+            "link": "https://firstdog.bandcamp.com/album/stoner"
+        },
+        "cover": {
+            "desc": "album cover of 'Stoner' by 'FDVCE'",
+            "xs": "/img/acxs/DUG012.jpg",
+            "s": "/img/acs/DUG012.jpg",
+            "l": "/img/acl/DUG012.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "child",
         "desc": "",
-        "len": "45 minutes",
-        "not": "15 tracks",
-        "recordedYears": [
-            2010
-        ],
-        "releasedYears": [
-            2010
-        ]
-    },
-    {
+        "hasBirthday": true,
         "id": "DUG012",
-        "type": "album",
+        "idno": 12,
+        "len": {
+            "duration": {
+                "display": "53 minutes",
+                "val": 53
+            },
+            "tracks": {
+                "display": "10 tracks",
+                "val": 10
+            }
+        },
+        "location": {
+            "short": "CDY",
+            "arr": [
+                "cody, wyoming"
+            ],
+            "display": "cody, wyoming"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "winter 2010",
+            "date": "2009-12-31T23:00:00.000Z"
+        },
+        "released": {
+            "display": "2010.02.14",
+            "date": "2010-02-13T23:00:00.000Z"
+        },
         "title": "Stoner",
-        "featured": false,
+        "type": "album"
+    },
+    {
         "artist": "FDVCE",
-        "released": "2010.02.14",
-        "location": "CDY",
-        "recorded": "winter 2010",
-        "bcid": "709445185",
+        "bc": {
+            "id": "3450513756",
+            "link": "https://firstdog.bandcamp.com/album/colossus-archosaur"
+        },
+        "cover": {
+            "desc": "album cover of 'Colossus Archosaur' by 'FDVCE'",
+            "xs": "/img/acxs/DUG011.jpg",
+            "s": "/img/acs/DUG011.jpg",
+            "l": "/img/acl/DUG011.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "child",
         "desc": "",
-        "len": "53 minutes",
-        "not": "10 tracks",
-        "recordedYears": [
-            2010
-        ],
-        "releasedYears": [
-            2010
-        ]
-    },
-    {
+        "hasBirthday": true,
         "id": "DUG011",
-        "type": "album",
+        "idno": 11,
+        "len": {
+            "duration": {
+                "display": "73 minutes",
+                "val": 73
+            },
+            "tracks": {
+                "display": "22 tracks",
+                "val": 22
+            }
+        },
+        "location": {
+            "short": "CDY",
+            "arr": [
+                "cody, wyoming"
+            ],
+            "display": "cody, wyoming"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "fall 2009 to end of 2010",
+            "date": null
+        },
+        "released": {
+            "display": "2010.01.01",
+            "date": "2009-12-31T23:00:00.000Z"
+        },
         "title": "Colossus Archosaur",
-        "featured": false,
+        "type": "album"
+    },
+    {
         "artist": "FDVCE",
-        "released": "2010.01.01",
-        "location": "CDY",
-        "recorded": "fall 2009 to end of 2010",
-        "bcid": "3450513756",
+        "bc": {
+            "id": "3261715349",
+            "link": "https://firstdog.bandcamp.com/album/provenance-fen"
+        },
+        "cover": {
+            "desc": "album cover of 'Provenance Fen' by 'FDVCE'",
+            "xs": "/img/acxs/DUG000b.jpg",
+            "s": "/img/acs/DUG000b.jpg",
+            "l": "/img/acl/DUG000b.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "child",
         "desc": "",
-        "len": "73 minutes",
-        "not": "22 tracks",
-        "recordedYears": [
-            2009,
-            2010
-        ],
-        "releasedYears": [
-            2010
-        ]
-    },
-    {
         "id": "DUG000b",
-        "type": "compilation",
-        "title": "Provenance Fen",
-        "featured": false,
-        "artist": "FDVCE",
-        "released": "2009",
-        "location": "CDY",
-        "recorded": "2009",
-        "bcid": "3261715349",
-        "credits": [
-            [
-                "music & cover",
-                "dug alcedo"
-            ]
-        ],
+        "idno": 0.01,
+        "len": {
+            "duration": {
+                "display": "131 minutes",
+                "val": 131
+            },
+            "tracks": {
+                "display": "37 tracks",
+                "val": 37
+            }
+        },
+        "location": {
+            "short": "CDY",
+            "arr": [
+                "cody, wyoming"
+            ],
+            "display": "cody, wyoming"
+        },
         "lyrics": [],
-        "era": "child",
-        "desc": "",
-        "len": "131 minutes",
-        "not": "37 tracks",
-        "recordedYears": [
-            2009
-        ],
-        "releasedYears": [
-            2009
-        ]
+        "recorded": {
+            "display": "2009",
+            "date": "2009-01-01T00:00:00.000Z"
+        },
+        "released": {
+            "display": "2009",
+            "date": "2009-01-01T00:00:00.000Z"
+        },
+        "title": "Provenance Fen",
+        "type": "compilation"
     },
     {
-        "id": "DUG000a",
-        "type": "compilation",
-        "title": "Primeval Dross",
-        "featured": false,
         "artist": "FDVCE",
-        "released": "2008",
-        "location": "CDY",
-        "recorded": "2008",
-        "bcid": "3292042228",
+        "bc": {
+            "id": "3292042228",
+            "link": "https://firstdog.bandcamp.com/album/primeval-dross"
+        },
+        "cover": {
+            "desc": "album cover of 'Primeval Dross' by 'FDVCE'",
+            "xs": "/img/acxs/DUG000a.jpg",
+            "s": "/img/acs/DUG000a.jpg",
+            "l": "/img/acl/DUG000a.jpg"
+        },
         "credits": [
             [
                 "music & cover",
                 "dug alcedo"
             ]
         ],
-        "lyrics": [],
-        "era": "child",
         "desc": "",
-        "len": "64 minutes",
-        "not": "20 tracks",
-        "recordedYears": [
-            2008
-        ],
-        "releasedYears": [
-            2008
-        ]
+        "id": "DUG000a",
+        "idno": 0,
+        "len": {
+            "duration": {
+                "display": "64 minutes",
+                "val": 64
+            },
+            "tracks": {
+                "display": "20 tracks",
+                "val": 20
+            }
+        },
+        "location": {
+            "short": "CDY",
+            "arr": [
+                "cody, wyoming"
+            ],
+            "display": "cody, wyoming"
+        },
+        "lyrics": [],
+        "recorded": {
+            "display": "2008",
+            "date": "2008-01-01T00:00:00.000Z"
+        },
+        "released": {
+            "display": "2008",
+            "date": "2008-01-01T00:00:00.000Z"
+        },
+        "title": "Primeval Dross",
+        "type": "compilation"
     }
 ]
