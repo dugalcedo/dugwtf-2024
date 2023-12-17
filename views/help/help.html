@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="/help/help.css">
+    <script src="/help/help.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>dugAPI</h1>
+
+    <section>
+        <h2>ROOT</h2>
+        <p>dug.wtf/api</p>
+    </section>
+
+    <section>
+        <h2>Endpoints</h2>
+        <section class="endpoint">
+            <h3>ROOT/*</h3>
+            <p>API documentation (the page you're looking at now).</p>
+        </section>
+        <section class="endpoint">
+            <h3>ROOT/dugscog</h3>
+            <p>Discography of Dug Alcedo.</p>
+            <section class="sub-endpoint">
+                <h4>ROOT/dugscog/</h4>
+                <p>Entire discography. json.</p>
+                <h5>Example item</h5>
+                <pre id="example-dug"></pre>
+            </section>
+            <section class="sub-endpoint">
+                <h4>ROOT/dugscog/find</h4>
+                <p>Filtered discograhy. json.</p>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th colspan="4">Parameters</th>
+                        </tr>
+                        <tr>
+                            <th>Param</th>
+                            <th>Required</th>
+                            <th>Examples</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>artist</td>
+                            <td>no</td>
+                            <td>dug alcedo, thos flowers</td>
+                        </tr>
+                        <tr>
+                            <td>title</td>
+                            <td>no</td>
+                            <td>goos beyond, guard goose</td>
+                        </tr>
+                        <tr>
+                            <td>id</td>
+                            <td>no</td>
+                            <td>DUG043, DUG031, DUG040b</td>
+                        </tr>
+                        <tr>
+                            <td>released</td>
+                            <td>no</td>
+                            <td>
+                                2015 <br>
+                                2019-2021 <br>
+                                2010,2012-2014 <br>
+                                2008-2011,2019-2023 <br>
+                        
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>recorded</td>
+                            <td>no</td>
+                            <td>(see above)</td>
+                        </tr>
+                        <tr>
+                            <td>credits</td>
+                            <td>no</td>
+                            <td>
+                                dug alcedo <br>
+                                dug alcedo,thos flowers <br>
+                        
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </section>
+        <section class="endpoint">
+            <h3>ROOT/audio</h3>
+            <p>Songs by Dug Alcedo.</p>
+            <section class="sub-endpoint">
+                <h4>ROOT/audio/track</h4>
+                <p>Stream a single song. mp3.</p>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th colspan="4">
+                                Parameters
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Param</th>
+                            <th>Required</th>
+                            <th>Examples</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>albumId</td>
+                            <td>YES</td>
+                            <td>
+                                DUG043, DUG031, DUG040b
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>trackNo</td>
+                            <td>YES</td>
+                            <td>1, 2, 3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="sub-endpoint">
+                <h4>ROOT/audio/tracklist</h4>
+                <p>Get a list of song titles from an album. json.</p>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th colspan="4">
+                                Parameters
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Param</th>
+                            <th>Required</th>
+                            <th>Examples</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>albumId</td>
+                            <td>YES</td>
+                            <td>DUG043, DUG031, DUG040b</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </section>
+    </section>
+
+
+</body>
+</html>

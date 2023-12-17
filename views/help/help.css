@@ -1,0 +1,63 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button, input {
+    padding: .5rem;
+    border: 0;
+    border-radius: .5rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.5rem;
+}
+
+table thead tr:first-child {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+pre {
+    font-size: 0.8rem;
+    font-family: monospace;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "api-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend": "nodemon index",
+    "frontend": "cd svelte && pnpm run dev",
+    "dbadmin": "node db/admin/admin.js",
+    "build": "cd svelte && pnpm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "inquirer": "^9.2.12",
+    "mongoose": "^8.0.3"
+  },
+  "type": "module"
+}
