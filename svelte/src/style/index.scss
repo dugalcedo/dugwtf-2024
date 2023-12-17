@@ -1,0 +1,75 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button, input {
+    padding: .5rem;
+    border: 0;
+    border-radius: .5rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.dug-card {
+    display: block;
+}
+
+html, body, #app {
+    height: 100dvh;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+main {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+    & img {
+        width: 100%;
+    }
+}
+
+#me {
+    filter: invert(1);
+}
+
+#logo {
+    filter: invert(1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & a {
+        padding: 1rem;
+    }
+}

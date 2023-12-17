@@ -14,7 +14,6 @@ mongoose.connect(MONGO)
 import dugs from './dugs.js'
 global.dugs = dugs
 global.dugsMini = dugs.map(minifyDug)
-console.log(dugsMini)
 
 global.findDug = function(filter) {
     const entries = Object.entries(filter)
