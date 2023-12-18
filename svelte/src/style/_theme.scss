@@ -1,0 +1,13 @@
+html.light {
+    --bg: white;
+    --text: black;
+    --invertFromLight: 1;
+    --invertFromDark: 0;
+}
+
+html.dark {
+    --bg: black;
+    --text: white;
+    --invertFromLight: 0;
+    --invertFromDark: 1;
+}

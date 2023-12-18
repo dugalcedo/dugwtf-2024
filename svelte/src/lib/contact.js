@@ -6,6 +6,7 @@ const contacts = [
         links: [
             {
                 href: 'mailto://dougalcedo@gmail.com',
+                copy: 'dougalcedo@gmail.com',
                 main: true
             }
         ]
@@ -47,4 +48,4 @@ const contacts = [
     }
 ]
 
-export default contact
+export default contacts

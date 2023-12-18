@@ -1,0 +1,64 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Syne";
+    src: url('../../public/syne.ttf');
+}
+
+* {
+    font-family: 'Syne', monospace;
+    color: var(--text);
+}
+
+body {
+    background-color: var(--bg);
+    padding: 1rem;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button, input {
+    padding: .5rem;
+    border: 0;
+    border-radius: .5rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dug-card {
+    display: block;
+}
+
+html, body, #app {
+    height: 100%;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+main {
+    flex-grow: 1;
+    overflow-y: auto;
+}

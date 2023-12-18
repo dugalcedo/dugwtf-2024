@@ -49,6 +49,7 @@ AudioController.get('/tracklist', (req, res) => {
         var fileNames = readdirSync(albumPath)
         res.json(fileNames.map(trackName))
     } catch (error) {
+        console.log(error)
         res.status(404).send("Album not found.")
     }
 })

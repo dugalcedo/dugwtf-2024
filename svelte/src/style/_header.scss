@@ -1,0 +1,32 @@
+@use 'util' as *;
+
+header, nav {
+    @include limitWidth(700px, $center: false);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+    & img {
+        width: 100%;
+    }
+}
+
+#me {
+    filter: invert(var(--invertFromLight));
+}
+
+#logo {
+    filter: invert(var(--invertFromLight));
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & a {
+        padding: 1rem;
+    }
+}

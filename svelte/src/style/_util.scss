@@ -1,0 +1,7 @@
+@mixin limitWidth($width: 1200px, $max-width: 100%, $center: true) {
+    width: $width;
+    max-width: $max-width;
+    @if ($center) {
+        margin: auto;
+    }
+}
