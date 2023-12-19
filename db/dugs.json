@@ -49,6 +49,152 @@
             "date": "2022-01-13T23:00:00.000Z"
         },
         "title": "Goos Beyond",
+        "tracklist": [
+            {
+                "title": "veiled cataphract",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=1",
+                "duration_s": 369,
+                "duration_f": "06:09"
+            },
+            {
+                "title": "veiled cataphract",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=2",
+                "duration_s": 274,
+                "duration_f": "04:34"
+            },
+            {
+                "title": "amie eros aflame",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=3",
+                "duration_s": 214,
+                "duration_f": "03:34"
+            },
+            {
+                "title": "amie eros aflame",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=4",
+                "duration_s": 128,
+                "duration_f": "02:08"
+            },
+            {
+                "title": "reversi",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=5",
+                "duration_s": 199,
+                "duration_f": "03:19"
+            },
+            {
+                "title": "reversi",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=6",
+                "duration_s": 108,
+                "duration_f": "01:48"
+            },
+            {
+                "title": "läskig ny smak",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=7",
+                "duration_s": 189,
+                "duration_f": "03:09"
+            },
+            {
+                "title": "läskig ny smak",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=8",
+                "duration_s": 182,
+                "duration_f": "03:02"
+            },
+            {
+                "title": "session",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=9",
+                "duration_s": 256,
+                "duration_f": "04:16"
+            },
+            {
+                "title": "session",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=10",
+                "duration_s": 154,
+                "duration_f": "02:34"
+            },
+            {
+                "title": "nite fledge",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=11",
+                "duration_s": 164,
+                "duration_f": "02:44"
+            },
+            {
+                "title": "nite fledge",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=12",
+                "duration_s": 209,
+                "duration_f": "03:29"
+            },
+            {
+                "title": "boston rob",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=13",
+                "duration_s": 99,
+                "duration_f": "01:39"
+            },
+            {
+                "title": "boston rob",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=14",
+                "duration_s": 139,
+                "duration_f": "02:19"
+            },
+            {
+                "title": "penult quit",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=15",
+                "duration_s": 140,
+                "duration_f": "02:20"
+            },
+            {
+                "title": "penult quit",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=16",
+                "duration_s": 107,
+                "duration_f": "01:47"
+            },
+            {
+                "title": "santa sangre ii",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=17",
+                "duration_s": 264,
+                "duration_f": "04:24"
+            },
+            {
+                "title": "santa sangre ii",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=18",
+                "duration_s": 94,
+                "duration_f": "01:34"
+            },
+            {
+                "title": "map song",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=19",
+                "duration_s": 172,
+                "duration_f": "02:52"
+            },
+            {
+                "title": "map song",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=20",
+                "duration_s": 168,
+                "duration_f": "02:48"
+            },
+            {
+                "title": "humor, subduing",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=21",
+                "duration_s": 420,
+                "duration_f": "07:00"
+            },
+            {
+                "title": "humor, subduing",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=22",
+                "duration_s": 149,
+                "duration_f": "02:29"
+            },
+            {
+                "title": "på riktigt",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=23",
+                "duration_s": 79,
+                "duration_f": "01:19"
+            },
+            {
+                "title": "på riktigt",
+                "endpoint": "/audio/track?albumId=DUG043&trackNo=24",
+                "duration_s": 216,
+                "duration_f": "03:36"
+            }
+        ],
         "type": "album"
     },
     {
@@ -98,7 +244,7 @@
                 "lakewood, colorado",
                 "golden, colorado"
             ],
-            "display": "undefined; lakewood, colorado and golden, colorado"
+            "display": "tacoma, washington; lakewood, colorado and golden, colorado"
         },
         "lyrics": [],
         "recorded": {
@@ -110,6 +256,7 @@
             "date": "2021-10-30T22:00:00.000Z"
         },
         "title": "I-15 Dream",
+        "tracklist": [],
         "type": "album"
     },
     {
@@ -161,6 +308,7 @@
             "date": "2021-06-17T22:00:00.000Z"
         },
         "title": "Starship Comino (Cave version)",
+        "tracklist": [],
         "type": "single"
     },
     {
@@ -216,6 +364,80 @@
             "date": "2021-04-01T22:00:00.000Z"
         },
         "title": "Big Fish eat Little Fish",
+        "tracklist": [
+            {
+                "title": "Parameter",
+                "endpoint": "/audio/track?albumId=DUG042&trackNo=1",
+                "duration_s": 201,
+                "duration_f": "03:21"
+            },
+            {
+                "title": "Bonito",
+                "endpoint": "/audio/track?albumId=DUG042&trackNo=2",
+                "duration_s": 304,
+                "duration_f": "05:04"
+            },
+            {
+                "title": "Daikon Jelly",
+                "endpoint": "/audio/track?albumId=DUG042&trackNo=3",
+                "duration_s": 220,
+                "duration_f": "03:40"
+            },
+            {
+                "title": "Casino",
+                "endpoint": "/audio/track?albumId=DUG042&trackNo=4",
+                "duration_s": 189,
+                "duration_f": "03:09"
+            },
+            {
+                "title": "Oaxaca",
+                "endpoint": "/audio/track?albumId=DUG042&trackNo=5",
+                "duration_s": 333,
+                "duration_f": "05:33"
+            },
+            {
+                "title": "Err Damage",
+                "endpoint": "/audio/track?albumId=DUG042&trackNo=6",
+                "duration_s": 265,
+                "duration_f": "04:25"
+            },
+            {
+                "title": "Circa Choke",
+                "endpoint": "/audio/track?albumId=DUG042&trackNo=7",
+                "duration_s": 366,
+                "duration_f": "06:06"
+            },
+            {
+                "title": "Extensive Tapes",
+                "endpoint": "/audio/track?albumId=DUG042&trackNo=8",
+                "duration_s": 389,
+                "duration_f": "06:29"
+            },
+            {
+                "title": "Squarest Ache",
+                "endpoint": "/audio/track?albumId=DUG042&trackNo=9",
+                "duration_s": 215,
+                "duration_f": "03:35"
+            },
+            {
+                "title": "Jut Strum Scampi",
+                "endpoint": "/audio/track?albumId=DUG042&trackNo=10",
+                "duration_s": 387,
+                "duration_f": "06:27"
+            },
+            {
+                "title": "Raven Number",
+                "endpoint": "/audio/track?albumId=DUG042&trackNo=11",
+                "duration_s": 249,
+                "duration_f": "04:09"
+            },
+            {
+                "title": "Super See",
+                "endpoint": "/audio/track?albumId=DUG042&trackNo=12",
+                "duration_s": 760,
+                "duration_f": "12:40"
+            }
+        ],
         "type": "album"
     },
     {
@@ -271,6 +493,7 @@
             "date": "2021-02-14T23:00:00.000Z"
         },
         "title": "Bonito",
+        "tracklist": [],
         "type": "single"
     },
     {
@@ -322,6 +545,56 @@
             "date": "2020-10-18T22:00:00.000Z"
         },
         "title": "Comber",
+        "tracklist": [
+            {
+                "title": "Alcedo",
+                "endpoint": "/audio/track?albumId=DUG041&trackNo=1",
+                "duration_s": 293,
+                "duration_f": "04:53"
+            },
+            {
+                "title": "The Horror",
+                "endpoint": "/audio/track?albumId=DUG041&trackNo=2",
+                "duration_s": 242,
+                "duration_f": "04:02"
+            },
+            {
+                "title": "Support",
+                "endpoint": "/audio/track?albumId=DUG041&trackNo=3",
+                "duration_s": 290,
+                "duration_f": "04:50"
+            },
+            {
+                "title": "Empty Energy",
+                "endpoint": "/audio/track?albumId=DUG041&trackNo=4",
+                "duration_s": 309,
+                "duration_f": "05:09"
+            },
+            {
+                "title": "Nuggies & Ranch",
+                "endpoint": "/audio/track?albumId=DUG041&trackNo=5",
+                "duration_s": 337,
+                "duration_f": "05:37"
+            },
+            {
+                "title": "New Bug",
+                "endpoint": "/audio/track?albumId=DUG041&trackNo=6",
+                "duration_s": 303,
+                "duration_f": "05:03"
+            },
+            {
+                "title": "Ouauaaeo",
+                "endpoint": "/audio/track?albumId=DUG041&trackNo=7",
+                "duration_s": 313,
+                "duration_f": "05:13"
+            },
+            {
+                "title": "Comber",
+                "endpoint": "/audio/track?albumId=DUG041&trackNo=8",
+                "duration_s": 229,
+                "duration_f": "03:49"
+            }
+        ],
         "type": "album"
     },
     {
@@ -373,6 +646,7 @@
             "date": "2020-09-07T22:00:00.000Z"
         },
         "title": "Pinya",
+        "tracklist": [],
         "type": "single"
     },
     {
@@ -424,6 +698,74 @@
             "date": "2020-08-15T22:00:00.000Z"
         },
         "title": "XL",
+        "tracklist": [
+            {
+                "title": "moline",
+                "endpoint": "/audio/track?albumId=DUG040&trackNo=1",
+                "duration_s": 194,
+                "duration_f": "03:14"
+            },
+            {
+                "title": "prune",
+                "endpoint": "/audio/track?albumId=DUG040&trackNo=2",
+                "duration_s": 219,
+                "duration_f": "03:39"
+            },
+            {
+                "title": "quit",
+                "endpoint": "/audio/track?albumId=DUG040&trackNo=3",
+                "duration_s": 242,
+                "duration_f": "04:02"
+            },
+            {
+                "title": "club",
+                "endpoint": "/audio/track?albumId=DUG040&trackNo=4",
+                "duration_s": 144,
+                "duration_f": "02:24"
+            },
+            {
+                "title": "chromwrm",
+                "endpoint": "/audio/track?albumId=DUG040&trackNo=5",
+                "duration_s": 179,
+                "duration_f": "02:59"
+            },
+            {
+                "title": "roasting veg",
+                "endpoint": "/audio/track?albumId=DUG040&trackNo=6",
+                "duration_s": 164,
+                "duration_f": "02:44"
+            },
+            {
+                "title": "ivvi iv",
+                "endpoint": "/audio/track?albumId=DUG040&trackNo=7",
+                "duration_s": 232,
+                "duration_f": "03:52"
+            },
+            {
+                "title": "pot pie",
+                "endpoint": "/audio/track?albumId=DUG040&trackNo=8",
+                "duration_s": 105,
+                "duration_f": "01:45"
+            },
+            {
+                "title": "brackish",
+                "endpoint": "/audio/track?albumId=DUG040&trackNo=9",
+                "duration_s": 133,
+                "duration_f": "02:13"
+            },
+            {
+                "title": "new finches",
+                "endpoint": "/audio/track?albumId=DUG040&trackNo=10",
+                "duration_s": 216,
+                "duration_f": "03:36"
+            },
+            {
+                "title": "kitty",
+                "endpoint": "/audio/track?albumId=DUG040&trackNo=11",
+                "duration_s": 276,
+                "duration_f": "04:36"
+            }
+        ],
         "type": "album"
     },
     {
@@ -484,6 +826,122 @@
             "date": "2020-07-04T22:00:00.000Z"
         },
         "title": "Hell Scenery",
+        "tracklist": [
+            {
+                "title": "□ ",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=1",
+                "duration_s": 140,
+                "duration_f": "02:20"
+            },
+            {
+                "title": "Steel Belongings",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=2",
+                "duration_s": 401,
+                "duration_f": "06:41"
+            },
+            {
+                "title": "Accipiter Nod",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=3",
+                "duration_s": 319,
+                "duration_f": "05:19"
+            },
+            {
+                "title": "Weakling",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=4",
+                "duration_s": 186,
+                "duration_f": "03:06"
+            },
+            {
+                "title": "Taiga Curio",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=5",
+                "duration_s": 203,
+                "duration_f": "03:23"
+            },
+            {
+                "title": "□  ",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=6",
+                "duration_s": 158,
+                "duration_f": "02:38"
+            },
+            {
+                "title": "   Wig  Advert",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=7",
+                "duration_s": 415,
+                "duration_f": "06:55"
+            },
+            {
+                "title": "(oast2(oast",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=8",
+                "duration_s": 221,
+                "duration_f": "03:41"
+            },
+            {
+                "title": " (ın(ınattı (hılı",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=9",
+                "duration_s": 368,
+                "duration_f": "06:08"
+            },
+            {
+                "title": "Type Beat",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=10",
+                "duration_s": 125,
+                "duration_f": "02:05"
+            },
+            {
+                "title": "□   ",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=11",
+                "duration_s": 73,
+                "duration_f": "01:13"
+            },
+            {
+                "title": "Aaek Ooruzz",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=12",
+                "duration_s": 189,
+                "duration_f": "03:09"
+            },
+            {
+                "title": "Chomp Chomp",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=13",
+                "duration_s": 171,
+                "duration_f": "02:51"
+            },
+            {
+                "title": "Tru U",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=14",
+                "duration_s": 308,
+                "duration_f": "05:08"
+            },
+            {
+                "title": "□    ",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=15",
+                "duration_s": 168,
+                "duration_f": "02:48"
+            },
+            {
+                "title": "Nu Hardware",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=16",
+                "duration_s": 180,
+                "duration_f": "03:00"
+            },
+            {
+                "title": "Ode to Ibices",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=17",
+                "duration_s": 180,
+                "duration_f": "03:00"
+            },
+            {
+                "title": "Blight-o-Rama",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=18",
+                "duration_s": 400,
+                "duration_f": "06:40"
+            },
+            {
+                "title": "□    -",
+                "endpoint": "/audio/track?albumId=DUG039&trackNo=19",
+                "duration_s": 151,
+                "duration_f": "02:31"
+            }
+        ],
         "type": "album"
     },
     {
@@ -535,6 +993,74 @@
             "date": "2019-12-27T23:00:00.000Z"
         },
         "title": "Casked Acid in Black Sheep Canyon",
+        "tracklist": [
+            {
+                "title": "so what if this song untitled",
+                "endpoint": "/audio/track?albumId=DUG038&trackNo=1",
+                "duration_s": 210,
+                "duration_f": "03:30"
+            },
+            {
+                "title": "restless gel",
+                "endpoint": "/audio/track?albumId=DUG038&trackNo=2",
+                "duration_s": 135,
+                "duration_f": "02:15"
+            },
+            {
+                "title": "bond stint tumult",
+                "endpoint": "/audio/track?albumId=DUG038&trackNo=3",
+                "duration_s": 418,
+                "duration_f": "06:58"
+            },
+            {
+                "title": "mellow corn",
+                "endpoint": "/audio/track?albumId=DUG038&trackNo=4",
+                "duration_s": 227,
+                "duration_f": "03:47"
+            },
+            {
+                "title": "drab ebb run",
+                "endpoint": "/audio/track?albumId=DUG038&trackNo=5",
+                "duration_s": 311,
+                "duration_f": "05:11"
+            },
+            {
+                "title": "panicced naan",
+                "endpoint": "/audio/track?albumId=DUG038&trackNo=6",
+                "duration_s": 184,
+                "duration_f": "03:04"
+            },
+            {
+                "title": "tamal skit",
+                "endpoint": "/audio/track?albumId=DUG038&trackNo=7",
+                "duration_s": 245,
+                "duration_f": "04:05"
+            },
+            {
+                "title": "clammable omen",
+                "endpoint": "/audio/track?albumId=DUG038&trackNo=8",
+                "duration_s": 220,
+                "duration_f": "03:40"
+            },
+            {
+                "title": "fog fresco",
+                "endpoint": "/audio/track?albumId=DUG038&trackNo=9",
+                "duration_s": 184,
+                "duration_f": "03:04"
+            },
+            {
+                "title": "acre crumb",
+                "endpoint": "/audio/track?albumId=DUG038&trackNo=10",
+                "duration_s": 160,
+                "duration_f": "02:40"
+            },
+            {
+                "title": "lobe-synch pancake",
+                "endpoint": "/audio/track?albumId=DUG038&trackNo=11",
+                "duration_s": 327,
+                "duration_f": "05:27"
+            }
+        ],
         "type": "album"
     },
     {
@@ -594,6 +1120,68 @@
             "date": "2019-10-26T22:00:00.000Z"
         },
         "title": "Possum with Apple",
+        "tracklist": [
+            {
+                "title": "Starship Comino",
+                "endpoint": "/audio/track?albumId=DUG037&trackNo=1",
+                "duration_s": 360,
+                "duration_f": "06:00"
+            },
+            {
+                "title": "Cosmic Boredom",
+                "endpoint": "/audio/track?albumId=DUG037&trackNo=2",
+                "duration_s": 173,
+                "duration_f": "02:53"
+            },
+            {
+                "title": "Possum with Apple",
+                "endpoint": "/audio/track?albumId=DUG037&trackNo=3",
+                "duration_s": 453,
+                "duration_f": "07:33"
+            },
+            {
+                "title": "Laramide Anticline",
+                "endpoint": "/audio/track?albumId=DUG037&trackNo=4",
+                "duration_s": 436,
+                "duration_f": "07:16"
+            },
+            {
+                "title": "Aureolin Anticlimax",
+                "endpoint": "/audio/track?albumId=DUG037&trackNo=5",
+                "duration_s": 310,
+                "duration_f": "05:10"
+            },
+            {
+                "title": "Highspeed Breakfast",
+                "endpoint": "/audio/track?albumId=DUG037&trackNo=6",
+                "duration_s": 121,
+                "duration_f": "02:01"
+            },
+            {
+                "title": "Phrenetic Trout Fry",
+                "endpoint": "/audio/track?albumId=DUG037&trackNo=7",
+                "duration_s": 352,
+                "duration_f": "05:52"
+            },
+            {
+                "title": "Why Music",
+                "endpoint": "/audio/track?albumId=DUG037&trackNo=8",
+                "duration_s": 188,
+                "duration_f": "03:08"
+            },
+            {
+                "title": "Agave Snowbelt",
+                "endpoint": "/audio/track?albumId=DUG037&trackNo=9",
+                "duration_s": 278,
+                "duration_f": "04:38"
+            },
+            {
+                "title": "Galactic Federation of Freaky Soulless Husks",
+                "endpoint": "/audio/track?albumId=DUG037&trackNo=10",
+                "duration_s": 312,
+                "duration_f": "05:12"
+            }
+        ],
         "type": "album"
     },
     {
@@ -649,6 +1237,7 @@
             "date": "2019-09-29T22:00:00.000Z"
         },
         "title": "Soundcloud 2018",
+        "tracklist": [],
         "type": "ep"
     },
     {
@@ -704,6 +1293,74 @@
             "date": "2019-07-20T22:00:00.000Z"
         },
         "title": "Guard Goose",
+        "tracklist": [
+            {
+                "title": "that friday",
+                "endpoint": "/audio/track?albumId=DUG036&trackNo=1",
+                "duration_s": 154,
+                "duration_f": "02:34"
+            },
+            {
+                "title": "gricwa",
+                "endpoint": "/audio/track?albumId=DUG036&trackNo=2",
+                "duration_s": 187,
+                "duration_f": "03:07"
+            },
+            {
+                "title": "xgjfhgklj;kll",
+                "endpoint": "/audio/track?albumId=DUG036&trackNo=3",
+                "duration_s": 129,
+                "duration_f": "02:09"
+            },
+            {
+                "title": "cxiny prr",
+                "endpoint": "/audio/track?albumId=DUG036&trackNo=4",
+                "duration_s": 177,
+                "duration_f": "02:57"
+            },
+            {
+                "title": "wd nin wehi",
+                "endpoint": "/audio/track?albumId=DUG036&trackNo=5",
+                "duration_s": 136,
+                "duration_f": "02:16"
+            },
+            {
+                "title": "ewuiprt mrytriod",
+                "endpoint": "/audio/track?albumId=DUG036&trackNo=6",
+                "duration_s": 109,
+                "duration_f": "01:49"
+            },
+            {
+                "title": "lkzxuc",
+                "endpoint": "/audio/track?albumId=DUG036&trackNo=7",
+                "duration_s": 317,
+                "duration_f": "05:17"
+            },
+            {
+                "title": "kpy",
+                "endpoint": "/audio/track?albumId=DUG036&trackNo=8",
+                "duration_s": 104,
+                "duration_f": "01:44"
+            },
+            {
+                "title": "ewky",
+                "endpoint": "/audio/track?albumId=DUG036&trackNo=9",
+                "duration_s": 157,
+                "duration_f": "02:37"
+            },
+            {
+                "title": "woiund dougs",
+                "endpoint": "/audio/track?albumId=DUG036&trackNo=10",
+                "duration_s": 158,
+                "duration_f": "02:38"
+            },
+            {
+                "title": "reprise",
+                "endpoint": "/audio/track?albumId=DUG036&trackNo=11",
+                "duration_s": 130,
+                "duration_f": "02:10"
+            }
+        ],
         "type": "mini-album"
     },
     {
@@ -763,6 +1420,50 @@
             "date": "2019-04-02T22:00:00.000Z"
         },
         "title": "Fish Antlers",
+        "tracklist": [
+            {
+                "title": "track 1",
+                "endpoint": "/audio/track?albumId=DUG035&trackNo=1",
+                "duration_s": 177,
+                "duration_f": "02:57"
+            },
+            {
+                "title": "angelo",
+                "endpoint": "/audio/track?albumId=DUG035&trackNo=2",
+                "duration_s": 428,
+                "duration_f": "07:08"
+            },
+            {
+                "title": "light in darkness",
+                "endpoint": "/audio/track?albumId=DUG035&trackNo=3",
+                "duration_s": 569,
+                "duration_f": "09:29"
+            },
+            {
+                "title": "bullion",
+                "endpoint": "/audio/track?albumId=DUG035&trackNo=4",
+                "duration_s": 343,
+                "duration_f": "05:43"
+            },
+            {
+                "title": "michigan",
+                "endpoint": "/audio/track?albumId=DUG035&trackNo=5",
+                "duration_s": 140,
+                "duration_f": "02:20"
+            },
+            {
+                "title": "fish finesse",
+                "endpoint": "/audio/track?albumId=DUG035&trackNo=6",
+                "duration_s": 228,
+                "duration_f": "03:48"
+            },
+            {
+                "title": "wet feta",
+                "endpoint": "/audio/track?albumId=DUG035&trackNo=7",
+                "duration_s": 402,
+                "duration_f": "06:42"
+            }
+        ],
         "type": "album"
     },
     {
@@ -814,6 +1515,68 @@
             "date": "2019-03-02T23:00:00.000Z"
         },
         "title": "Money Snakes",
+        "tracklist": [
+            {
+                "title": "ACID",
+                "endpoint": "/audio/track?albumId=DUG034&trackNo=1",
+                "duration_s": 495,
+                "duration_f": "08:15"
+            },
+            {
+                "title": "HOLY",
+                "endpoint": "/audio/track?albumId=DUG034&trackNo=2",
+                "duration_s": 839,
+                "duration_f": "13:59"
+            },
+            {
+                "title": "OOIL",
+                "endpoint": "/audio/track?albumId=DUG034&trackNo=3",
+                "duration_s": 779,
+                "duration_f": "12:59"
+            },
+            {
+                "title": "YODL",
+                "endpoint": "/audio/track?albumId=DUG034&trackNo=4",
+                "duration_s": 726,
+                "duration_f": "12:06"
+            },
+            {
+                "title": "SWCH",
+                "endpoint": "/audio/track?albumId=DUG034&trackNo=5",
+                "duration_s": 579,
+                "duration_f": "09:39"
+            },
+            {
+                "title": "SEAL",
+                "endpoint": "/audio/track?albumId=DUG034&trackNo=6",
+                "duration_s": 206,
+                "duration_f": "03:26"
+            },
+            {
+                "title": "WARS",
+                "endpoint": "/audio/track?albumId=DUG034&trackNo=7",
+                "duration_s": 690,
+                "duration_f": "11:30"
+            },
+            {
+                "title": "QRYP",
+                "endpoint": "/audio/track?albumId=DUG034&trackNo=8",
+                "duration_s": 561,
+                "duration_f": "09:21"
+            },
+            {
+                "title": "LOEV",
+                "endpoint": "/audio/track?albumId=DUG034&trackNo=9",
+                "duration_s": 334,
+                "duration_f": "05:34"
+            },
+            {
+                "title": "YELO",
+                "endpoint": "/audio/track?albumId=DUG034&trackNo=10",
+                "duration_s": 721,
+                "duration_f": "12:01"
+            }
+        ],
         "type": "album"
     },
     {
@@ -869,6 +1632,98 @@
             "date": "2018-10-15T22:00:00.000Z"
         },
         "title": "Isyiau",
+        "tracklist": [
+            {
+                "title": "၂┌ᴜᔭ┘ᴜ",
+                "endpoint": "/audio/track?albumId=DUG033&trackNo=1",
+                "duration_s": 90,
+                "duration_f": "01:30"
+            },
+            {
+                "title": "ᔮ╔c",
+                "endpoint": "/audio/track?albumId=DUG033&trackNo=2",
+                "duration_s": 409,
+                "duration_f": "06:49"
+            },
+            {
+                "title": "ᔪ└ᴜᔭ┘၂╓",
+                "endpoint": "/audio/track?albumId=DUG033&trackNo=3",
+                "duration_s": 284,
+                "duration_f": "04:44"
+            },
+            {
+                "title": "ᔮ┐ᔮu┌┘ᔪ└",
+                "endpoint": "/audio/track?albumId=DUG033&trackNo=4",
+                "duration_s": 475,
+                "duration_f": "07:55"
+            },
+            {
+                "title": "ᔭ၂┌ᔭxᔪ",
+                "endpoint": "/audio/track?albumId=DUG033&trackNo=5",
+                "duration_s": 374,
+                "duration_f": "06:14"
+            },
+            {
+                "title": "╚╓uᴜՇ၂┌ᔫ",
+                "endpoint": "/audio/track?albumId=DUG033&trackNo=6",
+                "duration_s": 260,
+                "duration_f": "04:20"
+            },
+            {
+                "title": "ꞷ",
+                "endpoint": "/audio/track?albumId=DUG033&trackNo=7",
+                "duration_s": 272,
+                "duration_f": "04:32"
+            },
+            {
+                "title": "ᔮ└ᔪꞷ˧╓ᔫ",
+                "endpoint": "/audio/track?albumId=DUG033&trackNo=8",
+                "duration_s": 397,
+                "duration_f": "06:37"
+            },
+            {
+                "title": "uՇ╜ᔮ ၂Շ╜ᔮ",
+                "endpoint": "/audio/track?albumId=DUG033&trackNo=9",
+                "duration_s": 222,
+                "duration_f": "03:42"
+            },
+            {
+                "title": "┌Շ၂┌ᔭ",
+                "endpoint": "/audio/track?albumId=DUG033&trackNo=10",
+                "duration_s": 312,
+                "duration_f": "05:12"
+            },
+            {
+                "title": "ᴜ၂┘└cu ꞷ┘כ",
+                "endpoint": "/audio/track?albumId=DUG033&trackNo=11",
+                "duration_s": 146,
+                "duration_f": "02:26"
+            },
+            {
+                "title": "└၂ᔭ┘ꞷ ꞷ╓╓uꞷᔪ╚u Շᴜ┘ᔫ",
+                "endpoint": "/audio/track?albumId=DUG033&trackNo=12",
+                "duration_s": 575,
+                "duration_f": "09:35"
+            },
+            {
+                "title": "c┘ᔫᴜ╓ Є╓ᴜ┌ᔮ",
+                "endpoint": "/audio/track?albumId=DUG033&trackNo=13",
+                "duration_s": 456,
+                "duration_f": "07:36"
+            },
+            {
+                "title": "└ᴜ +x ၂┘ᔫ",
+                "endpoint": "/audio/track?albumId=DUG033&trackNo=14",
+                "duration_s": 343,
+                "duration_f": "05:43"
+            },
+            {
+                "title": "┌ꞷ˧└┐",
+                "endpoint": "/audio/track?albumId=DUG033&trackNo=15",
+                "duration_s": 240,
+                "duration_f": "04:00"
+            }
+        ],
         "type": "album"
     },
     {
@@ -929,6 +1784,7 @@
             "date": "2018-08-23T22:00:00.000Z"
         },
         "title": "Separation Newdrum",
+        "tracklist": [],
         "type": "ep"
     },
     {
@@ -988,6 +1844,50 @@
             "date": "2018-07-14T22:00:00.000Z"
         },
         "title": "Moosic",
+        "tracklist": [
+            {
+                "title": "carnation",
+                "endpoint": "/audio/track?albumId=DUG032&trackNo=1",
+                "duration_s": 362,
+                "duration_f": "06:02"
+            },
+            {
+                "title": "ice day",
+                "endpoint": "/audio/track?albumId=DUG032&trackNo=2",
+                "duration_s": 430,
+                "duration_f": "07:10"
+            },
+            {
+                "title": "noon",
+                "endpoint": "/audio/track?albumId=DUG032&trackNo=3",
+                "duration_s": 121,
+                "duration_f": "02:01"
+            },
+            {
+                "title": "tacos",
+                "endpoint": "/audio/track?albumId=DUG032&trackNo=4",
+                "duration_s": 328,
+                "duration_f": "05:28"
+            },
+            {
+                "title": "x factor 2",
+                "endpoint": "/audio/track?albumId=DUG032&trackNo=5",
+                "duration_s": 312,
+                "duration_f": "05:12"
+            },
+            {
+                "title": "broke",
+                "endpoint": "/audio/track?albumId=DUG032&trackNo=6",
+                "duration_s": 436,
+                "duration_f": "07:16"
+            },
+            {
+                "title": "jordan",
+                "endpoint": "/audio/track?albumId=DUG032&trackNo=7",
+                "duration_s": 409,
+                "duration_f": "06:49"
+            }
+        ],
         "type": "album"
     },
     {
@@ -1040,6 +1940,80 @@
             "date": "2017-05-24T22:00:00.000Z"
         },
         "title": "Bird in a Cave (echo)",
+        "tracklist": [
+            {
+                "title": "Battle",
+                "endpoint": "/audio/track?albumId=DUG031&trackNo=1",
+                "duration_s": 268,
+                "duration_f": "04:28"
+            },
+            {
+                "title": ")Lou(Kas",
+                "endpoint": "/audio/track?albumId=DUG031&trackNo=2",
+                "duration_s": 230,
+                "duration_f": "03:50"
+            },
+            {
+                "title": "Zzoolloo",
+                "endpoint": "/audio/track?albumId=DUG031&trackNo=3",
+                "duration_s": 227,
+                "duration_f": "03:47"
+            },
+            {
+                "title": "(passage 1)",
+                "endpoint": "/audio/track?albumId=DUG031&trackNo=4",
+                "duration_s": 23,
+                "duration_f": "00:23"
+            },
+            {
+                "title": "Blind",
+                "endpoint": "/audio/track?albumId=DUG031&trackNo=5",
+                "duration_s": 176,
+                "duration_f": "02:56"
+            },
+            {
+                "title": "Glowworm",
+                "endpoint": "/audio/track?albumId=DUG031&trackNo=6",
+                "duration_s": 241,
+                "duration_f": "04:01"
+            },
+            {
+                "title": "miles",
+                "endpoint": "/audio/track?albumId=DUG031&trackNo=7",
+                "duration_s": 152,
+                "duration_f": "02:32"
+            },
+            {
+                "title": "(passage 2)",
+                "endpoint": "/audio/track?albumId=DUG031&trackNo=8",
+                "duration_s": 38,
+                "duration_f": "00:38"
+            },
+            {
+                "title": "There is no Light",
+                "endpoint": "/audio/track?albumId=DUG031&trackNo=9",
+                "duration_s": 235,
+                "duration_f": "03:55"
+            },
+            {
+                "title": "bayou sau",
+                "endpoint": "/audio/track?albumId=DUG031&trackNo=10",
+                "duration_s": 461,
+                "duration_f": "07:41"
+            },
+            {
+                "title": "Potion+",
+                "endpoint": "/audio/track?albumId=DUG031&trackNo=11",
+                "duration_s": 116,
+                "duration_f": "01:56"
+            },
+            {
+                "title": "Savecrystal",
+                "endpoint": "/audio/track?albumId=DUG031&trackNo=12",
+                "duration_s": 460,
+                "duration_f": "07:40"
+            }
+        ],
         "type": "album"
     },
     {
@@ -1095,6 +2069,74 @@
             "date": "2017-05-11T22:00:00.000Z"
         },
         "title": "Friends Fever",
+        "tracklist": [
+            {
+                "title": "The Snail",
+                "endpoint": "/audio/track?albumId=DUG030&trackNo=1",
+                "duration_s": 208,
+                "duration_f": "03:28"
+            },
+            {
+                "title": "Death by Silence",
+                "endpoint": "/audio/track?albumId=DUG030&trackNo=2",
+                "duration_s": 154,
+                "duration_f": "02:34"
+            },
+            {
+                "title": "Newage Scum",
+                "endpoint": "/audio/track?albumId=DUG030&trackNo=3",
+                "duration_s": 259,
+                "duration_f": "04:19"
+            },
+            {
+                "title": "Ruining Everything",
+                "endpoint": "/audio/track?albumId=DUG030&trackNo=4",
+                "duration_s": 223,
+                "duration_f": "03:43"
+            },
+            {
+                "title": "Separation Newdrum (Transcribing the Echo)",
+                "endpoint": "/audio/track?albumId=DUG030&trackNo=5",
+                "duration_s": 435,
+                "duration_f": "07:15"
+            },
+            {
+                "title": "i love you",
+                "endpoint": "/audio/track?albumId=DUG030&trackNo=6",
+                "duration_s": 174,
+                "duration_f": "02:54"
+            },
+            {
+                "title": "Friends Forever",
+                "endpoint": "/audio/track?albumId=DUG030&trackNo=7",
+                "duration_s": 378,
+                "duration_f": "06:18"
+            },
+            {
+                "title": "La Diluvo",
+                "endpoint": "/audio/track?albumId=DUG030&trackNo=8",
+                "duration_s": 97,
+                "duration_f": "01:37"
+            },
+            {
+                "title": "Beehive",
+                "endpoint": "/audio/track?albumId=DUG030&trackNo=9",
+                "duration_s": 223,
+                "duration_f": "03:43"
+            },
+            {
+                "title": "Crustacean (Grow Up)",
+                "endpoint": "/audio/track?albumId=DUG030&trackNo=10",
+                "duration_s": 289,
+                "duration_f": "04:49"
+            },
+            {
+                "title": "Santa Sangre",
+                "endpoint": "/audio/track?albumId=DUG030&trackNo=11",
+                "duration_s": 295,
+                "duration_f": "04:55"
+            }
+        ],
         "type": "album"
     },
     {
@@ -1150,6 +2192,50 @@
             "date": "2016-11-13T23:00:00.000Z"
         },
         "title": "Loukas 1",
+        "tracklist": [
+            {
+                "title": "dead dog",
+                "endpoint": "/audio/track?albumId=DUG029&trackNo=1",
+                "duration_s": 327,
+                "duration_f": "05:27"
+            },
+            {
+                "title": "elephant",
+                "endpoint": "/audio/track?albumId=DUG029&trackNo=2",
+                "duration_s": 295,
+                "duration_f": "04:55"
+            },
+            {
+                "title": "waterfall",
+                "endpoint": "/audio/track?albumId=DUG029&trackNo=3",
+                "duration_s": 250,
+                "duration_f": "04:10"
+            },
+            {
+                "title": "malt liquor",
+                "endpoint": "/audio/track?albumId=DUG029&trackNo=4",
+                "duration_s": 479,
+                "duration_f": "07:59"
+            },
+            {
+                "title": "tree",
+                "endpoint": "/audio/track?albumId=DUG029&trackNo=5",
+                "duration_s": 130,
+                "duration_f": "02:10"
+            },
+            {
+                "title": "weapon",
+                "endpoint": "/audio/track?albumId=DUG029&trackNo=6",
+                "duration_s": 375,
+                "duration_f": "06:15"
+            },
+            {
+                "title": "hcruins9m",
+                "endpoint": "/audio/track?albumId=DUG029&trackNo=7",
+                "duration_s": 101,
+                "duration_f": "01:41"
+            }
+        ],
         "type": "mini-album"
     },
     {
@@ -1202,6 +2288,80 @@
             "date": "2016-07-16T22:00:00.000Z"
         },
         "title": "Bird in a Cave",
+        "tracklist": [
+            {
+                "title": "Battle",
+                "endpoint": "/audio/track?albumId=DUG028&trackNo=1",
+                "duration_s": 232,
+                "duration_f": "03:52"
+            },
+            {
+                "title": "Save Crystal",
+                "endpoint": "/audio/track?albumId=DUG028&trackNo=2",
+                "duration_s": 274,
+                "duration_f": "04:34"
+            },
+            {
+                "title": "Sightless Flight",
+                "endpoint": "/audio/track?albumId=DUG028&trackNo=3",
+                "duration_s": 268,
+                "duration_f": "04:28"
+            },
+            {
+                "title": "Bird in a Cave",
+                "endpoint": "/audio/track?albumId=DUG028&trackNo=4",
+                "duration_s": 114,
+                "duration_f": "01:54"
+            },
+            {
+                "title": "Gloworm",
+                "endpoint": "/audio/track?albumId=DUG028&trackNo=5",
+                "duration_s": 266,
+                "duration_f": "04:26"
+            },
+            {
+                "title": "Sixty Miles",
+                "endpoint": "/audio/track?albumId=DUG028&trackNo=6",
+                "duration_s": 242,
+                "duration_f": "04:02"
+            },
+            {
+                "title": "Theme of Cave",
+                "endpoint": "/audio/track?albumId=DUG028&trackNo=7",
+                "duration_s": 416,
+                "duration_f": "06:56"
+            },
+            {
+                "title": "Chewed Leg",
+                "endpoint": "/audio/track?albumId=DUG028&trackNo=8",
+                "duration_s": 140,
+                "duration_f": "02:20"
+            },
+            {
+                "title": "Potion",
+                "endpoint": "/audio/track?albumId=DUG028&trackNo=9",
+                "duration_s": 168,
+                "duration_f": "02:48"
+            },
+            {
+                "title": "Zolo",
+                "endpoint": "/audio/track?albumId=DUG028&trackNo=10",
+                "duration_s": 279,
+                "duration_f": "04:39"
+            },
+            {
+                "title": "Remember the Light",
+                "endpoint": "/audio/track?albumId=DUG028&trackNo=11",
+                "duration_s": 201,
+                "duration_f": "03:21"
+            },
+            {
+                "title": "Kas",
+                "endpoint": "/audio/track?albumId=DUG028&trackNo=12",
+                "duration_s": 471,
+                "duration_f": "07:51"
+            }
+        ],
         "type": "album"
     },
     {
@@ -1254,6 +2414,44 @@
             "date": "2015-12-31T23:00:00.000Z"
         },
         "title": "Ow Cute",
+        "tracklist": [
+            {
+                "title": "aw cute demo",
+                "endpoint": "/audio/track?albumId=DUG027b&trackNo=1",
+                "duration_s": 235,
+                "duration_f": "03:55"
+            },
+            {
+                "title": "i know i am",
+                "endpoint": "/audio/track?albumId=DUG027b&trackNo=2",
+                "duration_s": 323,
+                "duration_f": "05:23"
+            },
+            {
+                "title": "aw cute demo",
+                "endpoint": "/audio/track?albumId=DUG027b&trackNo=3",
+                "duration_s": 153,
+                "duration_f": "02:33"
+            },
+            {
+                "title": "warren wilson college",
+                "endpoint": "/audio/track?albumId=DUG027b&trackNo=4",
+                "duration_s": 870,
+                "duration_f": "14:30"
+            },
+            {
+                "title": "glass heart",
+                "endpoint": "/audio/track?albumId=DUG027b&trackNo=5",
+                "duration_s": 203,
+                "duration_f": "03:23"
+            },
+            {
+                "title": "aw cute demo",
+                "endpoint": "/audio/track?albumId=DUG027b&trackNo=6",
+                "duration_s": 238,
+                "duration_f": "03:58"
+            }
+        ],
         "type": "ep"
     },
     {
@@ -1313,6 +2511,92 @@
             "date": "2015-11-30T23:00:00.000Z"
         },
         "title": "Aw Cute",
+        "tracklist": [
+            {
+                "title": "Aww",
+                "endpoint": "/audio/track?albumId=DUG027&trackNo=1",
+                "duration_s": 39,
+                "duration_f": "00:39"
+            },
+            {
+                "title": "aw cute",
+                "endpoint": "/audio/track?albumId=DUG027&trackNo=2",
+                "duration_s": 297,
+                "duration_f": "04:57"
+            },
+            {
+                "title": "explore with me",
+                "endpoint": "/audio/track?albumId=DUG027&trackNo=3",
+                "duration_s": 214,
+                "duration_f": "03:34"
+            },
+            {
+                "title": "when youre sad",
+                "endpoint": "/audio/track?albumId=DUG027&trackNo=4",
+                "duration_s": 158,
+                "duration_f": "02:38"
+            },
+            {
+                "title": "grief",
+                "endpoint": "/audio/track?albumId=DUG027&trackNo=5",
+                "duration_s": 173,
+                "duration_f": "02:53"
+            },
+            {
+                "title": "together",
+                "endpoint": "/audio/track?albumId=DUG027&trackNo=6",
+                "duration_s": 254,
+                "duration_f": "04:14"
+            },
+            {
+                "title": "dont need them",
+                "endpoint": "/audio/track?albumId=DUG027&trackNo=7",
+                "duration_s": 260,
+                "duration_f": "04:20"
+            },
+            {
+                "title": "not friends",
+                "endpoint": "/audio/track?albumId=DUG027&trackNo=8",
+                "duration_s": 445,
+                "duration_f": "07:25"
+            },
+            {
+                "title": "(untrue bayou)",
+                "endpoint": "/audio/track?albumId=DUG027&trackNo=9",
+                "duration_s": 186,
+                "duration_f": "03:06"
+            },
+            {
+                "title": "loon",
+                "endpoint": "/audio/track?albumId=DUG027&trackNo=10",
+                "duration_s": 271,
+                "duration_f": "04:31"
+            },
+            {
+                "title": "birds",
+                "endpoint": "/audio/track?albumId=DUG027&trackNo=11",
+                "duration_s": 196,
+                "duration_f": "03:16"
+            },
+            {
+                "title": "ishikawa",
+                "endpoint": "/audio/track?albumId=DUG027&trackNo=12",
+                "duration_s": 200,
+                "duration_f": "03:20"
+            },
+            {
+                "title": "youre like me",
+                "endpoint": "/audio/track?albumId=DUG027&trackNo=13",
+                "duration_s": 600,
+                "duration_f": "10:00"
+            },
+            {
+                "title": "no homo",
+                "endpoint": "/audio/track?albumId=DUG027&trackNo=14",
+                "duration_s": 179,
+                "duration_f": "02:59"
+            }
+        ],
         "type": "album"
     },
     {
@@ -1364,6 +2648,7 @@
             "date": "2014-07-20T22:00:00.000Z"
         },
         "title": "Lucoizo",
+        "tracklist": [],
         "type": "album"
     },
     {
@@ -1425,6 +2710,80 @@
             "date": "2014-03-06T23:00:00.000Z"
         },
         "title": "Gabaraptor",
+        "tracklist": [
+            {
+                "title": "Edge of Dishonesty",
+                "endpoint": "/audio/track?albumId=DUG025&trackNo=1",
+                "duration_s": 151,
+                "duration_f": "02:31"
+            },
+            {
+                "title": "Typal",
+                "endpoint": "/audio/track?albumId=DUG025&trackNo=2",
+                "duration_s": 260,
+                "duration_f": "04:20"
+            },
+            {
+                "title": "Mana",
+                "endpoint": "/audio/track?albumId=DUG025&trackNo=3",
+                "duration_s": 134,
+                "duration_f": "02:14"
+            },
+            {
+                "title": "My Angel",
+                "endpoint": "/audio/track?albumId=DUG025&trackNo=4",
+                "duration_s": 418,
+                "duration_f": "06:58"
+            },
+            {
+                "title": "Laundry Day",
+                "endpoint": "/audio/track?albumId=DUG025&trackNo=5",
+                "duration_s": 97,
+                "duration_f": "01:37"
+            },
+            {
+                "title": "Seventynine",
+                "endpoint": "/audio/track?albumId=DUG025&trackNo=6",
+                "duration_s": 171,
+                "duration_f": "02:51"
+            },
+            {
+                "title": "Feelsame",
+                "endpoint": "/audio/track?albumId=DUG025&trackNo=7",
+                "duration_s": 173,
+                "duration_f": "02:53"
+            },
+            {
+                "title": "Oolong Boogie",
+                "endpoint": "/audio/track?albumId=DUG025&trackNo=8",
+                "duration_s": 272,
+                "duration_f": "04:32"
+            },
+            {
+                "title": "Dictator",
+                "endpoint": "/audio/track?albumId=DUG025&trackNo=9",
+                "duration_s": 181,
+                "duration_f": "03:01"
+            },
+            {
+                "title": "Bablon",
+                "endpoint": "/audio/track?albumId=DUG025&trackNo=10",
+                "duration_s": 236,
+                "duration_f": "03:56"
+            },
+            {
+                "title": "Karob",
+                "endpoint": "/audio/track?albumId=DUG025&trackNo=11",
+                "duration_s": 388,
+                "duration_f": "06:28"
+            },
+            {
+                "title": "Mayaug",
+                "endpoint": "/audio/track?albumId=DUG025&trackNo=12",
+                "duration_s": 109,
+                "duration_f": "01:49"
+            }
+        ],
         "type": "album"
     },
     {
@@ -1478,6 +2837,7 @@
             "date": "2014-03-06T23:00:00.000Z"
         },
         "title": "Paranoid Cartoons",
+        "tracklist": [],
         "type": "album"
     },
     {
@@ -1539,6 +2899,7 @@
             "date": "2013-11-06T23:00:00.000Z"
         },
         "title": "Feeder",
+        "tracklist": [],
         "type": "album"
     },
     {
@@ -1596,6 +2957,122 @@
             "date": "2013-07-26T22:00:00.000Z"
         },
         "title": "Volt Welve",
+        "tracklist": [
+            {
+                "title": "realm1.3",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=1",
+                "duration_s": 97,
+                "duration_f": "01:37"
+            },
+            {
+                "title": "Lovesong",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=2",
+                "duration_s": 268,
+                "duration_f": "04:28"
+            },
+            {
+                "title": "percjam",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=3",
+                "duration_s": 60,
+                "duration_f": "01:00"
+            },
+            {
+                "title": "Karob",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=4",
+                "duration_s": 212,
+                "duration_f": "03:32"
+            },
+            {
+                "title": "Bablon",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=5",
+                "duration_s": 408,
+                "duration_f": "06:48"
+            },
+            {
+                "title": "shortsong(nerve)",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=6",
+                "duration_s": 58,
+                "duration_f": "00:58"
+            },
+            {
+                "title": "Weathervein",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=7",
+                "duration_s": 410,
+                "duration_f": "06:50"
+            },
+            {
+                "title": "echogore",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=8",
+                "duration_s": 114,
+                "duration_f": "01:54"
+            },
+            {
+                "title": "Nohom",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=9",
+                "duration_s": 231,
+                "duration_f": "03:51"
+            },
+            {
+                "title": "scord",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=10",
+                "duration_s": 35,
+                "duration_f": "00:35"
+            },
+            {
+                "title": "porch2",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=11",
+                "duration_s": 163,
+                "duration_f": "02:43"
+            },
+            {
+                "title": "ambi",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=12",
+                "duration_s": 48,
+                "duration_f": "00:48"
+            },
+            {
+                "title": "soul.harm",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=13",
+                "duration_s": 167,
+                "duration_f": "02:47"
+            },
+            {
+                "title": "Nikrosis",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=14",
+                "duration_s": 229,
+                "duration_f": "03:49"
+            },
+            {
+                "title": "Tapyoka",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=15",
+                "duration_s": 318,
+                "duration_f": "05:18"
+            },
+            {
+                "title": "_typal",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=16",
+                "duration_s": 73,
+                "duration_f": "01:13"
+            },
+            {
+                "title": "on Mountain",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=17",
+                "duration_s": 291,
+                "duration_f": "04:51"
+            },
+            {
+                "title": "Bossnova",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=18",
+                "duration_s": 290,
+                "duration_f": "04:50"
+            },
+            {
+                "title": "Epilog(mlear)",
+                "endpoint": "/audio/track?albumId=DUG022&trackNo=19",
+                "duration_s": 170,
+                "duration_f": "02:50"
+            }
+        ],
         "type": "album"
     },
     {
@@ -1652,6 +3129,152 @@
             "date": "2012-11-06T23:00:00.000Z"
         },
         "title": "Feeble",
+        "tracklist": [
+            {
+                "title": "Intro (No Car)",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=1",
+                "duration_s": 132,
+                "duration_f": "02:12"
+            },
+            {
+                "title": "Bug",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=2",
+                "duration_s": 213,
+                "duration_f": "03:33"
+            },
+            {
+                "title": "Worshipers",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=3",
+                "duration_s": 116,
+                "duration_f": "01:56"
+            },
+            {
+                "title": "Carbon",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=4",
+                "duration_s": 77,
+                "duration_f": "01:17"
+            },
+            {
+                "title": "Sucralose",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=5",
+                "duration_s": 135,
+                "duration_f": "02:15"
+            },
+            {
+                "title": "Door",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=6",
+                "duration_s": 201,
+                "duration_f": "03:21"
+            },
+            {
+                "title": "Dying by Day",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=7",
+                "duration_s": 114,
+                "duration_f": "01:54"
+            },
+            {
+                "title": "Surviving by Night",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=8",
+                "duration_s": 93,
+                "duration_f": "01:33"
+            },
+            {
+                "title": "Flat Tire",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=9",
+                "duration_s": 144,
+                "duration_f": "02:24"
+            },
+            {
+                "title": "A Different Country on Another Planet",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=10",
+                "duration_s": 136,
+                "duration_f": "02:16"
+            },
+            {
+                "title": "Away Out",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=11",
+                "duration_s": 110,
+                "duration_f": "01:50"
+            },
+            {
+                "title": "So Tired",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=12",
+                "duration_s": 224,
+                "duration_f": "03:44"
+            },
+            {
+                "title": "Resonator   Steinway",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=13",
+                "duration_s": 388,
+                "duration_f": "06:28"
+            },
+            {
+                "title": "Tuna",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=14",
+                "duration_s": 175,
+                "duration_f": "02:55"
+            },
+            {
+                "title": "Chordata",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=15",
+                "duration_s": 131,
+                "duration_f": "02:11"
+            },
+            {
+                "title": "Takers",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=16",
+                "duration_s": 153,
+                "duration_f": "02:33"
+            },
+            {
+                "title": "Limit",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=17",
+                "duration_s": 174,
+                "duration_f": "02:54"
+            },
+            {
+                "title": "Angry Lives",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=18",
+                "duration_s": 241,
+                "duration_f": "04:01"
+            },
+            {
+                "title": "Breathing Bad for the Lungs",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=19",
+                "duration_s": 225,
+                "duration_f": "03:45"
+            },
+            {
+                "title": "Feeble in the Biome",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=20",
+                "duration_s": 206,
+                "duration_f": "03:26"
+            },
+            {
+                "title": "R.I.P.",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=21",
+                "duration_s": 186,
+                "duration_f": "03:06"
+            },
+            {
+                "title": "Common DNA",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=22",
+                "duration_s": 230,
+                "duration_f": "03:50"
+            },
+            {
+                "title": "Gold Dirge",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=23",
+                "duration_s": 203,
+                "duration_f": "03:23"
+            },
+            {
+                "title": "Birdlime",
+                "endpoint": "/audio/track?albumId=DUG021&trackNo=24",
+                "duration_s": 203,
+                "duration_f": "03:23"
+            }
+        ],
         "type": "album"
     },
     {
@@ -1703,6 +3326,7 @@
             "date": "2012-09-04T22:00:00.000Z"
         },
         "title": "Language from the Grip",
+        "tracklist": [],
         "type": "album"
     },
     {
@@ -1762,6 +3386,7 @@
             "date": "2012-06-30T22:00:00.000Z"
         },
         "title": "Camel 2",
+        "tracklist": [],
         "type": "mini-album"
     },
     {
@@ -1813,6 +3438,7 @@
             "date": "2012-01-31T23:00:00.000Z"
         },
         "title": "Videogame Soundtrack",
+        "tracklist": [],
         "type": "album"
     },
     {
@@ -1864,6 +3490,7 @@
             "date": "2012-01-17T23:00:00.000Z"
         },
         "title": "Untrue/Parrot",
+        "tracklist": [],
         "type": "album"
     },
     {
@@ -1915,6 +3542,7 @@
             "date": "2011-12-11T23:00:00.000Z"
         },
         "title": "Landing",
+        "tracklist": [],
         "type": "mini-album"
     },
     {
@@ -1966,6 +3594,7 @@
             "date": "2011-07-10T22:00:00.000Z"
         },
         "title": "Corecore",
+        "tracklist": [],
         "type": "album"
     },
     {
@@ -2017,6 +3646,7 @@
             "date": "2010-05-14T22:00:00.000Z"
         },
         "title": "Kondo Split",
+        "tracklist": [],
         "type": "split"
     },
     {
@@ -2068,6 +3698,7 @@
             "date": "2010-04-01T22:00:00.000Z"
         },
         "title": "Every Machine On",
+        "tracklist": [],
         "type": "album"
     },
     {
@@ -2119,6 +3750,7 @@
             "date": "2010-02-13T23:00:00.000Z"
         },
         "title": "Stoner",
+        "tracklist": [],
         "type": "album"
     },
     {
@@ -2170,6 +3802,7 @@
             "date": "2009-12-31T23:00:00.000Z"
         },
         "title": "Colossus Archosaur",
+        "tracklist": [],
         "type": "album"
     },
     {
@@ -2220,6 +3853,7 @@
             "date": "2009-01-01T00:00:00.000Z"
         },
         "title": "Provenance Fen",
+        "tracklist": [],
         "type": "compilation"
     },
     {
@@ -2270,6 +3904,7 @@
             "date": "2008-01-01T00:00:00.000Z"
         },
         "title": "Primeval Dross",
+        "tracklist": [],
         "type": "compilation"
     }
 ]

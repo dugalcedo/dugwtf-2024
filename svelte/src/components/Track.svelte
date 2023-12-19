@@ -9,10 +9,10 @@
     let trackLoading
     let track = {
         fetched: false,
-        playing: false,
+        playing: false
     }
 
-    let duration = '--:--'
+    let duration = "--:-- / --:--"
 
     async function readyTrack() {
         if (track.fetched) return
@@ -23,9 +23,6 @@
         track.dug = dug
         track.onsignal = () => {
             track = track
-        }
-        track.ontime = (display) => {
-            duration = display
         }
         trackLoading = false
         ///////////////////////////////
@@ -52,7 +49,9 @@
 <div class="dug_track">
     <div>{i+1}</div>
     <div>{trackTitle}</div>
-    <div>{duration}</div>
+    <div>
+        {duration}
+    </div>
     <button on:click={handlePlayBtn}>
         {#if trackLoading}
             ...

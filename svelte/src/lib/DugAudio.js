@@ -1,3 +1,6 @@
+import memo from "./memo.js"
+import { dugMemo } from "./api.js"
+
 const pad0 = n => n < 10 ? "0"+n : n
 
 const displayTime = t => {
@@ -19,23 +22,13 @@ class DugAudio {
         this.fetched = true
         DugAudio.all.push(this)
 
-        this.interval = null
-
         this.onsignal = () => {}
-        this.ontime = () => {}
     }
 
-    // current time
-    get ct() {return displayTime(this.audio.currentTime)}
-    // duration
-    get d() {return displayTime(this.audio.duration)}
-    // display time
-    get timeDisplay() {return `${this.ct} / ${this.d}`}
 
     play() {
         this.pauseOthers()
         this.audio.play()
-        this.trackTime()
         this.playing = true
         this.onsignal()
     }
@@ -49,7 +42,6 @@ class DugAudio {
 
     rewind() {
         this.audio.currentTime = 0
-        this.emitTimeDisplay()
     }
 
     addToQueue() {
@@ -75,12 +67,6 @@ class DugAudio {
             }
         })
     }
-
-    trackTime() {
-        this.interval = setInterval(this.emitTimeDisplay.bind(this), 500)
-    }
-
-    emitTimeDisplay() {this.ontime(this.timeDisplay)}
 }
 
 export default DugAudio

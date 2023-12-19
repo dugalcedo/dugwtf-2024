@@ -19,7 +19,7 @@
                     dugs: data.filter(d => d.year === year)
                 })
             })
-            console.log(dugYears)
+            // console.log(dugYears)
         })
 </script>
 

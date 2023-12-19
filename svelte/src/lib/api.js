@@ -69,9 +69,16 @@ async function getTracklist(albumId) {
     return dugFetchMemo(`/audio/tracklist?albumId=${albumId}`, albumId)
 }
 
+async function getTrackTime(albumId, i) {
+    console.log(memo)
+    return dugMemo(`time:${albumId}-${i}`, async () => "--:-- / --:--")
+}
+
 export {
     getDugs,
     getDug,
     getTrack,
-    getTracklist
+    getTracklist,
+    dugMemo,
+    getTrackTime
 }
