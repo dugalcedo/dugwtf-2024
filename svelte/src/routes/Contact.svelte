@@ -24,8 +24,13 @@
             </td>
             <td>
                 {#if copyable}
-                    <button class="copy" style="grid-column-start: 4;">
-                        📋
+                    <button class="copy" style="grid-column-start: 4;"
+                    on:click={()=>{
+                        navigator.clipboard.writeText(value)
+                        
+                    }}
+                    >
+                        copy
                     </button>
                 {/if}
             </td>

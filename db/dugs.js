@@ -21,6 +21,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG043",
         "idno": 43,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "75 minutes",
@@ -40,6 +41,7 @@ export default [
             "display": "golden, colorado and täby, sweden"
         },
         "lyrics": [],
+        "prev": 42.02,
         "recorded": {
             "display": "2021",
             "date": "2021-01-01T00:00:00.000Z"
@@ -201,7 +203,7 @@ export default [
         "artist": "Dew for Slug",
         "bc": {
             "id": "2686980342",
-            "link": "https://dugalcedo.bandcamp.com/album/i-15-dream"
+            "link": "https://pelagoramrecordings.bandcamp.com/album/i-15-dream"
         },
         "cover": {
             "desc": "album cover of 'I-15 Dream' by 'Dew for Slug'",
@@ -227,6 +229,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG042c",
         "idno": 42.02,
+        "label": "pelagoram",
         "len": {
             "duration": {
                 "display": "33 minutes",
@@ -247,6 +250,8 @@ export default [
             "display": "tacoma, washington; lakewood, colorado and golden, colorado"
         },
         "lyrics": [],
+        "next": 43,
+        "prev": 42.01,
         "recorded": {
             "display": "2020",
             "date": "2020-01-01T00:00:00.000Z"
@@ -256,7 +261,68 @@ export default [
             "date": "2021-10-30T22:00:00.000Z"
         },
         "title": "I-15 Dream",
-        "tracklist": [],
+        "tracklist": [
+            {
+                "title": "Opening Move",
+                "endpoint": "/audio/track?albumId=DUG042c&trackNo=1",
+                "duration_s": 209,
+                "duration_f": "03:29"
+            },
+            {
+                "title": "Night Ride to Lehi",
+                "endpoint": "/audio/track?albumId=DUG042c&trackNo=2",
+                "duration_s": 166,
+                "duration_f": "02:46"
+            },
+            {
+                "title": "Unpacking the Bags",
+                "endpoint": "/audio/track?albumId=DUG042c&trackNo=3",
+                "duration_s": 135,
+                "duration_f": "02:15"
+            },
+            {
+                "title": "Sleeping Soundly",
+                "endpoint": "/audio/track?albumId=DUG042c&trackNo=4",
+                "duration_s": 162,
+                "duration_f": "02:42"
+            },
+            {
+                "title": "You Don't Smoke Anymore",
+                "endpoint": "/audio/track?albumId=DUG042c&trackNo=5",
+                "duration_s": 193,
+                "duration_f": "03:13"
+            },
+            {
+                "title": "Chosen Children",
+                "endpoint": "/audio/track?albumId=DUG042c&trackNo=6",
+                "duration_s": 280,
+                "duration_f": "04:40"
+            },
+            {
+                "title": "Serving the Lord in a Maverick Shop",
+                "endpoint": "/audio/track?albumId=DUG042c&trackNo=7",
+                "duration_s": 165,
+                "duration_f": "02:45"
+            },
+            {
+                "title": "Spliff Refrain",
+                "endpoint": "/audio/track?albumId=DUG042c&trackNo=8",
+                "duration_s": 216,
+                "duration_f": "03:36"
+            },
+            {
+                "title": "High School Memory 1",
+                "endpoint": "/audio/track?albumId=DUG042c&trackNo=9",
+                "duration_s": 301,
+                "duration_f": "05:01"
+            },
+            {
+                "title": "People Like U and Me",
+                "endpoint": "/audio/track?albumId=DUG042c&trackNo=10",
+                "duration_s": 134,
+                "duration_f": "02:14"
+            }
+        ],
         "type": "album"
     },
     {
@@ -281,6 +347,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG042b",
         "idno": 42.01,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "14 minutes",
@@ -299,6 +366,8 @@ export default [
             "display": "golden, colorado"
         },
         "lyrics": [],
+        "next": 42.02,
+        "prev": 42,
         "recorded": {
             "display": "2021.06",
             "date": "2021-05-31T22:00:00.000Z"
@@ -337,6 +406,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG042",
         "idno": 42,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "65 minutes",
@@ -355,6 +425,8 @@ export default [
             "display": "golden, colorado"
         },
         "lyrics": [],
+        "next": 42.01,
+        "prev": 41.01,
         "recorded": {
             "display": "winter 2021 to spring 2021",
             "date": null
@@ -466,6 +538,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG041b",
         "idno": 41.01,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "16 minutes",
@@ -484,6 +557,8 @@ export default [
             "display": "golden, colorado"
         },
         "lyrics": [],
+        "next": 42,
+        "prev": 41,
         "recorded": {
             "display": "fall 2020",
             "date": "2019-12-31T23:00:00.000Z"
@@ -518,6 +593,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG041",
         "idno": 41,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "39 minutes",
@@ -536,6 +612,8 @@ export default [
             "display": "golden, colorado"
         },
         "lyrics": [],
+        "next": 41.01,
+        "prev": 40.01,
         "recorded": {
             "display": "2020.09 to 2020.10",
             "date": null
@@ -619,6 +697,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG040b",
         "idno": 40.01,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "8 minutes",
@@ -637,6 +716,8 @@ export default [
             "display": "golden, colorado"
         },
         "lyrics": [],
+        "next": 41,
+        "prev": 40,
         "recorded": {
             "display": "2020.08 to 2020.09",
             "date": null
@@ -671,6 +752,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG040",
         "idno": 40,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "35 minutes",
@@ -689,6 +771,8 @@ export default [
             "display": "golden, colorado"
         },
         "lyrics": [],
+        "next": 40.01,
+        "prev": 39,
         "recorded": {
             "display": "2020.07 to 2020.08",
             "date": null
@@ -798,6 +882,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG039",
         "idno": 39,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "73 minutes",
@@ -817,6 +902,8 @@ export default [
             "display": "lakewood, colorado and golden, colorado"
         },
         "lyrics": [],
+        "next": 40,
+        "prev": 38,
         "recorded": {
             "display": "winter 2020 to summer 2020",
             "date": null
@@ -966,6 +1053,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG038",
         "idno": 38,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "44 minutes",
@@ -984,6 +1072,8 @@ export default [
             "display": "lakewood, colorado"
         },
         "lyrics": [],
+        "next": 39,
+        "prev": 37,
         "recorded": {
             "display": "2019.11 to 2019.12",
             "date": null
@@ -1093,6 +1183,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG037",
         "idno": 37,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "50 minutes",
@@ -1111,6 +1202,8 @@ export default [
             "display": "lakewood, colorado"
         },
         "lyrics": [],
+        "next": 38,
+        "prev": 36.01,
         "recorded": {
             "display": "2019.07 to 2019.10",
             "date": null
@@ -1210,6 +1303,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG036b",
         "idno": 36.01,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "35 minutes",
@@ -1228,6 +1322,8 @@ export default [
             "display": "lakewood, colorado"
         },
         "lyrics": [],
+        "next": 37,
+        "prev": 36,
         "recorded": {
             "display": "summer 2018 to fall 2019",
             "date": null
@@ -1266,6 +1362,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG036",
         "idno": 36,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "29 minutes",
@@ -1284,6 +1381,8 @@ export default [
             "display": "lakewood, colorado"
         },
         "lyrics": [],
+        "next": 36.01,
+        "prev": 35,
         "recorded": {
             "display": "2019.04 to 2019.07",
             "date": null
@@ -1393,6 +1492,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG035",
         "idno": 35,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "38 minutes",
@@ -1411,6 +1511,8 @@ export default [
             "display": "lakewood, colorado"
         },
         "lyrics": [],
+        "next": 36,
+        "prev": 34,
         "recorded": {
             "display": "2019.03",
             "date": "2019-02-28T23:00:00.000Z"
@@ -1488,6 +1590,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG034",
         "idno": 34,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "99 minutes",
@@ -1506,6 +1609,8 @@ export default [
             "display": "lakewood, colorado"
         },
         "lyrics": [],
+        "next": 35,
+        "prev": 33,
         "recorded": {
             "display": "2018.10 to 2019.02",
             "date": null
@@ -1605,6 +1710,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG033",
         "idno": 33,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "81 minutes",
@@ -1623,6 +1729,8 @@ export default [
             "display": "lakewood, colorado"
         },
         "lyrics": [],
+        "next": 34,
+        "prev": 32.01,
         "recorded": {
             "display": "2018.07 to 2018.10",
             "date": null
@@ -1756,6 +1864,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG032b",
         "idno": 32.01,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "29 minutes",
@@ -1775,6 +1884,8 @@ export default [
             "display": "cathedral city, california and lakewood, colorado"
         },
         "lyrics": [],
+        "next": 33,
+        "prev": 32,
         "recorded": {
             "display": "2017",
             "date": "2017-01-01T00:00:00.000Z"
@@ -1817,6 +1928,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG032",
         "idno": 32,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "44 minutes",
@@ -1835,6 +1947,8 @@ export default [
             "display": "lakewood, colorado"
         },
         "lyrics": [],
+        "next": 32.01,
+        "prev": 31,
         "recorded": {
             "display": "2017.12 to 2018.07",
             "date": null
@@ -1912,6 +2026,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG031",
         "idno": 31,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "44 minutes",
@@ -1931,6 +2046,8 @@ export default [
             "display": "borrego spings, california and cathedral city, california"
         },
         "lyrics": [],
+        "next": 32,
+        "prev": 30,
         "recorded": {
             "display": "2016",
             "date": "2016-01-01T00:00:00.000Z"
@@ -1978,7 +2095,7 @@ export default [
                 "duration_f": "04:01"
             },
             {
-                "title": "miles",
+                "title": " sixty miles",
                 "endpoint": "/audio/track?albumId=DUG031&trackNo=7",
                 "duration_s": 152,
                 "duration_f": "02:32"
@@ -2042,6 +2159,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG030",
         "idno": 30,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "46 minutes",
@@ -2060,6 +2178,8 @@ export default [
             "display": "cathedral city, california"
         },
         "lyrics": [],
+        "next": 31,
+        "prev": 29,
         "recorded": {
             "display": "2016.12 to 2017.05",
             "date": null
@@ -2165,6 +2285,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG029",
         "idno": 29,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "33 minutes",
@@ -2183,6 +2304,8 @@ export default [
             "display": "cathedral city, california"
         },
         "lyrics": [],
+        "next": 30,
+        "prev": 28,
         "recorded": {
             "display": "fall 2016",
             "date": "2015-12-31T23:00:00.000Z"
@@ -2260,6 +2383,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG028",
         "idno": 28,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "51 minutes",
@@ -2279,6 +2403,8 @@ export default [
             "display": "borrego spings, california and cathedral city, california"
         },
         "lyrics": [],
+        "next": 29,
+        "prev": 27.01,
         "recorded": {
             "display": "2016.01 to 2016.06",
             "date": null
@@ -2386,6 +2512,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG027b",
         "idno": 27.01,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "34 minutes",
@@ -2405,6 +2532,8 @@ export default [
             "display": "asheville, north carolina and borrego spings, california"
         },
         "lyrics": [],
+        "next": 28,
+        "prev": 27,
         "recorded": {
             "display": "2014",
             "date": "2014-01-01T00:00:00.000Z"
@@ -2484,6 +2613,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG027",
         "idno": 27,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "58 minutes",
@@ -2502,6 +2632,8 @@ export default [
             "display": "borrego spings, california"
         },
         "lyrics": [],
+        "next": 27.01,
+        "prev": 26,
         "recorded": {
             "display": "2015",
             "date": "2015-01-01T00:00:00.000Z"
@@ -2621,6 +2753,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG026",
         "idno": 26,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "74 minutes",
@@ -2639,6 +2772,8 @@ export default [
             "display": "asheville, north carolina"
         },
         "lyrics": [],
+        "next": 27,
+        "prev": 25,
         "recorded": {
             "display": "2014.04 to 2014.07",
             "date": null
@@ -2681,6 +2816,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG025",
         "idno": 25,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "43 minutes",
@@ -2701,6 +2837,8 @@ export default [
             "display": "san diego, california; woodfin, north carolina and asheville, north carolina"
         },
         "lyrics": [],
+        "next": 26,
+        "prev": 24,
         "recorded": {
             "display": "2012",
             "date": "2012-01-01T00:00:00.000Z"
@@ -2808,6 +2946,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG024",
         "idno": 24,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "38 minutes",
@@ -2828,6 +2967,8 @@ export default [
             "display": "murrieta, california; san diego, california and asheville, north carolina"
         },
         "lyrics": [],
+        "next": 25,
+        "prev": 23,
         "recorded": {
             "display": "2011",
             "date": "2011-01-01T00:00:00.000Z"
@@ -2870,6 +3011,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG023",
         "idno": 23,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "73 minutes",
@@ -2890,6 +3032,8 @@ export default [
             "display": "murrieta, california; san diego, california and woodfin, north carolina"
         },
         "lyrics": [],
+        "next": 24,
+        "prev": 22,
         "recorded": {
             "display": "2012.09 to 2012.11",
             "date": null
@@ -2928,6 +3072,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG022",
         "idno": 22,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "73 minutes",
@@ -2948,6 +3093,8 @@ export default [
             "display": "san diego, california; asheville, north carolina and woodfin, north carolina"
         },
         "lyrics": [],
+        "next": 23,
+        "prev": 21,
         "recorded": {
             "display": "2013.04 to 2013.07",
             "date": null
@@ -3101,6 +3248,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG021",
         "idno": 21,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "70 minutes",
@@ -3120,6 +3268,8 @@ export default [
             "display": "murrieta, california and san diego, california"
         },
         "lyrics": [],
+        "next": 22,
+        "prev": 20,
         "recorded": {
             "display": "2012.09 to 2012.11",
             "date": null
@@ -3299,6 +3449,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG020",
         "idno": 20,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "35 minutes",
@@ -3317,6 +3468,8 @@ export default [
             "display": "murrieta, california"
         },
         "lyrics": [],
+        "next": 21,
+        "prev": 19,
         "recorded": {
             "display": "2012.07 to 2012.08",
             "date": null
@@ -3359,6 +3512,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG019",
         "idno": 19,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "32 minutes",
@@ -3377,6 +3531,8 @@ export default [
             "display": "murrieta, california"
         },
         "lyrics": [],
+        "next": 20,
+        "prev": 18,
         "recorded": {
             "display": "summer 2012",
             "date": "2011-12-31T23:00:00.000Z"
@@ -3411,6 +3567,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG018",
         "idno": 18,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "83 minutes",
@@ -3429,6 +3586,8 @@ export default [
             "display": "murrieta, california"
         },
         "lyrics": [],
+        "next": 19,
+        "prev": 17,
         "recorded": {
             "display": "2012.01",
             "date": "2011-12-31T23:00:00.000Z"
@@ -3463,6 +3622,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG017",
         "idno": 17,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "57 minutes",
@@ -3481,6 +3641,8 @@ export default [
             "display": "murrieta, california"
         },
         "lyrics": [],
+        "next": 18,
+        "prev": 16,
         "recorded": {
             "display": "fall 2011 to winter 2012",
             "date": null
@@ -3515,6 +3677,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG016",
         "idno": 16,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "24 minutes",
@@ -3533,6 +3696,8 @@ export default [
             "display": "murrieta, california"
         },
         "lyrics": [],
+        "next": 17,
+        "prev": 15,
         "recorded": {
             "display": "fall 2011",
             "date": "2010-12-31T23:00:00.000Z"
@@ -3567,6 +3732,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG015",
         "idno": 15,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "57 minutes",
@@ -3585,6 +3751,8 @@ export default [
             "display": "temecula, california"
         },
         "lyrics": [],
+        "next": 16,
+        "prev": 13.01,
         "recorded": {
             "display": "spring 2011 to summer 2011",
             "date": null
@@ -3619,6 +3787,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG013b",
         "idno": 13.01,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "45 minutes",
@@ -3637,6 +3806,8 @@ export default [
             "display": "cody, wyoming"
         },
         "lyrics": [],
+        "next": 15,
+        "prev": 13,
         "recorded": {
             "display": "spring 2010",
             "date": "2009-12-31T23:00:00.000Z"
@@ -3671,6 +3842,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG013",
         "idno": 13,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "45 minutes",
@@ -3689,6 +3861,8 @@ export default [
             "display": "cody, wyoming"
         },
         "lyrics": [],
+        "next": 13.01,
+        "prev": 12,
         "recorded": {
             "display": "winter 2010 to spring 2010",
             "date": null
@@ -3723,6 +3897,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG012",
         "idno": 12,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "53 minutes",
@@ -3741,6 +3916,8 @@ export default [
             "display": "cody, wyoming"
         },
         "lyrics": [],
+        "next": 13,
+        "prev": 11,
         "recorded": {
             "display": "winter 2010",
             "date": "2009-12-31T23:00:00.000Z"
@@ -3775,6 +3952,7 @@ export default [
         "hasBirthday": true,
         "id": "DUG011",
         "idno": 11,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "73 minutes",
@@ -3793,6 +3971,8 @@ export default [
             "display": "cody, wyoming"
         },
         "lyrics": [],
+        "next": 12,
+        "prev": 0.01,
         "recorded": {
             "display": "fall 2009 to end of 2010",
             "date": null
@@ -3826,6 +4006,7 @@ export default [
         "desc": "",
         "id": "DUG000b",
         "idno": 0.01,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "131 minutes",
@@ -3844,6 +4025,8 @@ export default [
             "display": "cody, wyoming"
         },
         "lyrics": [],
+        "next": 11,
+        "prev": 0,
         "recorded": {
             "display": "2009",
             "date": "2009-01-01T00:00:00.000Z"
@@ -3877,6 +4060,7 @@ export default [
         "desc": "",
         "id": "DUG000a",
         "idno": 0,
+        "label": "chewed leg",
         "len": {
             "duration": {
                 "display": "64 minutes",
@@ -3895,6 +4079,7 @@ export default [
             "display": "cody, wyoming"
         },
         "lyrics": [],
+        "next": 0.01,
         "recorded": {
             "display": "2008",
             "date": "2008-01-01T00:00:00.000Z"

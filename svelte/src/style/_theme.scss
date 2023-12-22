@@ -1,13 +1,26 @@
+:root {
+    --light: rgb(240, 240, 240);
+    --rgb-light: 240, 240, 240;
+    --dark: rgb(22, 22, 22);
+    --rgb-dark: 22, 22, 22;
+}
+
 html.light {
-    --bg: white;
-    --text: black;
+    --bg: var(--light);
+    --rgb-bg: var(--rgb-light);
+    --rgb-text: var(--rgb-dark);
+    --text: var(--dark);
     --invertFromLight: 1;
     --invertFromDark: 0;
+    --dug: #0a9c6b;
 }
 
 html.dark {
-    --bg: black;
-    --text: white;
+    --bg: var(--dark);
+    --text: var(--light);
+    --rgb-text: var(--rgb-light);
+    --rgb-bg: var(--rgb-dark);
     --invertFromLight: 0;
     --invertFromDark: 1;
+    --dug: aquamarine;
 }

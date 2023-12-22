@@ -1,65 +1,72 @@
 <script>
-    import { getTrack } from "../lib/api.js"
+    import { getDugTrack } from "../lib/api.js"
 
-    export let dug
-    const albumId = dug.id
+    export let track
     export let i
-    export let trackTitle
+    export let dug
 
-    let trackLoading
-    let track = {
-        fetched: false,
-        playing: false
-    }
+    let loaded
+    let dugTrack
 
-    let duration = "--:-- / --:--"
+    let time = `00:00 / --:--`
+    let p = 0
+    let playing = false
 
-    async function readyTrack() {
-        if (track.fetched) return
+    init()
 
-        // LOAD TRACK for FIRST TIME
-        trackLoading = true
-        track = await getTrack(albumId, i, trackTitle)
-        track.dug = dug
-        track.onsignal = () => {
-            track = track
+    async function init() {
+        const events = {
+            ontimechange: () => {
+                time = dugTrack.formattedTime
+                p = dugTrack.p
+            },
+            onplay: () => {
+                playing = true
+            },
+            onpause: () => {
+                playing = false
+            }
         }
-        trackLoading = false
-        ///////////////////////////////
-        
+        dugTrack = await getDugTrack(dug, track, i)
+        dugTrack.events = events
+        if (dugTrack.playing) {
+            playing = true
+            dugTrack.trackTime()
+        }
+        loaded = true
+        time = dugTrack.formattedTime
     }
 
     async function handlePlayBtn() {
-        await readyTrack()
-        // if already playing, PAUSE
-        if (track.playing) {
-            track.pause()
-        } else { // PLAY
-            track.play()
+        if (playing) {
+            dugTrack.pause()
+        } else {
+            dugTrack.play()
         }
     }
 
     async function handleQueueBtn() {
-        await readyTrack()
-        track.addToQueue()
+
     }
 
 </script>
 
-<div class="dug_track">
-    <div>{i+1}</div>
-    <div>{trackTitle}</div>
-    <div>
-        {duration}
+{#if loaded}
+    <div class="dug_track" class:active={playing}>
+        <div class="no">{i+1}</div>
+        <div class="title">{dugTrack.title}</div>
+        <div class="time">
+            {time}
+        </div>
+        <button on:click={handlePlayBtn} class="play">
+            {@html playing ? `&#x23F8;` : `&#x23F5;`}
+        </button>
+        <button on:click={handleQueueBtn} class="queue">
+            +
+        </button>
+
+        <div class="tracker" style="
+            width: {p}%;
+        "></div>
     </div>
-    <button on:click={handlePlayBtn}>
-        {#if trackLoading}
-            ...
-        {:else}
-             {@html track?.playing ? `⏸` : `&#9658;`}
-        {/if}
-    </button>
-    <button on:click={handleQueueBtn}>
-        +
-    </button>
-</div>
+{/if}

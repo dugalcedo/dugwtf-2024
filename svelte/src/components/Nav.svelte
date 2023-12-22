@@ -13,7 +13,7 @@
 
 </script>
 
-<nav>
+<nav id="main-nav">
     {#each router as route}
         <A href={route.path}>{route.linkText}</A>
     {/each}

@@ -40,24 +40,30 @@ const trackLength = (id, title) => {
     }
 }
 
-
-const newDugs = dugs.map(dug => {
-
-    dug.tracklist = []
-    try {
-        const tracks = readdirSync(`./db/audio/${dug.id}`)
-        tracks.forEach((title, i) => {
-            let durationData = trackLength(dug.id, title)
-            dug.tracklist.push({
-                title: trackToName(title),
-                endpoint: `/audio/track?albumId=${dug.id}&trackNo=${i+1}`,
-                ...durationData
-            })
+/* if (dug.id !== 'DUG042c') return dug
+dug.tracklist = []
+try {
+    const tracks = readdirSync(`./db/audio/${dug.id}`)
+    tracks.forEach((title, i) => {
+        let durationData = trackLength(dug.id, title)
+        dug.tracklist.push({
+            title: trackToName(title),
+            endpoint: `/audio/track?albumId=${dug.id}&trackNo=${i+1}`,
+            ...durationData
         })
-    } catch (error) {
-        
-    }
+    })
+} catch (error) {
+    
+} */
 
+const newDugs = dugs.map((dug, i) => {
+
+    if (dug.id == "DUG042c") {
+        dug.label = 'pelagoram'
+    } else {
+        dug.label = 'chewed leg'
+    }
+    
     return alphabetizeKeys(dug)
 })
 

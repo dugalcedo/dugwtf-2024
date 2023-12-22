@@ -5,7 +5,7 @@
     <div id="logo-container">
         <img src="/img/logo.png" alt="dug alcedo in scribbly writing" id="logo">
         <div id="subtitle">
-            electronic musician and web developer
+            electronic mooseician and web developer
         </div>
     </div>
 </header>

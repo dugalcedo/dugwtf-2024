@@ -9,6 +9,14 @@
 
     list-style: none;
     padding: 0;
+
+    @include media() {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @include media(400px) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .dug-year {
@@ -18,6 +26,10 @@
 .dug-year_dugs {
     list-style: none;
     padding-left: 0;
+
+    & >*:not(:last-child) {
+        margin-bottom: .25rem;
+    }
 }
 
 .dug-card {
@@ -26,9 +38,105 @@
     gap: .5rem;
     align-items: center;
 
+    border: 1px solid rgba(var(--rgb-text), 0.2);
+    border-radius: .5rem .25rem .5rem .25rem;
+    overflow: hidden;
+
     & img {
         width: 100%;
+        display: block;
         image-rendering: crisp-edges;
         border-radius: .5rem .25rem .5rem .25rem;
     }
+
+    &:hover, &:focus {
+        transform: scale(1.05);
+        border: 1px solid rgba(var(--rgb-text), 0.5);
+    }
+}
+
+.dug {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    gap: 1rem;
+
+    & > .left {
+        & nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            & a {
+                display: block;
+                padding: .5rem;
+            }
+        }
+        & .cover {
+            width: 100%;
+        }
+        & .info {
+            & > *:nth-child(n+3) {
+                font-size: 80%;
+            }
+            & > *:nth-child(n+5) {
+                font-size: 67%;
+            }
+        }
+        & .buy {
+            width: 100%;
+        }
+        & .credits {
+            & th {
+                background-color: rgba(var(--rgb-text), 0.2);
+            }
+            & tbody tr {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            & td {
+                border: 1px solid rgba(var(--rgb-text), 0.5);
+            }
+        }
+    }
+}
+
+.dug_tracklist {
+    & .dug_track {
+        display: grid;
+        grid-template-columns: 25px 3fr 1fr 25px 25px;
+        align-items: center;
+        margin-bottom: .25rem;
+        position: relative;
+
+        & > * {
+            &.time {
+                font-size: 70%;
+            }
+
+            &.play {
+                border-radius: .25rem 0 0 .25rem;
+            }
+
+            &.queue {
+                border-radius: 0 .25rem .25rem 0;
+            }
+
+            &.tracker {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 3px;
+                background-color: var(--dug);
+            }
+        }
+
+        &.active {
+            font-weight: 900;
+            @include outlineText();
+        }
+    }
+}
+
+.dug {
+    @include limitWidth(800px);
 }

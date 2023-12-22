@@ -1,8 +1,6 @@
 import memo from "./memo.js"
-import DugAudio from "./DugAudio.js"
-
-const DEV = true
-const ROOT = DEV ? "http://localhost:4321/api" : "https://dug.wtf/api"
+import DugTrack from './DugTrack.js'
+import { ROOT } from './lib.js'
 
 async function dugFetch(endpoint, options = {}) {
     const res = await fetch(ROOT+endpoint)
@@ -35,20 +33,8 @@ async function dugMemo(key, asyncCallback) {
 }
 
 
-async function dugFetchMemo(endpoint, key, options = {}) {
-    return dugMemo(key, async () => dugFetch(endpoint, options))
-}
-
-
-
-async function createDugAudio(endpoint, trackNo, trackTitle) {
-    const audio = new DugAudio(endpoint, trackNo, trackTitle)
-    return audio
-}
-
-async function dugAudioMemo(albumId, trackNo, trackTitle) {
-    let endpoint = ROOT + `/audio/track?albumId=${albumId}&trackNo=${trackNo}`
-    return dugMemo(endpoint, async () => createDugAudio(endpoint, trackNo, trackTitle))
+async function dugFetchMemo(endpoint, options = {}) {
+    return dugMemo(`fetch:${endpoint}`, async () => dugFetch(endpoint, options))
 }
 
 async function getDugs(full = true) {
@@ -60,25 +46,17 @@ async function getDug(idno) {
     return dugs.find(dug => dug.idno === idno)
 }
 
-async function getTrack(albumId, trackIndex, trackTitle) {
-    return dugAudioMemo(albumId, trackIndex+1, trackTitle)
+async function getDugTrack(dug, track, i) {
+    const dugTrackId = `track:${dug.id}/${i}/${track.title}`
+    return dugMemo(dugTrackId, async () => new DugTrack(dug, track, dugTrackId, i))
 }
 
-async function getTracklist(albumId) {
-    // console.log("Fetching tracklist")
-    return dugFetchMemo(`/audio/tracklist?albumId=${albumId}`, albumId)
-}
 
-async function getTrackTime(albumId, i) {
-    console.log(memo)
-    return dugMemo(`time:${albumId}-${i}`, async () => "--:-- / --:--")
-}
 
 export {
     getDugs,
     getDug,
-    getTrack,
-    getTracklist,
     dugMemo,
-    getTrackTime
+    dugFetchMemo,
+    getDugTrack
 }

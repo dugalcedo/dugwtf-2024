@@ -1,3 +1,5 @@
+@use 'util' as *;
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -9,12 +11,16 @@
 
 * {
     font-family: 'Syne', monospace;
-    color: var(--text);
+
+    &:focus {
+        outline: 2px solid var(--dug);
+    }
 }
 
 body {
     background-color: var(--bg);
     padding: 1rem;
+    color: var(--text);
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
@@ -23,10 +29,12 @@ body, h1, h2, h3, h4, h5, h6, p {
 
 a {
     text-decoration: none;
+    color: var(--dug);
 }
 
 a:hover {
     text-decoration: underline;
+    @include outlineText(var(--dug));
 }
 
 button, input {

@@ -10,7 +10,10 @@
         component = router.find(r => r.path === location.pathname)?.component
         if (!component) {
             if (location.pathname.startsWith('/music')) {
-                component = Dug
+                component = null
+                setTimeout(() => {
+                    component = Dug
+                }, 100)
             } else {
                 component = NotFound
             }
@@ -21,4 +24,6 @@
     window.addEventListener('popstate', findRoute)
 </script>
 
-<svelte:component this={component} />
+{#if component}
+    <svelte:component this={component} />
+{/if}
