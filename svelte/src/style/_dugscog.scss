@@ -71,6 +71,13 @@
                 padding: .5rem;
             }
         }
+        & .buttons {
+            display: grid;
+
+            & .buy {
+                width: 100%;
+            }
+        }
         & .cover {
             width: 100%;
         }
@@ -81,9 +88,6 @@
             & > *:nth-child(n+5) {
                 font-size: 67%;
             }
-        }
-        & .buy {
-            width: 100%;
         }
         & .credits {
             & th {
@@ -103,7 +107,7 @@
 .dug_tracklist {
     & .dug_track {
         display: grid;
-        grid-template-columns: 25px 3fr 1fr 25px 25px;
+        grid-template-columns: 25px 25px 25px 3fr 1fr;
         align-items: center;
         margin-bottom: .25rem;
         position: relative;

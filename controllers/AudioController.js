@@ -1,6 +1,7 @@
 import { Router } from "express"
 import { missingFields, serverError } from "../lib/util.js"
 import { readdirSync, statSync, createReadStream } from "fs"
+import dugs from "../db/dugs.js"
 
 const AudioController = Router()
 
@@ -8,6 +9,29 @@ const trackName = fileName => {
     fileName = fileName.replace(/\d+\s/g, "")
     return fileName.replace('.mp3','')
 }
+
+const dugsPicks = [
+    ["040", 2], // prune
+    ["042c", 4], // sleeping soundly
+    ["027", 2], // aw cute
+    ["041", 8], // comber
+    ["042", 8], // extensive tapes
+    ["039", 12], // aaek ooruzz
+    ["038", 10], // acre crumb
+    ["037", 1], // starship comino
+    ["036", 5], // wd nin wehi
+    ["035", 3], // light in darkness
+    ["034", 8], // QRYP
+    ["033", 12], // arcoss celestail pnod
+    ["032", 1], // carnation
+    ["030", 11], // santa sangre
+    ["029", 1], // dead dog
+    ["028", 1], // battle
+    ["027b", 6], // aw cute demo
+    ["025", 5], // laundry day
+    ["022", 15], // tapyoka
+    ["021", 12], // so tired
+]
 
 AudioController.get('/track', (req, res) => {
     if (missingFields(req.query, ['albumId', 'trackNo'])) {
@@ -52,6 +76,18 @@ AudioController.get('/tracklist', (req, res) => {
         console.log(error)
         res.status(404).send("Album not found.")
     }
+})
+
+AudioController.get('/picks', (req, res) => {
+    const picks = []
+    dugsPicks.forEach(([_id, trackNo], i) => {
+        const album = dugs.find(d => d.id === `DUG${_id}`)
+        const track = album.tracklist[trackNo-1]
+        track.artist = album.artist
+        track.album = album.title
+        picks.push(track)
+    })
+    res.json(picks)
 })
 
 export default AudioController

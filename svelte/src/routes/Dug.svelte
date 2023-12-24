@@ -3,7 +3,8 @@
     import DugInfo from "../components/DugInfo.svelte";
     import LoadingDots from "../components/LoadingDots.svelte";
     import Tracklist from "../components/Tracklist.svelte";
-    import { getDug } from "../lib/api.js"
+    import { getDug, getAllDugTracksFromOneRelease } from "../lib/api.js"
+    import DugTrack from "../lib/DugTrack.js"
 
     let idno = Number(location.pathname.slice(7))
     let dug
@@ -14,6 +15,12 @@
         dug = data
     }
 
+    async function handlePlayAll() {
+        let tracks = await getAllDugTracksFromOneRelease(dug)
+        tracks[0].play()
+        DugTrack.queue.push(...tracks)
+        // DugTrack.logQueue()
+    }
 
 </script>
 
@@ -33,9 +40,19 @@
             <a href={dug.cover.l} target="_blank" title="click to download hi-res">
                 <img src={dug.cover.s} alt={dug.cover.desc} class="cover">
             </a>
-            <a href="{dug.bc.link}" target="_blank">
-                <button class="buy">BUY / DOWNLOAD</button>
-            </a>
+
+            <!-- BUTTONS -->
+            <div class="buttons"
+            style="grid-template-columns: repeat({dug.tracklist.length ? 2 : 1} ,1fr)"
+            >
+                {#if dug.tracklist.length}
+                <button class="play" on:click={handlePlayAll}>PLAY ALL</button>
+                {/if}
+                <a href="{dug.bc.link}" target="_blank">
+                    <button class="buy">BUY / DOWNLOAD</button>
+                </a>
+            </div>
+
             <DugInfo {dug} />
         </div>
         <div class="right">

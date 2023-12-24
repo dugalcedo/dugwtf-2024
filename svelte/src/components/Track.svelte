@@ -53,17 +53,17 @@
 
 {#if loaded}
     <div class="dug_track" class:active={playing}>
-        <div class="no">{i+1}</div>
-        <div class="title">{dugTrack.title}</div>
-        <div class="time">
-            {time}
-        </div>
         <button on:click={handlePlayBtn} class="play">
             {@html playing ? `&#x23F8;` : `&#x23F5;`}
         </button>
         <button on:click={handleQueueBtn} class="queue">
             +
         </button>
+        <div class="no">{i+1}</div>
+        <div class="title">{dugTrack.title}</div>
+        <div class="time">
+            {time}
+        </div>
 
         <div class="tracker" style="
             width: {p}%;

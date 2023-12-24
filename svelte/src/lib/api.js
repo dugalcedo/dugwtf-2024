@@ -51,12 +51,20 @@ async function getDugTrack(dug, track, i) {
     return dugMemo(dugTrackId, async () => new DugTrack(dug, track, dugTrackId, i))
 }
 
-
+async function getAllDugTracksFromOneRelease(dug) {
+    let tracks = []
+    for (let i = 0; i < dug.tracklist.length; i++) {
+        let track = await getDugTrack(dug, dug.tracklist[i], i)
+        tracks.push(track)
+    }
+    return tracks
+}
 
 export {
     getDugs,
     getDug,
     dugMemo,
     dugFetchMemo,
-    getDugTrack
+    getDugTrack,
+     getAllDugTracksFromOneRelease
 }
