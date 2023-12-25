@@ -68,7 +68,11 @@
         <div id="player">
             <div class="info" use:handleTrackerClick>
                 <div class="title">
+                    {#if current.dug.artist != 'Dug Alcedo'}
+                        {current.dug.artist} -
+                    {/if}
                     {current.title}
+                    <em>({current.dug.title})</em>
                 </div>
                 <div class="time">
                     {time}
@@ -79,14 +83,14 @@
             </div>
             <div class="spacer"></div>
             <button on:click={()=>{handleAdjBtn("Prev")}}
-            disabled={!hasPrev}>
+            disabled={!hasPrev} class="prev">
                 {@html `&#x23EE;`}
             </button>
-            <button on:click={handlePlayBtn}>
+            <button on:click={handlePlayBtn} class="play">
                 {@html playing ? `&#x23F8`:`&#x23F5;`}
             </button>
             <button on:click={()=>{handleAdjBtn("Next")}}
-            disabled={!hasNext}>
+            disabled={!hasNext} class="next">
                 {@html `&#x23ED;`}
             </button>
         </div>

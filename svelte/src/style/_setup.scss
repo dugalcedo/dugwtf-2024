@@ -13,13 +13,12 @@
     font-family: 'Syne', monospace;
 
     &:focus {
-        outline: 2px solid var(--dug);
+        outline: 1px dashed var(--dug);
     }
 }
 
 body {
     background-color: var(--bg);
-    padding: 1rem;
     color: var(--text);
 }
 
@@ -45,6 +44,16 @@ button, input {
 
 button {
     cursor: pointer;
+    background-color: var(--med);
+    border: 3px outset var(--med);
+    color: var(--text);
+
+    &:hover {
+        filter: invert(1);
+    }
+    &:active {
+        border: 3px inset var(--dug);
+    }
 }
 
 ul {
@@ -64,6 +73,10 @@ html, body, #app {
     display: flex;
     flex-direction: column;
     overflow-y: hidden;
+}
+
+header, main {
+    padding: var(--body-padding);
 }
 
 main {

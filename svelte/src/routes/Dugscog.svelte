@@ -1,6 +1,7 @@
 <script>
     import DugCard from "../components/DugCard.svelte"
-    import { getDugs } from "../lib/api.js"
+    import { getDugs, dugFetchMemo, getDugTrack } from "../lib/api.js"
+    import DugTrack from "../lib/DugTrack.js"
     import LoadingDots from "../components/LoadingDots.svelte"
     let dugYears
     getDugs()
@@ -21,7 +22,12 @@
             })
             // console.log(dugYears)
         })
+
 </script>
+
+<button on:click={DugTrack.playDugsPicks} class="picks-btn">
+    play dug's picks
+</button>
 
 <ul class="dugscog">
     {#if !dugYears}

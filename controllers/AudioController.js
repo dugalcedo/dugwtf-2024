@@ -80,11 +80,13 @@ AudioController.get('/tracklist', (req, res) => {
 
 AudioController.get('/picks', (req, res) => {
     const picks = []
-    dugsPicks.forEach(([_id, trackNo], i) => {
+    dugsPicks.forEach(([_id, trackNo]) => {
         const album = dugs.find(d => d.id === `DUG${_id}`)
         const track = album.tracklist[trackNo-1]
+        track.i = trackNo-1
         track.artist = album.artist
         track.album = album.title
+        track.dugId = album.id
         picks.push(track)
     })
     res.json(picks)

@@ -1,5 +1,6 @@
 <script>
     import { getDugTrack } from "../lib/api.js"
+    import DugTrack from "../lib/DugTrack.js"
 
     export let track
     export let i
@@ -41,12 +42,13 @@
         if (playing) {
             dugTrack.pause()
         } else {
-            dugTrack.play()
+            DugTrack.queueAlbum(dug, i)
+            // dugTrack.play()
         }
     }
 
     async function handleQueueBtn() {
-
+        DugTrack.addToQueue(dugTrack)
     }
 
 </script>

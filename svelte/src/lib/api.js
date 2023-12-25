@@ -9,7 +9,12 @@ async function dugFetch(endpoint, options = {}) {
         const msg = await res.text()
         return msg
     }
-    const data = await res.json()
+    try {
+        var data = await res.json()
+    } catch (error) {
+        console.log(error, res)
+        return
+    }
     return data
 }
 

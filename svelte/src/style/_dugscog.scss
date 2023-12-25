@@ -1,5 +1,10 @@
 @use 'util' as *;
 
+.picks-btn {
+    width: 100%;
+}
+
+
 .dugscog {
     @include limitWidth(1000px, $center: false);
 
@@ -74,8 +79,12 @@
         & .buttons {
             display: grid;
 
+            & .play {
+                border-radius: .5rem 0 0 .5rem;
+            }
             & .buy {
                 width: 100%;
+                border-radius: 0 .5rem .5rem 0;
             }
         }
         & .cover {
@@ -107,7 +116,7 @@
 .dug_tracklist {
     & .dug_track {
         display: grid;
-        grid-template-columns: 25px 25px 25px 3fr 1fr;
+        grid-template-columns: repeat(3, 35px) 3fr 1fr;
         align-items: center;
         margin-bottom: .25rem;
         position: relative;
@@ -125,9 +134,14 @@
                 border-radius: 0 .25rem .25rem 0;
             }
 
+            &.no {
+                text-align: center;
+            }
+
             &.tracker {
                 position: absolute;
                 bottom: 0;
+                transform: translateY(100%);
                 width: 100%;
                 height: 3px;
                 background-color: var(--dug);

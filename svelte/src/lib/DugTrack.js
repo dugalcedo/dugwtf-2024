@@ -2,6 +2,7 @@ import memo from "./memo.js"
 import { pad0, displayTime } from "./lib.js"
 import { ROOT } from "./lib.js"
 import { getAllDugTracksFromOneRelease } from "./api.js"
+import { dugFetchMemo, getDugTrack } from "./api.js"
 
 class DugTrack {
     static all = []
@@ -13,6 +14,7 @@ class DugTrack {
     static getNext = () => DugTrack.queue[DugTrack.queuePosition+1]
     static getPrev = () => DugTrack.queue[DugTrack.queuePosition-1]
     static onplaypause = () => {}
+    static onqueue = () => {}
 
     static playAdjacent = function(nextOrPrev){
         DugTrack.nowPlaying.stop()
@@ -25,12 +27,13 @@ class DugTrack {
         }
     }
 
-    static queueAlbum = async function(dug) {
-        DugTrack.queue.splice(0)
+    static queueAlbum = async function(dug, i=0) {
+        DugTrack.queue = []
         let tracks = await getAllDugTracksFromOneRelease(dug)
-        DugTrack.queuePosition = DugTrack.queue.length
+        DugTrack.queuePosition = i
         DugTrack.queue.push(...tracks)
         DugTrack.queue[DugTrack.queuePosition].play()
+        DugTrack.onqueue(DugTrack.queue)
         // DugTrack.logQueue()
     }
 
@@ -40,6 +43,11 @@ class DugTrack {
             console.log(`* ${t.dug.artist} - ${t.track.title} - ${t.dug.title}`)
         })
         console.log("#####\n")
+    }
+
+    static addToQueue = function(track) {
+        DugTrack.queue.push(track)
+        DugTrack.onqueue(DugTrack.queue)
     }
 
     constructor(dug, track, dugTrackId, i) {
@@ -53,13 +61,6 @@ class DugTrack {
         this.timeTracker = null
         
         DugTrack.all.push(this)
-
-        this.addEventListener = function(eventName, callback) {
-            this[`on${eventName}`] = function(arg) {
-                this[`on${eventName}`](arg)
-                callback(arg)
-            }
-        }
     }
 
     get title() {
@@ -108,26 +109,33 @@ class DugTrack {
 
     unsetEvent(name) {console.warn(`Event "${name}" not set.`, this)}
 
+    on(eName) {
+        let fn = this[`on${eName}`]
+        if (fn) fn()
+    }
+
     play() {
         this.pauseAllOthers()
         this.audio.play()
         DugTrack.nowPlaying = this
         this.trackTime()
-        this.onplay()
+        this.on('play')
         DugTrack.onTrackChange(this)
         DugTrack.onplaypause(this)
+        DugTrack.onqueue(DugTrack.queue)
     }
 
     pause() {
         this.audio.pause()
-        this.onpause()
+        this.on('pause')
         DugTrack.onplaypause(this)
+        DugTrack.onqueue(DugTrack.queue)
     }
 
     stop() {
         this.audio.pause()
         this.audio.currentTime = 0
-        this.ontimechange()
+        this.on('timechange')
         clearInterval(this.timeTracker)
         DugTrack.onplaypause(this)
     }
@@ -138,7 +146,7 @@ class DugTrack {
                 clearInterval(this.timeTracker)
                 DugTrack.playAdjacent("Next")
             } else {
-                this.ontimechange()
+                this.on('timechange')
             }
         }, 250)
     }
@@ -157,6 +165,21 @@ class DugTrack {
 
     addToQueue() {
         DugTrack.queue.push(this)
+    }
+
+    static playDugsPicks = async function() {
+        let picks = await dugFetchMemo('/audio/picks') 
+        picks = await Promise.all(picks.map(async (t,i) => await getDugTrack(
+            {
+                id:t.dugId,
+                artist: t.artist,
+                title: t.album
+            },t,t.i
+            )))
+        DugTrack.queuePosition = 0
+        DugTrack.queue = picks
+        DugTrack.queue[0].play()
+        // console.log(picks)
     }
 }
 

@@ -16,9 +16,10 @@
     }
 
     async function handlePlayAll() {
-        let tracks = await getAllDugTracksFromOneRelease(dug)
-        tracks[0].play()
-        DugTrack.queue.push(...tracks)
+        DugTrack.queueAlbum(dug)
+        // let tracks = await getAllDugTracksFromOneRelease(dug)
+        // tracks[0].play()
+        // DugTrack.queue.push(...tracks)
         // DugTrack.logQueue()
     }
 

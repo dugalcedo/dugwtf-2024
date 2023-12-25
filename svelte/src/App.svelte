@@ -2,6 +2,7 @@
   import Footer from "./components/Footer.svelte";
   import Header from "./components/Header.svelte";
   import Nav from "./components/Nav.svelte"
+  import Queue from "./components/Queue.svelte";
   import Router from "./components/Router.svelte";
 
 
@@ -16,3 +17,5 @@
 </main>
 
 <Footer />
+
+<Queue />

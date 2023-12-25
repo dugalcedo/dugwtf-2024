@@ -1,9 +1,13 @@
+@use 'util' as *;
+
 #player {
     position: relative;
+
     cursor: pointer;
     user-select: none;
 
-    border: 1px solid black;
+    background-color: var(--text);
+    color: var(--bg);
     padding: .25rem;
 
     display: flex;
@@ -21,5 +25,54 @@
         height: 100%;
         opacity: .33;
         background-color: var(--dug);
+    }
+
+    & button.prev {
+        border-radius: .5rem 0 0 .5rem;
+    }
+    & button.play {
+        border-radius: 0;
+    }
+    & button.next {
+        border-radius: 0 .5rem .5rem 0;
+    }
+}
+
+#queue {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+    font-size: 67%;
+    transform: translateY(0);
+    transition: transform 125ms;
+
+    &.hidden {
+        transform: translateY(calc(-100% + 3rem));
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    & button {
+        font-size: 100%;
+        padding: .25rem;
+        background-color: transparent;
+        color: var(--text);
+        border: 0;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    padding: 1rem;
+    background-image: linear-gradient(90deg, transparent, rgba(var(--rgb-text), 0.2));
+
+    & .track {
+        &.active {
+            @include outlineText(var(--dug));
+        }
     }
 }
