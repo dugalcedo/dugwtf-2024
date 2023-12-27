@@ -1,17 +1,18 @@
-import { MONGO, DOMAIN } from '../lib/env.js'
-import { msg } from '../lib/util.js'
-import mongoose from 'mongoose'
+// const { MONGO, DOMAIN } = require('../lib/env.js')
+const { DOMAIN } = require('../lib/env.js')
+const { msg } = require('../lib/util.js')
+// const mongoose = require('mongoose')
 
-mongoose.connect(MONGO)
-    .then(conn => {
-        global.conn = conn
-        msg.success(`Connected to mongodb.`)
-    })
-    .catch(err => {
-        msg.error.full(`Error connecting to mongodb.`, err)
-    })
+// mongoose.connect(MONGO)
+//     .then(conn => {
+//         global.conn = conn
+//         msg.success(`Connected to mongodb.`)
+//     })
+//     .catch(err => {
+//         msg.error.full(`Error connecting to mongodb.`, err)
+//     })
 
-import dugs from './dugs.js'
+const dugs = require('./dugs.js')
 global.dugs = dugs
 global.dugsMini = dugs.map(minifyDug)
 

@@ -15,6 +15,7 @@
 
     function play(track) {
         track.play()
+        queue = DugTrack.queue
     }
 </script>
 
@@ -30,10 +31,10 @@
     {/each}
     <div class="controls">
         <button on:click={clearQueue}>
-            clear queue
+            🞮
         </button>
         <button on:click={()=>{hidden = !hidden}}>
-            {hidden ? "show" : "hide"} queue
+            {hidden ? "🠋" : "🠉"}
         </button>
     </div>
 </div>

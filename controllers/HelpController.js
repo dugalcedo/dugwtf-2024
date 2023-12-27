@@ -1,5 +1,5 @@
-import { ABS } from "../lib/env.js"
+const { ABS } = require ("../lib/env.js")
 
-export default function HelpController(req, res) {
+module.exports = function (req, res) {
     res.sendFile(ABS('/views/help/help.html'))
 }

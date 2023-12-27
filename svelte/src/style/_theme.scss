@@ -1,6 +1,8 @@
 :root {
     --light: rgb(240, 240, 240);
     --rgb-light: 240, 240, 240;
+    --lighter: white;
+    --rgb-lighter: 255, 255, 255;
     --dark: rgb(22, 22, 22);
     --rgb-dark: 22, 22, 22;
     --med-light: rgb(160, 160, 160);
@@ -10,6 +12,9 @@
 
     --body-padding: 0.5rem;
     --dug: #01bb7d;
+
+    --header-width: 700px;
+    --content-width: 1000px;
 }
 
 html.light {

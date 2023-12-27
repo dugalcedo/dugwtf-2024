@@ -82,4 +82,30 @@ header, main {
 main {
     flex-grow: 1;
     overflow-y: auto;
+    @include limitWidth(var(--content-width));
+    // @include limitWidth(var(--header-width));
+}
+
+.select {
+    position: relative;
+    & .head {
+        display: flex;
+        gap: .5rem;
+        border-radius: .5rem .5rem 0 .5rem;
+    }
+    & .options {
+        position: absolute;
+        right: 0;
+        z-index: 10;
+        display: none;
+
+        &.shown {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+        }
+        & button {
+            border-radius: 0;
+        }
+    }
 }

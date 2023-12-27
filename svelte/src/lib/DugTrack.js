@@ -15,6 +15,11 @@ class DugTrack {
     static getPrev = () => DugTrack.queue[DugTrack.queuePosition-1]
     static onplaypause = () => {}
     static onqueue = () => {}
+    static listen = (eventName, cb) => {
+        document.addEventListener(eventName, e => {
+            cb(e.detail)
+        })
+    }
 
     static playAdjacent = function(nextOrPrev){
         DugTrack.nowPlaying.stop()
@@ -50,6 +55,7 @@ class DugTrack {
         DugTrack.onqueue(DugTrack.queue)
     }
 
+    // CONSTRUCTOR
     constructor(dug, track, dugTrackId, i) {
         this.id = dugTrackId
         this.track = track
@@ -57,6 +63,10 @@ class DugTrack {
         this.i = i
 
         this.audio = new Audio(ROOT + track.endpoint)
+        this.audio.oncanplay = () => {
+            this.loaded = true
+            this.dispatch('dugcanplay')
+        }
 
         this.timeTracker = null
         
@@ -107,11 +117,28 @@ class DugTrack {
         this.audio.currentTime = n
     }
 
+    dispatch(eventName, details = {}) {
+        document.dispatchEvent(new CustomEvent(
+            eventName,
+            {detail: {
+                ...details,
+                target: this
+            }}
+        ))
+    }
+
     unsetEvent(name) {console.warn(`Event "${name}" not set.`, this)}
 
     on(eName) {
         let fn = this[`on${eName}`]
         if (fn) fn()
+    }
+
+    listen(eName, cb) {
+        document.addEventListener(eName, e => {
+            if (this !== e.detail.target) return
+            cb(e.detail)
+        })
     }
 
     play() {

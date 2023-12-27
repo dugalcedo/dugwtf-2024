@@ -1,25 +1,37 @@
 <script>
     import A from "./A.svelte"
     import router from "../lib/router.js"
+    import Select from "./Select.svelte";
 
     const themes = [
-        'light',
-        'dark'
+        'dark',
+        'light'
     ]
 
-    function changeTheme(e) {
-        document.documentElement.classList = e.target.value
+    const initialTheme = localStorage.getItem('dugwtf-theme') || 'dark'
+
+    function changeTheme(o) {
+        document.documentElement.classList = o
+        localStorage.setItem('dugwtf-theme', o)
     }
+
+    let vw = 0
 
 </script>
 
+<svelte:window bind:innerWidth={vw} />
+
 <nav id="main-nav">
-    {#each router as route}
-        <A href={route.path}>{route.linkText}</A>
-    {/each}
-    <select on:change={changeTheme}>
-        {#each themes as theme}
-            <option value={theme}>{theme}</option>
+
+    <!-- DESKTOP -->
+    {#if vw > 500}
+        {#each router as route}
+            <A href={route.path}>{route.linkText}</A>
         {/each}
-    </select>
+        <Select options={themes} initial={initialTheme} onchange={changeTheme} />
+    {:else}
+    <!-- MOBILE -->
+    {/if}
+
+
 </nav>

@@ -1,6 +1,7 @@
 import Home from '../routes/Home.svelte'
 import Contact from '../routes/Contact.svelte'
 import Dugscog from '../routes/Dugscog.svelte'
+import More from '../routes/More.svelte'
 
   /*
     MAIN rouutes
@@ -23,6 +24,11 @@ const router = [
         linkText: "contact",
         component: Contact,
         path: '/contact'
+    },
+    {
+        linkText: 'more',
+        component: More,
+        path: '/more'
     }
 ]
 

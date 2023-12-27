@@ -1,6 +1,7 @@
 <script>
     import { getDugTrack } from "../lib/api.js"
     import DugTrack from "../lib/DugTrack.js"
+    import LoadingDots from "./LoadingDots.svelte";
 
     let shown = false
     let current = null
@@ -11,9 +12,21 @@
     let hasPrev = true
     let hasNext = true
 
+    let canplay = false
+
     let playing = false
 
+    document.addEventListener('dugcanplay', ({detail}) => {
+        const {target} = detail
+        if (target == current) {
+            canplay = true
+        }
+    })
+
     DugTrack.onTrackChange = function(dugTrack) {
+        // console.log(dugTrack.audio.canplay)
+        // console.log('track changed...', dugTrack.title)
+        if (!dugTrack.loaded) canplay = false
         clearInterval(timeTracker)
         shown = true
         current = dugTrack
@@ -32,6 +45,7 @@
             shown = true
             time = current.formattedTime
             p = current.p
+            if (current.playing) canplay = true
         }, 250)
     }
 
@@ -67,18 +81,24 @@
     <div id="player-container">
         <div id="player">
             <div class="info" use:handleTrackerClick>
-                <div class="title">
-                    {#if current.dug.artist != 'Dug Alcedo'}
-                        {current.dug.artist} -
-                    {/if}
-                    {current.title}
-                    <em>({current.dug.title})</em>
-                </div>
-                <div class="time">
-                    {time}
-                </div>
+                {#if canplay}
+                <!-- INFO -->
+                    <div class="title">
+                        {#if current.dug.artist != 'Dug Alcedo'}
+                            {current.dug.artist} -
+                        {/if}
+                        {current.title}
+                        <em>({current.dug.title})</em>
+                    </div>
+                    <div class="time">
+                        {time}
+                    </div>
+                {:else}
+                    loading | please be patient
+                {/if}
+                <!-- TRACKER -->
                 <div class="tracker" style="
-                    width: {p}%;
+                    width: {p||0}%;
                 "></div>
             </div>
             <div class="spacer"></div>

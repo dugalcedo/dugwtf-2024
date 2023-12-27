@@ -9,5 +9,14 @@ export const displayTime = t => {
 }
 
 
-export const DEV = true
+// export const DEV = !location.href.includes('dug.wtf')
+export const DEV = false
 export const ROOT = DEV ? "http://localhost:4321/api" : "https://dug.wtf/api"
+
+export const onclickout = (node, cb) => {
+    document.addEventListener('click', e => {
+        if (e.target === node) return
+        if (node.contains(e.target)) return
+        cb(e)
+    })
+}

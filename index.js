@@ -1,21 +1,31 @@
-import { msg } from './lib/util.js'
-import { EXPRESS, APP, PORT, ABS } from './lib/env.js'
-import './db/db.js'
+const { msg } = require('./lib/util.js')
+const { EXPRESS, APP, PORT, ABS } = require('./lib/env.js')
+require('./db/db.js')
 
-import DugscogController from './controllers/DugscogController.js'
-import UserController from './controllers/UserController.js'
-import AudioController from './controllers/AudioController.js'
-import HelpController from './controllers/HelpController.js'
-import ForumController from './controllers/ForumController.js'
+const DugscogController = require('./controllers/DugscogController.js')
+// const UserController = require('./controllers/UserController.js')
+const AudioController = require('./controllers/AudioController.js')
+const HelpController = require('./controllers/HelpController.js')
+// const ForumController = require('./controllers/ForumController.js')
 
-APP.use('/api/dugscog', DugscogController)
-APP.use('/api/user', UserController)
-APP.use('/api/audio', AudioController)
-APP.use('/forum', ForumController)
-APP.use(EXPRESS.static('views'))
-APP.use('/api', HelpController)
-APP.get('*', (req, res) => {
-    res.sendFile(ABS('/views/index.html'))
+APP.use('*', (req, res, next) => {
+    console.log(`heard ${req.method} @ ${req.url}`)
+    next()
 })
 
-APP.listen(PORT, msg.big(`Now listening on port ${PORT}.\nhttp://localhost:${PORT}`,{color: 'cyan'}))
+APP.use('/api/dugscog', DugscogController)
+// APP.use('/api/user', UserController)
+APP.use('/api/audio', AudioController)
+// APP.use('/forum', ForumController)
+APP.use(EXPRESS.static('views'))
+APP.use('/api', HelpController)
+
+APP.get('/map', (req, res) => {
+    res.redirect('/img/map.jpg')
+})
+APP.get('*', (req, res) => {
+    res.sendFile(ABS('/views/index.html'))
+    // res.redirect('/')
+})
+
+APP.listen(PORT, msg.big(`Now TEST listening on port ${PORT}.\nhttp://localhost:${PORT}`,{color: 'cyan'}))

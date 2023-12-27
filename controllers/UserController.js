@@ -1,6 +1,6 @@
-import { Router } from "express"
-import { missingFields, serverError } from "../lib/util.js"
-import { User } from "../models/User.js"
+const { Router } = require("express")
+const { missingFields, serverError } = require("../lib/util.js")
+const { User } = require("../models/User.js")
 
 const UserController = Router()
 

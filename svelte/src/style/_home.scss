@@ -1,0 +1,24 @@
+@use 'util' as *;
+
+#home {
+    @include limitWidth(700px);
+
+    & > h3 {
+        margin: .5rem 0;
+        text-align: center;
+    }
+
+    & > p {
+        text-indent: 1rem;
+        text-align: justify;
+        margin: .5rem 0;
+    }
+}
+
+#standing {
+    filter: invert(var(--invertFromLight));
+    max-width: 33%;
+    float: left;
+    display: block;
+    margin: 0 .5rem .5rem 0;
+}

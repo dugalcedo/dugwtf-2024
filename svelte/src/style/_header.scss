@@ -1,11 +1,12 @@
 @use 'util' as *;
 
 header, #main-nav {
-    @include limitWidth(700px, $center: false);
+    @include limitWidth(var(--header-width), $center: false);
 }
 
 header {
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 4fr;
 
     & img {
@@ -28,5 +29,30 @@ header {
 
     & a {
         padding: 1rem;
+    }
+}
+
+#subtitle {
+    position: relative;
+    user-select: none;
+
+    & > * {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        @include media(500px) {
+            display: none;
+        }
+    }
+
+    & .content {
+        width: 100%;
+    }
+
+    & .ghost{
+        position: absolute;
+        left: 0;
+        width: 100%;
     }
 }

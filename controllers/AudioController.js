@@ -1,7 +1,8 @@
-import { Router } from "express"
-import { missingFields, serverError } from "../lib/util.js"
-import { readdirSync, statSync, createReadStream } from "fs"
-import dugs from "../db/dugs.js"
+const { Router } = require("express")
+const { missingFields, serverError } = require("../lib/util.js")
+const { readdirSync, statSync, createReadStream } = require("fs")
+const { DEV } = require('../lib/env.js')
+const dugs = require("../db/dugs.js")
 
 const AudioController = Router()
 
@@ -51,6 +52,9 @@ AudioController.get('/track', (req, res) => {
     var fileName = fileNames[trackNo]
     if (!fileName) res.status(404).send("Audio not found.")
 
+    console.log(DEV)
+    // if (DEV) for (let i = 0; i < 10**9; i++) {}
+
     try {
         const path = albumPath + "/" + fileName
         const stat = statSync(path)
@@ -92,4 +96,4 @@ AudioController.get('/picks', (req, res) => {
     res.json(picks)
 })
 
-export default AudioController
+module.exports = AudioController

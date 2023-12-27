@@ -1,6 +1,7 @@
 <script>
     export let href = "/"
     export let classList = ""
+    export let id = ""
 
     function intercept(e) {
         e.preventDefault()
@@ -14,4 +15,4 @@
     }
 </script>
 
-<a href="{href}" on:click={intercept} use:addClasses><slot></slot></a>
+<a href="{href}" id={id} on:click={intercept} use:addClasses><slot></slot></a>

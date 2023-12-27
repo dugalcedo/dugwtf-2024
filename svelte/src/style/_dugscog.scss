@@ -6,7 +6,7 @@
 
 
 .dugscog {
-    @include limitWidth(1000px, $center: false);
+    @include limitWidth(var(--content-width), $center: false);
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -49,6 +49,7 @@
 
     & img {
         width: 100%;
+        aspect-ratio: 1;
         display: block;
         image-rendering: crisp-edges;
         border-radius: .5rem .25rem .5rem .25rem;
@@ -63,6 +64,9 @@
 .dug {
     display: grid;
     grid-template-columns: 1fr 2.5fr;
+    @include media(500px) {
+        grid-template-columns: 1fr;
+    }
     gap: 1rem;
 
     & > .left {
@@ -80,17 +84,21 @@
             display: grid;
 
             & .play {
-                border-radius: .5rem 0 0 .5rem;
+                border-radius: 0;
             }
             & .buy {
                 width: 100%;
-                border-radius: 0 .5rem .5rem 0;
+                border-radius: 0;
             }
         }
         & .cover {
             width: 100%;
+            aspect-ratio: 1;
+            display: block;
+            border: 1px solid var(--med);
         }
         & .info {
+            margin-top: .5rem;
             & > *:nth-child(n+3) {
                 font-size: 80%;
             }
@@ -99,6 +107,7 @@
             }
         }
         & .credits {
+            width: 100%;
             & th {
                 background-color: rgba(var(--rgb-text), 0.2);
             }
@@ -108,6 +117,7 @@
             }
             & td {
                 border: 1px solid rgba(var(--rgb-text), 0.5);
+                padding: .125rem;
             }
         }
     }
@@ -122,6 +132,12 @@
         position: relative;
 
         & > * {
+            &.title {
+                font-size: 80%;
+                white-space: nowrap;
+                overflow-x: hidden;
+            }
+
             &.time {
                 font-size: 70%;
             }

@@ -4,6 +4,7 @@
   import Nav from "./components/Nav.svelte"
   import Queue from "./components/Queue.svelte";
   import Router from "./components/Router.svelte";
+  import Bg from "./components/Bg.svelte";
 
 
 </script>
@@ -19,3 +20,5 @@
 <Footer />
 
 <Queue />
+
+<Bg />
