@@ -30,6 +30,28 @@ header {
     & a {
         padding: 1rem;
     }
+
+    @include media(500px) {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        & a {
+            text-align: center;
+        }
+        
+        & > *:last-child {
+            grid-column: 1 / 5;
+            justify-self: center;
+            width: 100%;
+            padding: 0 25%;
+
+
+            & > button {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    }
 }
 
 #subtitle {

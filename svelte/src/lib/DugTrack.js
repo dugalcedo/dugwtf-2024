@@ -5,20 +5,52 @@ import { getAllDugTracksFromOneRelease } from "./api.js"
 import { dugFetchMemo, getDugTrack } from "./api.js"
 
 class DugTrack {
+    
+    //////////////////////////////////////////////////////////////////
+    ////////////////////////CONSTRUCTOR///////////////////////////////
+    //////////////////////////////////////////////////////////////////
+    constructor(dug, track, dugTrackId, i) {
+        this.id = dugTrackId
+        this.track = track
+        this.dug = dug
+        this.i = i
+
+        this.audio = new Audio(ROOT + track.endpoint)
+        this.audio.oncanplay = () => {
+            this.loaded = true
+            this.dispatch('dugcanplay')
+        }
+
+        this.timeTracker = null
+        
+        DugTrack.all.push(this)
+    }
+
+    //////////////////////////////////////////////////////////////////
+    ////////////////////////STATIC PROPERTIES/////////////////////////
+    //////////////////////////////////////////////////////////////////
     static all = []
     static nowPlaying = null
-    static onTrackChange = function(){}
     static queue = []
     static queuePosition = 0
-    static onAdd = function(){}
+
+    //////////////////////////////////////////////////////////////////
+    ////////////////////////STATIC METHODS////////////////////////////
+    //////////////////////////////////////////////////////////////////
     static getNext = () => DugTrack.queue[DugTrack.queuePosition+1]
     static getPrev = () => DugTrack.queue[DugTrack.queuePosition-1]
-    static onplaypause = () => {}
-    static onqueue = () => {}
+
     static listen = (eventName, cb) => {
         document.addEventListener(eventName, e => {
             cb(e.detail)
         })
+    }
+    static listenFor = (dugTrack, eventName, cb) => {
+        if (DugTrack.nowPlaying !== dugTrack) return
+        DugTrack.listen(eventName, cb)
+    }
+    static dispatch = (eventName) => {
+        document.dispatchEvent(new CustomEvent(eventName))
     }
 
     static playAdjacent = function(nextOrPrev){
@@ -38,8 +70,7 @@ class DugTrack {
         DugTrack.queuePosition = i
         DugTrack.queue.push(...tracks)
         DugTrack.queue[DugTrack.queuePosition].play()
-        DugTrack.onqueue(DugTrack.queue)
-        // DugTrack.logQueue()
+        DugTrack.dispatch('queue')
     }
 
     static logQueue = function(){
@@ -52,27 +83,27 @@ class DugTrack {
 
     static addToQueue = function(track) {
         DugTrack.queue.push(track)
-        DugTrack.onqueue(DugTrack.queue)
+        DugTrack.dispatch('queue')
     }
 
-    // CONSTRUCTOR
-    constructor(dug, track, dugTrackId, i) {
-        this.id = dugTrackId
-        this.track = track
-        this.dug = dug
-        this.i = i
-
-        this.audio = new Audio(ROOT + track.endpoint)
-        this.audio.oncanplay = () => {
-            this.loaded = true
-            this.dispatch('dugcanplay')
-        }
-
-        this.timeTracker = null
-        
-        DugTrack.all.push(this)
+    static playDugsPicks = async function() {
+        let picks = await dugFetchMemo('/audio/picks') 
+        picks = await Promise.all(picks.map(async (t,i) => await getDugTrack(
+            {
+                id:t.dugId,
+                artist: t.artist,
+                title: t.album
+            },t,t.i
+            )))
+        DugTrack.queuePosition = 0
+        DugTrack.queue = picks
+        DugTrack.queue[0].play()
+        // console.log(picks)
     }
 
+    //////////////////////////////////////////////////////////////////
+    //////////////////////GETTERS AND SETTERS/////////////////////////
+    //////////////////////////////////////////////////////////////////
     get title() {
         return this.track.title
     }
@@ -107,15 +138,13 @@ class DugTrack {
         return this.audio.currentTime/this.audio.duration*100
     }
 
-    set events(e) {
-        Object.entries(e).forEach(([k,v]) => {
-            this[k] = v
-        })
-    }
-
     set cur(n) {
         this.audio.currentTime = n
     }
+
+    //////////////////////////////////////////////////////////////////
+    /////////////////////INSTANCE METHODS/////////////////////////////
+    //////////////////////////////////////////////////////////////////
 
     dispatch(eventName, details = {}) {
         document.dispatchEvent(new CustomEvent(
@@ -125,13 +154,6 @@ class DugTrack {
                 target: this
             }}
         ))
-    }
-
-    unsetEvent(name) {console.warn(`Event "${name}" not set.`, this)}
-
-    on(eName) {
-        let fn = this[`on${eName}`]
-        if (fn) fn()
     }
 
     listen(eName, cb) {
@@ -146,25 +168,22 @@ class DugTrack {
         this.audio.play()
         DugTrack.nowPlaying = this
         this.trackTime()
-        this.on('play')
-        DugTrack.onTrackChange(this)
-        DugTrack.onplaypause(this)
-        DugTrack.onqueue(DugTrack.queue)
+        this.dispatch('play')
+        this.dispatch('trackchange')
+        DugTrack.dispatch('queue')
     }
 
     pause() {
         this.audio.pause()
-        this.on('pause')
-        DugTrack.onplaypause(this)
-        DugTrack.onqueue(DugTrack.queue)
+        this.dispatch('pause')
+        DugTrack.dispatch('queue')
     }
 
     stop() {
         this.audio.pause()
         this.audio.currentTime = 0
-        this.on('timechange')
+        this.dispatch('timechange')
         clearInterval(this.timeTracker)
-        DugTrack.onplaypause(this)
     }
 
     trackTime() {
@@ -173,7 +192,7 @@ class DugTrack {
                 clearInterval(this.timeTracker)
                 DugTrack.playAdjacent("Next")
             } else {
-                this.on('timechange')
+                this.dispatch('timechange')
             }
         }, 250)
     }
@@ -192,21 +211,6 @@ class DugTrack {
 
     addToQueue() {
         DugTrack.queue.push(this)
-    }
-
-    static playDugsPicks = async function() {
-        let picks = await dugFetchMemo('/audio/picks') 
-        picks = await Promise.all(picks.map(async (t,i) => await getDugTrack(
-            {
-                id:t.dugId,
-                artist: t.artist,
-                title: t.album
-            },t,t.i
-            )))
-        DugTrack.queuePosition = 0
-        DugTrack.queue = picks
-        DugTrack.queue[0].play()
-        // console.log(picks)
     }
 }
 

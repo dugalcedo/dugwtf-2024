@@ -4,9 +4,9 @@
     let queue = DugTrack.queue
     let hidden = false
 
-    DugTrack.onqueue = q => {
-        queue = q
-    }
+    DugTrack.listen('queue', () => {
+        queue = DugTrack.queue
+    })
 
     function clearQueue() {
         DugTrack.queue = []

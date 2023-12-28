@@ -1,7 +1,5 @@
 <script>
-    import { getDugTrack } from "../lib/api.js"
     import DugTrack from "../lib/DugTrack.js"
-    import LoadingDots from "./LoadingDots.svelte";
 
     let shown = false
     let current = null
@@ -16,33 +14,30 @@
 
     let playing = false
 
-    document.addEventListener('dugcanplay', ({detail}) => {
-        const {target} = detail
-        if (target == current) {
-            canplay = true
-        }
+    DugTrack.listenFor(current, 'dugcanplay', e => {
+        canplay = true
     })
 
-    DugTrack.onTrackChange = function(dugTrack) {
-        // console.log(dugTrack.audio.canplay)
-        // console.log('track changed...', dugTrack.title)
+    DugTrack.listen('trackchange', e => {
+        const dugTrack = e.target
         if (!dugTrack.loaded) canplay = false
         clearInterval(timeTracker)
         shown = true
         current = dugTrack
         playing = true
         setTimeTracker()
-        // check if prev and next
-        // console.log(DugTrack.getNext(), DugTrack.getPrev())
-    }
+    })
 
-    DugTrack.onplaypause = function(dugTrack) {
-        playing = dugTrack.playing
-    }
+    DugTrack.listen('play', () => {
+        playing = true
+    })
+
+    DugTrack.listen('pause', () => {
+        playing = false
+    })
 
     function setTimeTracker() {
         timeTracker = setInterval(() => {
-            shown = true
             time = current.formattedTime
             p = current.p
             if (current.playing) canplay = true
@@ -50,9 +45,9 @@
     }
 
     function handleTrackerClick(tracker) {
-        let trackerRect = tracker.getBoundingClientRect()
-        let trackerWidth = tracker.offsetWidth
         tracker.addEventListener('click', e => {
+            let trackerRect = tracker.getBoundingClientRect()
+            let trackerWidth = tracker.offsetWidth
             let {clientX} = e
             let trueX = clientX - trackerRect.left
             let factor = trueX/trackerWidth

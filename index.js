@@ -9,7 +9,8 @@ const HelpController = require('./controllers/HelpController.js')
 // const ForumController = require('./controllers/ForumController.js')
 
 APP.use('*', (req, res, next) => {
-    console.log(`heard ${req.method} @ ${req.url}`)
+    // console.log(`heard ${req.method} @ ${req.url}`)
+    console.log('hi')
     next()
 })
 

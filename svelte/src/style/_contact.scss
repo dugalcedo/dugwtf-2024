@@ -3,5 +3,10 @@
         display: grid;
         grid-template-columns: 2fr 3fr 1fr;
         gap: 1rem;
+        background-color: rgba(var(--rgb-text), 0.05);
+        margin-bottom: .5rem;
+    }
+    & td {
+        padding: .25rem;
     }
 }

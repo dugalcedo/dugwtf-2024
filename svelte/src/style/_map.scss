@@ -1,0 +1,16 @@
+#map-table {
+    & thead {
+        background-color: var(--dug);
+        color: var(--bg);
+    }
+    & tbody {
+        & tr {
+            &:nth-child(even) {
+                background-color: rgba(var(--rgb-text), 0.1);
+            }
+        }
+    }
+    & td, th {
+        padding: .5rem;
+    }
+}

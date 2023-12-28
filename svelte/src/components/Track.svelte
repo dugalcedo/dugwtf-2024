@@ -16,20 +16,17 @@
     init()
 
     async function init() {
-        const events = {
-            ontimechange: () => {
-                time = dugTrack.formattedTime
-                p = dugTrack.p
-            },
-            onplay: () => {
-                playing = true
-            },
-            onpause: () => {
-                playing = false
-            }
-        }
         dugTrack = await getDugTrack(dug, track, i)
-        dugTrack.events = events
+        dugTrack.listen('timechange', ()=>{
+            time = dugTrack.formattedTime
+            p = dugTrack.p
+        })
+        dugTrack.listen('play', ()=>{
+            playing = true
+        })
+        dugTrack.listen('pause', ()=> {
+            playing = false
+        })
         if (dugTrack.playing) {
             playing = true
             dugTrack.trackTime()
@@ -43,7 +40,6 @@
             dugTrack.pause()
         } else {
             DugTrack.queueAlbum(dug, i)
-            // dugTrack.play()
         }
     }
 

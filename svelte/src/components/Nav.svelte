@@ -23,15 +23,13 @@
 
 <nav id="main-nav">
 
-    <!-- DESKTOP -->
-    {#if vw > 500}
+
         {#each router as route}
-            <A href={route.path}>{route.linkText}</A>
+            {#if route.linkText}
+                <A href={route.path}>{route.linkText}</A>
+            {/if}
         {/each}
         <Select options={themes} initial={initialTheme} onchange={changeTheme} />
-    {:else}
-    <!-- MOBILE -->
-    {/if}
 
 
 </nav>
