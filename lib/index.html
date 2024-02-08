@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <title>Document</title>
+    <script type="module" defer>
+        import * as dug from './dug.js'
+        dug.init({ 
+            scope: 'body',
+            state: {
+                count: 0,
+                btnColor: 'purple'
+            },
+            handlers: {
+                increment: s => {
+                    s.count++
+                    s.btnColor = `hsl(${Math.round(Math.random()*259)}, 100%, 50%)`
+                    return ['count', 'btnColor']
+                }
+            }
+        })
+
+        const obj = {
+            a: {
+                b: 1
+            }
+        }
+        console.log(obj['a'])
+    </script>
+</head>
+<body>
+    <h1>The count is <span d-innerText="count"></span></h1>
+    <button d-onclick="increment" d-style="
+        color: white;
+        background-color: $btnColor;
+    ">
+        Increment
+    </button>
+</body>
+</html>

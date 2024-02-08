@@ -18,7 +18,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        font-size: 80%;
+        // font-size: 80%;
         flex-grow: 1;
     }
     & .tracker {
@@ -43,15 +43,20 @@
     top: 0;
     right: 0;
     text-align: right;
-    font-size: 67%;
+    // font-size: 67%;
     transform: translateY(0);
     transition: transform 125ms;
 
     // padding: .5rem;
-    background-color: var(--dug);
+    // background-color: var(--dug);
     color: var(--bg);
 
-    opacity: 0.1;
+    & h3 {
+        color: white;
+        font-size: 200%;
+    }
+
+    opacity: 0.5;
     
     &:hover {
         opacity: 1;
@@ -78,7 +83,7 @@
     & button.track {
         font-size: 100%;
         padding: .25rem;
-        background-color: transparent;
+        background-color: var(--dug);
         color: var(--bg);
         border: 0;
 

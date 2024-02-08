@@ -1,0 +1,14 @@
+@use 'util' as *;
+
+#more {
+    @include limitWidth(600px);
+
+    & .more-link {
+        background-color: var(--bg);
+        padding: 1rem;
+
+        & a {
+            font-size: 200%;
+        }
+    }
+}

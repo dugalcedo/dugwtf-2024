@@ -8,6 +8,7 @@
         'light'
     ]
 
+    localStorage.setItem('dugwtf-theme', 'dark')
     const initialTheme = localStorage.getItem('dugwtf-theme') || 'dark'
 
     function changeTheme(o) {
@@ -29,7 +30,7 @@
                 <A href={route.path}>{route.linkText}</A>
             {/if}
         {/each}
-        <Select options={themes} initial={initialTheme} onchange={changeTheme} />
+        <!-- <Select options={themes} initial={initialTheme} onchange={changeTheme} /> -->
 
 
 </nav>

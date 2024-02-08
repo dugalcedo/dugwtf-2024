@@ -52,7 +52,8 @@
             let trueX = clientX - trackerRect.left
             let factor = trueX/trackerWidth
             let s = factor*current.audio.duration
-            current.audio.currentTime = s
+            console.log("s:", s)
+            current.cur = Math.round(s)
         })
     }
 

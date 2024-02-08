@@ -1,7 +1,7 @@
 @use 'theme' as *;
 @use 'sass:color';
 
-@mixin limitWidth($width: 1200px, $max-width: 100%, $center: false) {
+@mixin limitWidth($width: 1200px, $max-width: 100%, $center: true) {
     width: $width;
     max-width: $max-width;
     @if ($center) {

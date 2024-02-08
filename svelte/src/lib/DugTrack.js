@@ -139,7 +139,9 @@ class DugTrack {
     }
 
     set cur(n) {
+        console.log(n)
         this.audio.currentTime = n
+        console.log("current time: ", this.audio.currentTime)
     }
 
     //////////////////////////////////////////////////////////////////

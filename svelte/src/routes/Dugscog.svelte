@@ -15,6 +15,7 @@
             let years = [...new Set(data.map(d => d.year))]
             dugYears = []
             years.forEach(year => {
+                if (year < 2012) return
                 dugYears.push({
                     year,
                     dugs: data.filter(d => d.year === year)

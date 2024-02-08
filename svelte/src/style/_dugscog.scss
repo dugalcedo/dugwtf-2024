@@ -2,11 +2,13 @@
 
 .picks-btn {
     width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 
 .dugscog {
-    @include limitWidth(var(--content-width), $center: false);
+    // @include limitWidth(var(--content-width), $center: false);
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -26,6 +28,7 @@
 
 .dug-year {
     padding: .5rem;
+    background-color: rgba(var(--rgb-text), 0.05);
 }
 
 .dug-year_dugs {
@@ -43,7 +46,7 @@
     gap: .5rem;
     align-items: center;
 
-    border: 1px solid rgba(var(--rgb-text), 0.2);
+    background-color: rgba(var(--rgb-text), 0.2);
     border-radius: .5rem .25rem .5rem .25rem;
     overflow: hidden;
 
@@ -63,7 +66,9 @@
 
 .dug {
     display: grid;
-    grid-template-columns: 1fr 2.5fr;
+    background-color: var(--bg);
+    padding: .5rem;
+    grid-template-columns: 1fr 2fr;
     @include media(500px) {
         grid-template-columns: 1fr;
     }
@@ -171,6 +176,6 @@
     }
 }
 
-.dug {
-    @include limitWidth(800px);
-}
+// .dug {
+//     // @include limitWidth(800px);
+// }

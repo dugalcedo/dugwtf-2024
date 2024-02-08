@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "Syne";
-    src: url('../../public/syne.ttf');
+    src: url('/syne.ttf');
 }
 
 * {
@@ -19,6 +19,7 @@
 
 body {
     background-color: var(--bg);
+    background-image: url('/img/bg.jpg');
     color: var(--text);
 }
 
@@ -75,6 +76,10 @@ html, body, #app {
     overflow-y: hidden;
 }
 
+header, main, #main-nav {
+    @include limitWidth(var(--content-width));
+}
+
 header, main {
     padding: var(--body-padding);
 }
@@ -82,8 +87,6 @@ header, main {
 main {
     flex-grow: 1;
     overflow-y: auto;
-    @include limitWidth(var(--content-width));
-    // @include limitWidth(var(--header-width));
 }
 
 #bg {

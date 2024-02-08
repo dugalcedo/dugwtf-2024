@@ -60,6 +60,8 @@ AudioController.get('/track', (req, res) => {
         const stat = statSync(path)
         res.header('Content-Type', 'audio/mp3')
         res.header('Content-Length', stat.size)
+        res.header('Connection', 'keep-alive')
+        res.header('Accept-Ranges', 'bytes')
         const stream = createReadStream(path)
         stream.pipe(res)
     } catch (error) {

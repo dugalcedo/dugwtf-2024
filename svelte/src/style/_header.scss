@@ -29,6 +29,7 @@ header {
 
     & a {
         padding: 1rem;
+        background-color: var(--bg);
     }
 
     @include media(500px) {

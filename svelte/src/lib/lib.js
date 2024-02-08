@@ -10,7 +10,7 @@ export const displayTime = t => {
 
 
 // export const DEV = !location.href.includes('dug.wtf')
-export const DEV = false
+export const DEV = location.href.includes('localhost')
 export const ROOT = DEV ? "http://localhost:4321/api" : "https://dug.wtf/api"
 
 export const onclickout = (node, cb) => {
